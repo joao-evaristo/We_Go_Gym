@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @academium %>
+
+<div>
+  <%= link_to "Edit this academium", edit_academium_path(@academium) %> |
+  <%= link_to "Back to academia", academia_path %>
+
+  <%= button_to "Destroy this academium", @academium, method: :delete %>
+</div>

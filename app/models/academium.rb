@@ -1,0 +1,2 @@
+class Academium < ApplicationRecord
+end
