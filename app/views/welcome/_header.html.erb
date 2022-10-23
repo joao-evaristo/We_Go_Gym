@@ -1,51 +1,26 @@
-<nav class="navbar navbar-expand bg-light">
+<nav id="navbar-main" class="navbar navbar-expand fixed-top">
   <div class="container-fluid">
-    <%= link_to 'WeGoGym' , root_path, class:'navbar-brand'%>
+    <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
+      <a class="navbar-brand align-itens-start" href="#">
+        <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
+          %>
+          We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <%= link_to 'Home' , root_path, class:'nav-link'%>
-          </li>
-          <li class="nav-item">
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Usuarios
-            </a>
-            <ul class="dropdown-menu">
-              <%= link_to 'Listar Usuarios' , usuarios_path, class:'dropdown-item'%>
-                <%= link_to 'Criar Usuarios' , new_usuario_path, class:'dropdown-item'%>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Academias
-            </a>
-            <ul class="dropdown-menu">
-              <%= link_to 'Listar Academias' , academia_path, class:'dropdown-item'%>
-                <%= link_to 'Criar Usuarios' , new_academium_path, class:'dropdown-item'%>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
+
+          <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
+          <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
+          <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+          <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
         </form>
       </div>
   </div>
