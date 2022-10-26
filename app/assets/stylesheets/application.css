@@ -10,18 +10,27 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ *
  *= require_self
  */
 
-body {
+ body {
     background-color: black;
 }
 
 @font-face {
-    font-family: Sprechen;
+    font-family: sprechen;
     src: url('Sprechen.ttf');
+}
 
+@font-face {
+    font-family: google-bold;
+    src: url('Product Sans Bold.ttf');
+}
+
+@font-face {
+    font-family: google-regular;
+    src: url('Product Sans Regular.ttf');
 }
 
 #navbar-main {
@@ -30,8 +39,8 @@ body {
 
 .navbar-brand {
     color: darkorange;
-    font-family: Sprechen;
-    font-size: 48px;
+    font-family: sprechen;
+    font-size: 290%;
     text-align: center;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
     position: relative;
@@ -44,8 +53,9 @@ body {
 }
 
 .navbar-nav {
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 120%;
+    margin-left: 2%;
+
 }
 
 #nav_home {
@@ -67,14 +77,20 @@ body {
 }
 
 .navbar-expand {
-    height: 100px;
-    padding: 20px;
+    height: 10.4%;
+    padding: 2%;
 }
 
 #search_button {
     color: rgb(255, 255, 255);
     background-color: darkorange;
     border-color: rgba(100, 100, 100, 0.336);
+    width: 17%;
+}
+
+#search-image {
+    position: relative;
+    height: 18px;
 }
 
 #logo {
@@ -98,44 +114,57 @@ body {
 
 .content-title {
     color: white;
-    font-size: 50px;
+    font-size: 3.5vw;
     position: absolute;
+    font-family: google-bold;
     top: 23%;
-    right: 40%;
-    width: 1000px;
+    right: 45%;
+    width: 50%;
 }
 
 .content {
     color: white;
-    font-size: 27px;
+    font-size: 1.7vw;
     position: absolute;
+    font-family: google-regular;
     top: 32%;
-    right: 40%;
-    width: 1000px;
+    right: 34%;
+    width: 60%;
     opacity: 0.8;
 }
 
 #second-text-content {
-    right: 50.5%;
-    width: 800px;
+    right: 49%;
+    width: 45%;
+}
+
+#third-text-content1 {
+    top: 42%;
 }
 
 #third-text-content2 {
-    top: 46%;
+    top: 59%;
+}
+
+#third-carousel-bt {
+    top: 67%;
 }
 
 .btn-primary {
-    background-color: darkorange;
-    border-color: rgba(255, 255, 255, 0);
-    border-radius: 35px;
-    font-style: italic;
-    font-size: 25px;
+    background-color: rgba(255, 140, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 1.2vw;
+    font-family: google-bold;
+    color: white;
     position: absolute;
-    height: 80px;
-    width: 170px;
-    top: 525px;
-    right: 1530px;
+    height: 8%;
+    width: 10%;
+    top: 51%;
+    right: 80%;
     opacity: 0.8;
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.925);
+    ;
 }
 
 .form-control {
@@ -144,18 +173,19 @@ body {
 
 #footer-main-page {
     background-color: rgb(0, 0, 0);
-    height: 100px;
+    height: 0%;
     text-align: center;
 }
 
 #footer-main-page-content {
     color: rgba(255, 255, 255, 0.897);
-    font-size: 20px;
+    font-size: 100%;
 }
 
 #footer-main-page-mark {
     color: rgba(255, 255, 255, 0.863);
-    font-size: 20px;
+    font-size: 150%;
+    font-family: google-bold;
 }
 
 #placeholder-maps {
@@ -166,9 +196,15 @@ body {
     justify-content: center;
     align-items: center;
     opacity: 0.85;
+    height: auto;
+    width: 26.5vw;
 }
 
 #map-button {
-    top: 78%;
+    top: 79%;
     right: 21%;
+}
+
+#footer-icon {
+    width: 2%;
 }

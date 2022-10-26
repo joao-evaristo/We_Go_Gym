@@ -3,20 +3,20 @@
 
 <head>
   <title>Vuerails</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
-  <style type="text/css">
-  </style>
-  <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-      <%= stylesheet_link_tag "application" %>
-        <%= vite_client_tag %>
-          <%= vite_javascript_tag 'application' %>
-            <!--
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <%= favicon_link_tag asset_path('dumbbell_yellow_icon.png') %>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <%= csrf_meta_tags %>
+      <%= csp_meta_tag %>
+        <%= stylesheet_link_tag "application" %>
+          <%= vite_client_tag %>
+            <%= vite_javascript_tag 'application' %>
+              <!--
       If using a TypeScript entrypoint file:
         vite_typescript_tag 'application'
 
@@ -26,9 +26,9 @@
       Visit the guide for more information: https://vite-ruby.netlify.app/guide/rails
     -->
 
-            <%= vite_client_tag %>
-              <%= vite_javascript_tag 'application' %>
-                <!--
+              <%= vite_client_tag %>
+                <%= vite_javascript_tag 'application' %>
+                  <!--
       If using a TypeScript entrypoint file:
         vite_typescript_tag 'application'
 
@@ -42,82 +42,15 @@
 
 <body>
   <%= render 'welcome/header' %>
-    <div class="container-fluid">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="6000">
-            <%= image_tag "peakpx.jpg" , id:"first-image", class:"w-100" %>
-              <h1 id="first-text-title" class="content-title">Encontre sua academia ideal.</h1>
-              <h1 id="first-text-content" class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Fusce ornare risus purus, eu dictum tellus volutpat nec.
-                Cras sed enim erat. Maecenas at nisl tellus. Vestibulum ante ipsum primis in faucibus orci luctus et
-                ultrices posuere cubilia curae;
-                Aliquam erat volutpat. Nullam sit amet rhoncus nunc. Duis ac odio ultrices, feugiat ligula ac, dapibus
-                leo.
-              </h1>
-              <button type="button" class="btn btn-primary mt-5">Saiba mais</button>
-              <div class="carousel-caption d-none">
-              </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="6000">
-            <%= image_tag "second_image.jpg" , id:"second-image", class:"w-100" %>
-              <h1 id="second-text-title" class="content-title">De sua casa até seu trabalho.</h1>
-              <%= image_tag "maps_placeholder.jpg" , id:"placeholder-maps"%>
-                <h1 id="second-text-content" class="content">
-                  Com nosso recurso de geolocalização, é possível que você, a partir de um dado endereço,
-                  encontre e descubra as academias e centros esportivos mais próximos!
-                </h1>
-                <button id="map-button" type="button" class="btn btn-primary">Teste já</button>
-                <div class="carousel-caption d-none">
-                </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="6000">
-            <%= image_tag "third_image.jpg" , id:"third-image", class:"w-100" %>
-              <h1 id="third-text-title" class="content-title">Isso e muito mais em um só lugar.</h1>
-              <h1 id="third-text-content1" class="content">
-                Com a WeGoGym, você pode encontrar sua academia ideal com poucos cliques.
-                Além da funcionalidade de geolocalização, você terá acesso às diversas informações
-                que uma academia de seu interesse possui, como mensalidade, avaliações e muito mais!
-              </h1>
-              <h1 id="third-text-content2" class="content">
-                Faça parte da família WeGoGym!
-              </h1>
-              <button type="button" class="btn btn-primary mt-5">Cadastre-se</button>
-              <div class="carousel-caption d-none">
-              </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
+
     <%= yield %>
       <footer id="footer-main-page">
         <h1 id="footer-main-page-content">Footer protótipo</h1>
-        <h2 id="footer-main-page-mark">WeGoGym&copy;</h2>
+        <h1 id="footer-main-page-mark">
+          <%= image_tag "dumbbell_yellow_icon.png" , id:"footer-icon"%>
+          WeGoGym&copy;
+        </h1>
       </footer>
-
-      <div id="app">
-        <p>{{ course }}</p>
-        <button-counter></button-counter>
-      </div>
 </body>
 
 </html>

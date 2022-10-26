@@ -1,27 +1,28 @@
 <nav id="navbar-main" class="navbar navbar-expand fixed-top">
   <div class="container-fluid">
-    <%= link_to '' , root_path, class:'navbar-brand align-itens-start'%>
-      <a class="navbar-brand align-itens-start" href="#">
-        <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"
-          %>
-          We<span style="color:rgba(255, 225, 92, 0.87)">Go</span>Gym
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-          <a id="nav_home" href="#" class="nav-item nav-link">Home</a>
-          <a id="nav_login" href="#" class="nav-item nav-link">Login</a>
-          <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
-
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
-          <button id="search_button" class="btn btn-outline-warning" type="submit">Search</button>
-        </form>
-      </div>
+    <%= link_to root_path, class:'navbar-brand align-itens-start' do %>
+      <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"%>
+        We
+        <%= content_tag :span, "Go" , :class=> "home-link", :style=> "color:rgba(255, 225, 92, 0.87)" %>
+          Gym
+          <% end %>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <%= link_to 'Home' , root_path, class:'nav-item nav-link', id:'nav_home' %>
+                <%= link_to 'Login' , welcome_login_path, class:'nav-item nav-link', id:'nav_login' %>
+                  <a id="nav_faq" href="#" class="nav-item nav-link">FAQ</a>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Busque academias..." aria-label="Search">
+                <button id="search_button" class="btn btn-outline-warning" type="submit">
+                  <%= image_tag "magnifying-glass-white.png" , id:"search-image"%>
+                </button>
+              </form>
+            </div>
   </div>
 </nav>

@@ -1,0 +1,62 @@
+<div class="container-fluid">  
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <%= image_tag "peakpx.jpg" , id:"first-image", class:"w-100" %>
+            <h1 id="first-text-title" class="content-title">Encontre sua academia <span style="color:rgba(255, 225, 92, 0.87)">ideal</span>.</h1>  
+            <h1 id="first-text-content" class="content">
+              Nós somos a WeGoGym, uma plataforma online que ajuda você a encontrar a academia que melhor se adequa às suas necessidades
+              e que cabe no seu bolso. Nesta plataforma, você pode encontrar milhares de academias de forma fácil, rápida e intuitiva.
+            </h1>
+            <button id="first-carousel-bt" type="button" class="btn btn-primary btn-outline-warning">Saiba mais</button>
+            <div class="carousel-caption d-none">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <%= image_tag "second_image.jpg" , id:"second-image", class:"w-100" %>
+            <h1 id="second-text-title" class="content-title">De sua 
+              <span style="color:rgba(255, 225, 92, 0.87)">casa</span>
+              até seu 
+              <span style="color:rgba(255, 225, 92, 0.87)">trabalho</span>.
+            </h1>  
+            <%= image_tag "maps_placeholder.jpg" , id:"placeholder-maps"%>
+            <h1 id="second-text-content" class="content">
+              Com nosso recurso de geolocalização, é possível que você, a partir de um dado endereço, 
+              encontre e descubra as academias e centros esportivos mais próximos!
+            </h1>
+            <button id="map-button" type="button" class="btn btn-primary btn-outline-warning">Teste já</button>
+            <div class="carousel-caption d-none">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <%= image_tag "third_image.jpg" , id:"third-image", class:"w-100" %>
+            <h1 id="third-text-title" class="content-title">Isso e muito mais em 
+              <span style="color:rgba(255, 225, 92, 0.87)">um só lugar</span>.
+            </h1>  
+            <h1 id="third-text-content1" class="content">
+              Com a WeGoGym, você pode encontrar sua academia ideal com poucos cliques. Além da funcionalidade de geolocalização, você terá acesso às diversas informações
+              que uma academia de seu interesse possui, como mensalidade, avaliações e muito mais!
+            </h1>
+            <h1 id="third-text-content2" class="content">
+              Faça parte da família WeGoGym!
+            </h1>
+            <button id="third-carousel-bt" type="button" class="btn btn-primary btn-outline-warning">Cadastre-se</button>
+            <div class="carousel-caption d-none">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
