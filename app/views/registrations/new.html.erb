@@ -1,0 +1,84 @@
+<%= stylesheet_link_tag "login" %>
+
+<div class="container-fluid">
+  <%= image_tag "third_image.jpg" , id:"fundo", class:"w-100"%>
+  <!-- Pills navs -->
+  <div id="loginForm">
+    <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a id="fundoLogin" class="nav-link active" id="tab-login" data-mdb-toggle="pill"
+           href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true">Login</a>
+      </li>
+    </ul>
+    <!-- Pills navs -->
+
+    <!-- Pills content -->
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login"></div>
+      <div class="text-center mb-3">
+        <p>Entre com:</p>
+        <button type="button" class="btn btn-link btn-floating mx-1">
+          <i class="fab fa-facebook-f">
+            <%= image_tag "facebook.png" , id:"iconFace"%>
+          </i>
+        </button>
+
+        <button type="button" class="btn btn-link btn-floating mx-1">
+          <i class="fab fa-google">
+            <%= image_tag "google.png" , id:"iconGoogle"%>
+          </i>
+        </button>
+        <p class="text-center">ou:</p>
+        <%= form_with model: @user, url: cadastro_path do |form|%>
+          <% if @user.errors.any? %>
+            <div class="alert alert-danger">
+              <% @user.errors.full_messages.each do |message| %>
+                <div><%= message %></div>
+              <% end %>
+            </div>
+          <% end %>
+          <div class="form-outline mb-4">
+            <%= form.label :name, class:  "form-label"%>
+            <%= form.text_field :name, class: "form-control",  placeholder: "ex.: João da Silva"%>
+          </div>
+          <div class="form-outline mb-4">
+            <%= form.label :username, class:  "form-label"%>
+            <%= form.text_field :username, class: "form-control",  placeholder: "JoaoMaromba"%>
+          </div>
+          <div class="form-outline mb-4">
+            <%= form.label :email, class:  "form-label"%>
+            <%= form.text_field :email, class: "form-control",  placeholder: "ex.: seuemail@gmail.com", id: "loginName"%>
+          </div>
+          <div class="form-outline mb-4">
+            <%= form.label :age, class:  "form-label"%>
+            <%= form.text_field :age, class: "form-control",  placeholder: "20"%>
+          </div>
+          <div class="form-outline mb-4">
+            <%= form.label :phone_number, class:  "form-label text-light"%>
+            <%= form.telephone_field :phone_number, class: "form-control",  placeholder: "(99)9999-9999"%>
+          </div>
+          <div class="form-outline mb-4">
+            <%= form.label :password, class:  "form-label text-light"%>
+            <%= form.password_field :password, class: "form-control"%>
+          </div>
+          <div class="form-outline mb-4">
+            <%= form.label :password_confirmation, class:  "form-label text-light"%>
+            <%= form.password_field :password_confirmation, class: "form-control" %>
+          </div>
+
+          <!-- 2 column grid layout -->
+
+          <!-- Submit button -->
+          <%= form.submit "Criar conta", class:"btn btn-block mb-4" %>
+        <% end %>
+
+        <!-- Register buttons -->
+        <div class="text-center">
+          <p>Já tem conta? <%= link_to 'Login' , login_path, class:'laranja' %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pills content -->
+</div>
+

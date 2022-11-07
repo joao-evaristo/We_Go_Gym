@@ -1,0 +1,210 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *
+ *= require_self
+ */
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: sprechen;
+    src: url('Sprechen.ttf');
+}
+
+@font-face {
+    font-family: google-bold;
+    src: url('Product Sans Bold.ttf');
+}
+
+@font-face {
+    font-family: google-regular;
+    src: url('Product Sans Regular.ttf');
+}
+
+#navbar-main {
+    background-color: rgba(14, 13, 13, 0.404);
+}
+
+.navbar-brand {
+    color: darkorange;
+    font-family: sprechen;
+    font-size: 290%;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
+    position: relative;
+    top: 3px;
+}
+
+.go {
+    color: rgba(255, 225, 92, 0.87);
+    background: none;
+}
+
+.navbar-nav {
+    font-size: 120%;
+    margin-left: 2%;
+
+}
+
+#nav_home {
+    width: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+}
+
+#nav_login {
+    width: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+}
+
+#nav_faq {
+    width: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+}
+
+.navbar-expand {
+    height: 10.4%;
+    padding: 2%;
+}
+
+#search_button {
+    color: rgb(255, 255, 255);
+    background-color: darkorange;
+    border-color: rgba(100, 100, 100, 0.336);
+    width: 17%;
+}
+
+#search-image {
+    position: relative;
+    height: 18px;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: -1px;
+}
+
+#first-image {
+    opacity: 0.5;
+}
+
+#second-image {
+    opacity: 0.5;
+}
+
+#third-image {
+    opacity: 0.6;
+}
+
+.content-title {
+    color: white;
+    font-size: 3.5vw;
+    position: absolute;
+    font-family: google-bold;
+    top: 23%;
+    right: 45%;
+    width: 50%;
+}
+
+.content {
+    color: white;
+    font-size: 1.7vw;
+    position: absolute;
+    font-family: google-regular;
+    top: 32%;
+    right: 34%;
+    width: 60%;
+    opacity: 0.8;
+}
+
+#second-text-content {
+    right: 49%;
+    width: 45%;
+}
+
+#third-text-content1 {
+    top: 42%;
+}
+
+#third-text-content2 {
+    top: 59%;
+}
+
+#third-carousel-bt {
+    top: 67%;
+}
+
+.btn-primary {
+    background-color: rgba(255, 140, 0, 0);
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 1.2vw;
+    font-family: google-bold;
+    color: white;
+    position: absolute;
+    height: 8%;
+    width: 10%;
+    top: 51%;
+    right: 80%;
+    opacity: 0.8;
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.925);
+    ;
+}
+
+.form-control {
+    font-style: italic;
+}
+
+#footer-main-page {
+    background-color: rgb(0, 0, 0);
+    height: 0%;
+    text-align: center;
+}
+
+#footer-main-page-content {
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 100%;
+}
+
+#footer-main-page-mark {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 150%;
+    font-family: google-bold;
+}
+
+#placeholder-maps {
+    position: absolute;
+    top: 22%;
+    right: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.85;
+    height: auto;
+    width: 26.5vw;
+}
+
+#map-button {
+    top: 79%;
+    right: 21%;
+}
+
+#footer-icon {
+    width: 2%;
+}
