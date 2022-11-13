@@ -141,3 +141,52 @@ Completed 200 OK in 2289ms (Views: 2288.1ms | ActiveRecord: 0.0ms | Allocations:
 
   [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 172.18.0.1 at 2022-11-13 20:09:33 +0000
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 44.5ms | Allocations: 21649)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+  Rendered welcome/_header.html.erb (Duration: 2.0ms | Allocations: 1898)
+  Rendered layout layouts/application.html.erb (Duration: 57.9ms | Allocations: 32235)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms | Allocations: 35644)
+
+
+Started GET "/" for 172.18.0.1 at 2022-11-13 21:35:33 +0000
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2552)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+  Rendered welcome/_header.html.erb (Duration: 1.2ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 10414)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 10657)
+
+
+Started GET "/" for 172.18.0.1 at 2022-11-13 21:35:34 +0000
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2548)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+  Rendered welcome/_header.html.erb (Duration: 0.9ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 10360)
+Completed 200 OK in 10ms (Views: 9.9ms | Allocations: 10571)
+
+
+Started GET "/welcome/login" for 172.18.0.1 at 2022-11-13 21:35:35 +0000
+Processing by WelcomeController#login as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/login.html.erb within layouts/application
+  Rendered welcome/login.html.erb within layouts/application (Duration: 2.8ms | Allocations: 3360)
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+Skipping vite build. Watched files have not changed since the last build at 2022-10-24 13:20:20
+  Rendered welcome/_header.html.erb (Duration: 1.5ms | Allocations: 1291)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 10942)
+Completed 200 OK in 12ms (Views: 12.1ms | Allocations: 11208)
+
+
