@@ -10,8 +10,11 @@ services:
       POSTGRES_PASSWD: "123456"
       POSTGRES_HOST: db
       POSTGRES_PORT: 5432
+    working_dir: /app
     ports:
       - 3000:3000
+    volumes:
+      - .:/app:cached
     depends_on:
       - db
   db:
@@ -25,3 +28,4 @@ services:
 
 volumes:
   db:
+  app:
