@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_enrollments
   resources :academia
   resources :usuarios
  get "welcome/index"

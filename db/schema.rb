@@ -10,17 +10,53 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_10_14_134933) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_13_223919) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "academia", force: :cascade do |t|
+    t.string "nome"
+    t.string "cnpj"
+    t.string "telefone"
+    t.string "endereco"
+    t.float "precoMatricula"
+    t.float "precoMensalidade"
+    t.string "site"
+    t.string "instagram"
+    t.string "facebook"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "friends", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.string "email"
+    t.string "phone"
+    t.string "twitter"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "user_enrollments", force: :cascade do |t|
+    t.boolean "active"
+    t.bigint "usuario_id", null: false
+    t.bigint "academium_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["academium_id"], name: "index_user_enrollments_on_academium_id"
+    t.index ["usuario_id"], name: "index_user_enrollments_on_usuario_id"
+  end
 
   create_table "usuarios", force: :cascade do |t|
     t.string "nome"
     t.integer "idade"
     t.text "telefone"
-    t.string "email"
+    t.text "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "user_enrollments", "academia"
+  add_foreign_key "user_enrollments", "usuarios"
 end
