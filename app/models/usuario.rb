@@ -5,4 +5,5 @@ class Usuario < ApplicationRecord
   validates :nome, presence: true, format: { with: /\A[^0-9`!@#\$%\^&*+_=]+\z/, on: :create, message: 'não pode conter carecteres especiais'}
   validates :email, uniqueness: {message: 'Já existe uma conta com esse e-mail'}
   validates :telefone, uniqueness: {message: 'Telefone já cadastrado'}
+  validates :password, length: { minimum: 8}, on: :create
 end

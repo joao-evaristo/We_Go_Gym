@@ -1,5 +1,6 @@
 class UsuariosController < ApplicationController
   before_action :set_usuario, only: %i[ show edit update destroy ]
+  before_action :require_user_logged_in!, only: [:show, :edit]
 
   # GET /usuarios
   def index
@@ -29,7 +30,7 @@ class UsuariosController < ApplicationController
       redirect_to root_path, notice: "Bem vindo"
     else
       flash.now[:alert] = "Email ou senha invalido"
-      render :new, status: :unprocessable_entity
+      render :login, status: :unprocessable_entity
     end
   end
 
