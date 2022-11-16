@@ -29,48 +29,45 @@
           </i>
         </button>
         <p class="text-center">ou:</p>
-        <%= form_with model: @usuario, url: cadastro_path do |form|%>
-          <% if @usuario.errors.any? %>
-            <div class="alert alert-danger">
-              <% @usuario.errors.full_messages.each do |message| %>
-                <div><%= message %></div>
-              <% end %>
-            </div>
-          <% end %>
-          <div class="form-outline mb-4">
-            <%= form.label :nome, class:  "form-label"%>
-            <%= form.text_field :nome, class: "form-control",  placeholder: "ex.: João da Silva"%>
+        <% flash.each do |type, msg| %>
+          <div class="alert alert-danger">
+            <%= msg %>
           </div>
+        <% end %>
+        <%= form_with url: entrar_path do |form|%>
           <div class="form-outline mb-4">
             <%= form.label :email, class:  "form-label"%>
-            <%= form.text_field :email, class: "form-control",  placeholder: "ex.: seuemail@gmail.com", id: "loginName"%>
+            <%= form.text_field :email, class: "form-control",  placeholder: "seuemail@gmail.com", id: "loginName"%>
           </div>
           <div class="form-outline mb-4">
-            <%= form.label :idade, class:  "form-label text-light"%>
-            <%= form.text_field :idade, class: "form-control",  placeholder: "20"%>
-          </div>
-          <div class="form-outline mb-4">
-            <%= form.label :telefone, class:  "form-label text-light"%>
-            <%= form.telephone_field :telefone, class: "form-control",  placeholder: "(99)9999-9999"%>
-          </div>
-          <div class="form-outline mb-4">
-            <%= form.label :password, class:  "form-label text-light"%>
+            <%= form.label :password, class:  "form-label", id: "loginPassword"%>
             <%= form.password_field :password, class: "form-control"%>
-          </div>
-          <div class="form-outline mb-4">
-            <%= form.label :password_confirmation, class:  "form-label text-light"%>
-            <%= form.password_field :password_confirmation, class: "form-control" %>
           </div>
 
           <!-- 2 column grid layout -->
+          <div class="row mb-4">
+            <div class="col-md-6 d-flex justify-content-center">
+              <!-- Checkbox -->
+              <div class="form-check mb-3 mb-md-0">
+                <input class="form-check-input" type="checkbox" value="" id="loginCheck"
+                       checked />
+                <label class="form-check-label" for="loginCheck"> Lembrar de mim </label>
+              </div>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-center">
+              <!-- Simple link -->
+              <a class="laranja" href="#!">Esqueceu a senha?</a>
+            </div>
+          </div>
 
           <!-- Submit button -->
-          <%= form.submit "Criar conta", class:"btn btn-block mb-4" %>
+          <%= form.submit "Entrar", class:"btn btn-block mb-4" %>
         <% end %>
 
         <!-- Register buttons -->
         <div class="text-center">
-          <p>Já tem conta? <%= link_to 'Login' , entrar_path, class:'laranja' %></p>
+          <p>Sem conta? <%= link_to 'Registrar-se' , cadastro_path, class:'laranja' %></p>
         </div>
       </div>
     </div>

@@ -18,13 +18,34 @@ class UsuariosController < ApplicationController
   # GET /usuarios/1/edit
   def edit
   end
+  def login
+
+  end
+
+  def login_func
+    user = Usuario.find_by(email: params[:email])
+    if user.present? && user.authenticate(params[:password])
+      session[:user_id] = user.id
+      redirect_to root_path, notice: "Bem vindo"
+    else
+      flash.now[:alert] = "Email ou senha invalido"
+      render :new, status: :unprocessable_entity
+    end
+  end
+
+  def logout
+    session[:user_id] = nil
+    flash.now[:notice] = "Saiu"
+    redirect_to root_path
+  end
 
   # POST /usuarios
   def create
     @usuario = Usuario.new(usuario_params)
 
     if @usuario.save
-      redirect_to @usuario, notice: "Usuario was successfully created."
+      session[:user_id] = @usuario.id
+      redirect_to root_path, notice: "Conta registrada com sucesso"
     else
       render :new, status: :unprocessable_entity
     end
@@ -53,6 +74,6 @@ class UsuariosController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def usuario_params
-      params.require(:usuario).permit(:nome, :idade, :telefone, :email)
+      params.require(:usuario).permit(:nome, :idade, :telefone, :email, :password, :password_confirmation)
     end
 end
