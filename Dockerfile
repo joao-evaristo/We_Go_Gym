@@ -1,10 +1,10 @@
-FROM ruby:3.0.2-alpine AS builder
+FROM ruby:3.1.2-alpine AS builder
 RUN apk add \
     build-base \
     postgresql-dev
 COPY Gemfile* ./
 RUN bundle install
-FROM ruby:3.0.2-alpine AS runner
+FROM ruby:3.1.2-alpine AS runner
 RUN apk add \
     tzdata \
     nodejs \
