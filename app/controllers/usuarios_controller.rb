@@ -1,6 +1,7 @@
 class UsuariosController < ApplicationController
   before_action :set_usuario, only: %i[ show edit update destroy ]
   before_action :require_user_logged_in!, only: [:show, :edit]
+  before_action :user_permission, only: [:edit, :update, :destroy]
 
   # GET /usuarios
   def index

@@ -41,7 +41,8 @@
           <% end %>
           <div class="form-outline mb-4">
             <%= form.label :nome, class:  "form-label"%>
-            <%= form.text_field :nome, class: "form-control",  placeholder: "ex.: João da Silva"%>
+            <%= form.text_field :nome, class: "form-control",  placeholder: "ex.: João da Silva", "v-model": "name"%>
+            <span v-if="msg.name">{{msg.name}}</span>
           </div>
           <div class="form-outline mb-4">
             <%= form.label :email, class:  "form-label"%>
@@ -49,20 +50,21 @@
             <span v-if="msg.email">{{msg.email}}</span>
           </div>
           <div class="form-outline mb-4">
-            <%= form.label :idade, class:  "form-label text-light"%>
+            <%= form.label :idade, class:  "form-label"%>
             <%= form.text_field :idade, class: "form-control",  placeholder: "20"%>
           </div>
           <div class="form-outline mb-4">
-            <%= form.label :telefone, class:  "form-label text-light"%>
-            <%= form.telephone_field :telefone, class: "form-control",  placeholder: "(99)9999-9999"%>
+            <%= form.label :telefone, class:  "form-label"%>
+            <%= form.telephone_field :telefone, class: "form-control",  placeholder: "(99)9999-9999", "v-model": "phone_number"%>
+            <span v-if="msg.phone_number">{{msg.phone_number}}</span>
           </div>
           <div class="form-outline mb-4">
-            <%= form.label :password, class:  "form-label text-light"%>
+            <%= form.label :password, 'Senha', class:  "form-label text-light"%>
             <%= form.password_field :password, class: "form-control", "v-model": "password"%>
             <span v-if="msg.password">{{msg.password}}</span>
           </div>
           <div class="form-outline mb-4">
-            <%= form.label :password_confirmation, class:  "form-label text-light"%>
+            <%= form.label :password_confirmation, 'Confirme sua senha', class:  "form-label text-light"%>
             <%= form.password_field :password_confirmation, class: "form-control"%>
           </div>
 
