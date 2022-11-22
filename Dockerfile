@@ -4,7 +4,6 @@ RUN apk add \
     postgresql-dev
 COPY Gemfile* ./
 RUN bundle install
-RUN bundle exec rake RAILS_ENV=production assets:precompile
 FROM ruby:3.1.2-alpine AS runner
 RUN apk add \
     tzdata \
@@ -19,5 +18,6 @@ COPY . .
 RUN npm install
 RUN yarn add @vitejs/plugin-vue
 RUN yarn add vue@3.2.33
+RUN RAILS_ENV=production bundle exec rake assets:precompile
 EXPOSE 3000
 CMD ["rails", "server", "-b", "0.0.0.0"]
