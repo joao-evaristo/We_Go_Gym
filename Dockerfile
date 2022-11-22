@@ -4,6 +4,7 @@ RUN apk add \
     postgresql-dev
 COPY Gemfile* ./
 RUN bundle install
+RUN bundle exec rake RAILS_ENV=production assets:precompile
 FROM ruby:3.1.2-alpine AS runner
 RUN apk add \
     tzdata \
