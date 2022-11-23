@@ -38,6 +38,15 @@
   </div>
 
   <div style="color: white">
+    <%= form.label :password, style: "display: block" %>
+    <%= form.password_field :password %>
+  </div>
+  <div style="color: white">
+    <%= form.label :password_confirmation, style: "display: block" %>
+    <%= form.password_field :password_confirmation %>
+  </div>
+
+  <div style="color: white">
     <%= form.submit %>
   </div>
 <% end %>

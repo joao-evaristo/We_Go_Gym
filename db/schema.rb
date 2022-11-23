@@ -45,6 +45,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_13_223919) do
     t.text "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "password_digest"
   end
 
   add_foreign_key "user_enrollments", "academia"
