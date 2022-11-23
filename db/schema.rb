@@ -28,6 +28,26 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_16_132214) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "friends", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.string "email"
+    t.string "phone"
+    t.string "twitter"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "user_enrollments", force: :cascade do |t|
+    t.boolean "active"
+    t.bigint "usuario_id", null: false
+    t.bigint "academium_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["academium_id"], name: "index_user_enrollments_on_academium_id"
+    t.index ["usuario_id"], name: "index_user_enrollments_on_usuario_id"
+  end
+
   create_table "usuarios", force: :cascade do |t|
     t.string "nome"
     t.integer "idade"
@@ -38,4 +58,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_16_132214) do
     t.string "password_digest"
   end
 
+  add_foreign_key "user_enrollments", "academia"
+  add_foreign_key "user_enrollments", "usuarios"
 end

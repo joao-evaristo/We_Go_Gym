@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @user_enrollment %>
+
+<div>
+  <%= link_to "Edit this user enrollment", edit_user_enrollment_path(@user_enrollment) %> |
+  <%= link_to "Back to user enrollments", user_enrollments_path %>
+
+  <%= button_to "Destroy this user enrollment", @user_enrollment, method: :delete %>
+</div>
