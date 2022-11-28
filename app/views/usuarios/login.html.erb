@@ -1,4 +1,6 @@
 <%= stylesheet_link_tag "login" %>
+<%= vite_client_tag %>
+<%= vite_javascript_tag 'login' %>
 
 <div class="container-fluid">
   <%= image_tag "third_image.jpg" , id:"fundo", class:"w-100"%>
@@ -37,7 +39,8 @@
         <%= form_with model: @usuario, url: entrar_path do |form|%>
           <div class="form-outline mb-4">
             <%= form.label :email, class:  "form-label"%>
-            <%= form.text_field :email, class: "form-control",  placeholder: "seuemail@gmail.com", id: "loginName"%>
+            <%= form.text_field :email, class: "form-control",  placeholder: "seuemail@gmail.com", id: "loginName", "v-model": "email"%>
+            <span v-if="msg.email">{{msg.email}}</span>
           </div>
           <div class="form-outline mb-4">
             <%= form.label :password, class:  "form-label", id: "loginPassword"%>
