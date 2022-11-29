@@ -1,6 +1,7 @@
 class UserEnrollmentsController < ApplicationController
   before_action :set_user_enrollment, only: %i[ show edit update destroy ]
   before_action :require_user_logged_in!, only: [:show, :edit, :create, :update]
+  skip_before_action :verify_authenticity_token
 
   # GET /user_enrollments
   def index
@@ -22,6 +23,20 @@ class UserEnrollmentsController < ApplicationController
 
   # POST /user_enrollments
   def create
+    usuario_id = Current.user.id
+    request_params = params["user_enrollment"]
+    academium_name = request_params["academium_name"]
+    academium_id = Academium.where(nome: academium_name).pluck(:id).first
+    @user_enrollment = UserEnrollment.new(usuario_id: usuario_id, academium_id: academium_id, active: true)
+
+    if @user_enrollment.save
+      redirect_to @user_enrollment, notice: "User enrollment was successfully created."
+    else
+      render :new, status: :unprocessable_entity
+    end
+  end
+
+  def create2
     usuario_id = Current.user.id
     request_params = params["user_enrollment"]
     academium_name = request_params["academium_name"]
