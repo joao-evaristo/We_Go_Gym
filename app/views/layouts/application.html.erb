@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= yield(:title).presence || 'WeGoGym | Home' %></title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <%= favicon_link_tag asset_path('dumbbell_yellow_icon.png') %>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+          crossorigin="anonymous"></script>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag "application" %>
+  <%= vite_client_tag %>
+  <%= vite_javascript_tag 'application' %>
+  <!--
+If using a TypeScript entrypoint file:
+vite_typescript_tag 'application'
+
+If using a .jsx or .tsx entrypoint, add the extension:
+vite_javascript_tag 'application.jsx'
+
+Visit the guide for more information: https://vite-ruby.netlify.app/guide/rails
+-->
+</head>
+
+<body>
+<%= render 'welcome/header' %>
+
+<%= yield %>
+<div class="footer-basic">
+    <footer>
+      <div class="social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
+            class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a
+          href="#"><i class="fa fa-youtube"></i></a></div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Home</a></li>
+        <li class="list-inline-item"><a href="#">Serviços</a></li>
+        <li class="list-inline-item"><a href="#">Quem Somos</a></li>
+        <li class="list-inline-item"><a href="#">Termos</a></li>
+        <li class="list-inline-item"><a href="#">Política de Privacidade</a></li>
+      </ul>
+      <p class="copyright" id="footer-main-page-mark">WeGoGym © 2022</p>
+    </footer>
+  </div>
+</body>
+
+</html>

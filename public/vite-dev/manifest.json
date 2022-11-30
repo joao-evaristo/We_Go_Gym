@@ -1,0 +1,21 @@
+{
+  "entrypoints/application.js": {
+    "file": "assets/application.c98cd923.js",
+    "src": "entrypoints/application.js",
+    "isEntry": true,
+    "imports": [
+      "_vue.600a141e.js"
+    ]
+  },
+  "entrypoints/register.js": {
+    "file": "assets/register.17b9f1df.js",
+    "src": "entrypoints/register.js",
+    "isEntry": true,
+    "imports": [
+      "_vue.600a141e.js"
+    ]
+  },
+  "_vue.600a141e.js": {
+    "file": "assets/vue.600a141e.js"
+  }
+}

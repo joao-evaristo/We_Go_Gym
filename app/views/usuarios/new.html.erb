@@ -1,0 +1,109 @@
+<%= stylesheet_link_tag "register" %>
+<%= vite_client_tag %>
+<%= vite_javascript_tag 'register' %>
+<%= content_for :title, "WeGoGym | Cadastro" %>
+
+<div class="container-fluid" id="container-register">
+  <section class="vh-100 mingradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-4" style="font-family: google-bold;">Cadastro de Usuário</h3>
+              <%= form_with model: @usuario, url: cadastro_path do |form|%>
+                <% if @usuario.errors.any? %>
+                  <div class="alert alert-danger">
+                    <% @usuario.errors.full_messages.each do |message| %>
+                      <div><%= message %></div>
+                    <% end %>
+                  </div>
+                <% end %>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+
+                    <div class="form-outline">
+                      <%= form.text_field :nome, class: "form-control form-control-lg", id: "firstName", "v-model": "name" %>
+                      <%= form.label :nome, "Nome", class: "form-label" , style: "font-family: google-regular;" %>
+                      <span v-if="msg.name">{{msg.name}}</span>
+                    </div>
+
+                  </div>
+                  <div class="col-md-6 mb-4">
+
+                    <div class="form-outline">
+                      <input type="text" id="lastName" class="form-control form-control-lg" />
+                      <label class="form-label" for="lastName" style="font-family: google-regular;">Sobrenome</label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 mb-4 d-flex align-items-center">
+
+                    <div class="form-outline datepicker w-100">
+                      <input type="date" class="form-control form-control-lg" id="birthdayDate">
+                      <label for="birthdayDate" class="form-label" style="font-family: google-regular;">Data de
+                        Nascimento</label>
+                      
+                    </div>
+
+                  </div>
+                  <div class="col-md-6 mb-4 pb-2">
+
+                    <div class="form-outline">
+                      <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                      <label class="form-label" for="emailAddress"
+                        style="font-family: google-regular;">Email</label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+
+                    <div class="form-outline">
+                      <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                      <label class="form-label" for="phoneNumber"
+                        style="font-family: google-regular;">Telefone</label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 mb-4 pb-2">
+
+                    <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="password" id="form3Example4c" class="form-control" />
+                      <label class="form-label" for="form3Example4c" style="font-family: google-regular;">Senha</label>
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6 mb-4 pb-2">
+
+                    <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="password" id="form3Example4c" class="form-control" />
+                      <label class="form-label" for="form3Example4c"
+                        style="font-family: google-regular;">Confirme sua senha</label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="col-md-6 mb-4 pb-2">
+                  <%= form.submit "Cadastre-se", class:"btn btn-lg", id: "reg-bt" %>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
