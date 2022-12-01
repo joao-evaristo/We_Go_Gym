@@ -8,7 +8,7 @@
     ]
   },
   "entrypoints/register.js": {
-    "file": "assets/register.17b9f1df.js",
+    "file": "assets/register.126565f0.js",
     "src": "entrypoints/register.js",
     "isEntry": true,
     "imports": [
