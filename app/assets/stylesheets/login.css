@@ -1,120 +1,68 @@
-body {
-    background-color: black;
-}
-
-@font-face {
-    font-family: sprechen;
-    src: url('Sprechen.ttf');
-
-}
-
-#navbar-main {
-    background-color: rgba(0, 0, 0, 0.404);
-}
-
-.navbar-brand {
-    color: darkorange;
-    font-family: sprechen;
-    font-size: 48px;
-    text-align: center;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.233);
-    position: relative;
-    top: 3px;
-}
-
-.go {
-    color: rgba(255, 225, 92, 0.87);
-    background: none;
-}
-
-.navbar-nav {
-    font-size: 20px;
-    margin-left: 20px;
-}
-
-#nav_home {
-    width: 100px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
-}
-
-#nav_login {
-    width: 100px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
-}
-
-#nav_faq {
-    width: 100px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
-}
-
-.navbar-expand {
-    height: 100px;
-    padding: 20px;
-}
-
-#search_button {
-    color: rgb(255, 255, 255);
-    background-color: darkorange;
-    border-color: rgba(100, 100, 100, 0.336);
-}
-
-#logo {
-    height: 70px;
-    width: 70px;
-    position: relative;
-    top: -1px;
-}
-
-#fundo {
-    opacity: 0.3;
-}
-
-.btn-primary {
-    background-color: darkorange;
-    border-color: rgba(255, 255, 255, 0);
-    border-radius: 20px;
-    font-style: italic;
-    font-size: 25px;
-    position: absolute;
-    height: 80px;
-    width: 170px;
-    top: 525px;
-    right: 1530px;
-    opacity: 0.8;
-}
-
 .form-control {
     font-style: italic;
 }
 
 #loginForm {
     border-radius: 10px;
-    height: 625px;
+    height: 700px;
     width: 600px;
     background-color: white;
-    font-size: 27px;
-    position: absolute;
-    top: 15%;
-    right: 30%;
+    font-size: 26px;
+    min-height: 700px;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(third_image.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 118vh;
+    max-height: 150vh;
 }
 
 #iconFace {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
 }
 
 #iconGoogle {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    margin: auto;
 }
 
 #fundoLogin {
-    background-color: darkorange;
+    font-size: 35px;
+    height: 65px;
+    color: black;
+    background-color: rgb(250, 250, 250);
+    font-family: google-bold;
+    text-align: center;
 }
 
-.laranja {
-    color: darkorange;
+#reg-bt {
+    height: 70px;
+    width: 130px;
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 189, 51);
+    font-family: google-regular;
+    font-size: 27px;
+}
+
+#reg-bt:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: black;
+}
+
+#div-login {
+    margin: auto;
 }

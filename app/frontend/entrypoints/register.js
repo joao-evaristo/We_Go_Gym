@@ -30,13 +30,13 @@ const register_validation = createApp({
                 this.msg['email'] = ''
             }
             else {
-                this.msg['email'] = 'Insira um endereço de email válido'
+                this.msg['email'] = ' (Insira um endereço de email válido).'
             }
         },
         validatePassword(value){
             let difference = 8 - value.length
             if (value.length < 8){
-                this.msg['password'] = `No mínimo 8 caracteres! ${difference} caracteres restantes`
+                this.msg['password'] = ` (No mínimo 8 caracteres! ${difference} caracteres restantes).`
             }
             else {
                 this.msg['password'] = ''
@@ -47,7 +47,7 @@ const register_validation = createApp({
                 this.msg['name'] = ''
             }
             else {
-                this.msg['name'] = 'Nome não pode conter caracteres especiais'
+                this.msg['name'] = ' (Nome não pode conter caracteres especiais).'
             }
         },
         validatePhoneNumber(value){
@@ -55,9 +55,9 @@ const register_validation = createApp({
                 this.msg['phone_number'] = ''
             }
             else {
-                this.msg['phone_number'] = 'Insira um número de telefone válido'
+                this.msg['phone_number'] = ' (Insira um número de telefone válido).'
             }
         }
     }
 })
-register_validation.mount('#loginForm');
+register_validation.mount('#container-register');

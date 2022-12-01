@@ -1,36 +1,29 @@
+<%= content_for :title, "WeGoGym | Login" %>
 <%= stylesheet_link_tag "login" %>
-<%= vite_client_tag %>
-<%= vite_javascript_tag 'login' %>
 
-<div class="container-fluid">
-  <%= image_tag "third_image.jpg" , id:"fundo", class:"w-100"%>
-  <!-- Pills navs -->
+<div class="container-fluid" id="container">
+
   <div id="loginForm">
     <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
       <li class="nav-item" role="presentation">
-        <a id="fundoLogin" class="nav-link active" id="tab-login" data-mdb-toggle="pill"
-           href="#pills-login" role="tab" aria-controls="pills-login" aria-selected="true">Login</a>
+        <a id="fundoLogin" class="nav-link active" id="tab-login" data-mdb-toggle="pill" href="#pills-login"
+          role="tab" aria-controls="pills-login" aria-selected="true">Login</a>
+      </li>
+
       </li>
     </ul>
-    <!-- Pills navs -->
-
-    <!-- Pills content -->
     <div class="tab-content">
       <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login"></div>
       <div class="text-center mb-3">
-        <p>Entre com:</p>
+        <p style="font-family: google-regular;">Entre com:</p>
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-facebook-f">
-            <%= image_tag "facebook.png" , id:"iconFace"%>
-          </i>
+          <%= image_tag "facebook.png" , id:"iconFace"%>
         </button>
 
         <button type="button" class="btn btn-link btn-floating mx-1">
-          <i class="fab fa-google">
-            <%= image_tag "google.png" , id:"iconGoogle"%>
-          </i>
+          <%= image_tag "google.png" , id:"iconGoogle"%>
         </button>
-        <p class="text-center">ou:</p>
+        <p class="text-center" style="font-family: google-regular;">ou:</p>
         <% flash.each do |type, msg| %>
           <div class="alert alert-danger">
             <%= msg %>
@@ -38,42 +31,36 @@
         <% end %>
         <%= form_with model: @usuario, url: entrar_path do |form|%>
           <div class="form-outline mb-4">
-            <%= form.label :email, class:  "form-label"%>
-            <%= form.text_field :email, class: "form-control",  placeholder: "seuemail@gmail.com", id: "loginName", "v-model": "email"%>
-            <span v-if="msg.email">{{msg.email}}</span>
+            <%= form.label :email, class:  "form-label", style:"font-family: google-regular;"%>
+            <%= form.text_field :email, class: "form-control",  placeholder: "seuemail@gmail.com", id: "loginName"%>
           </div>
+
           <div class="form-outline mb-4">
-            <%= form.label :password, class:  "form-label", id: "loginPassword"%>
+            <%= form.label :senha, class:  "form-label", style:"font-family: google-regular;", id: "loginPassword"%>
             <%= form.password_field :password, class: "form-control"%>
           </div>
 
-          <!-- 2 column grid layout -->
+
+          <%= form.submit "Entrar", id:"reg-bt", class:"btn btn-block mb-4" %>
           <div class="row mb-4">
             <div class="col-md-6 d-flex justify-content-center">
-              <!-- Checkbox -->
               <div class="form-check mb-3 mb-md-0">
                 <input class="form-check-input" type="checkbox" value="" id="loginCheck"
                        checked />
-                <label class="form-check-label" for="loginCheck"> Lembrar de mim </label>
+                <label class="form-check-label" for="loginCheck" style="font-family: google-regular;"> Lembrar de mim </label>
               </div>
             </div>
 
             <div class="col-md-6 d-flex justify-content-center">
-              <!-- Simple link -->
-              <a class="laranja" href="#!">Esqueceu a senha?</a>
+              <a class="laranja" href="#!" style="font-family: google-regular;">Esqueceu a senha?</a>
             </div>
           </div>
-
-          <!-- Submit button -->
-          <%= form.submit "Entrar", class:"btn btn-block mb-4" %>
         <% end %>
 
-        <!-- Register buttons -->
         <div class="text-center">
-          <p>Sem conta? <%= link_to 'Registrar-se' , cadastro_path, class:'laranja' %></p>
+          <p>Sem conta? <%= link_to 'Registrar-se' , cadastro_path, class:'laranja', style: 'font-family: google-regular;' %></p>
         </div>
       </div>
     </div>
   </div>
-  <!-- Pills content -->
 </div>
