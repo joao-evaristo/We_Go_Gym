@@ -1,0 +1,1 @@
+import{a as i}from"./vue.600a141e.js";const e=i({data(){return{email:"",msg:[]}},watch:{email(a){this.validateEmail(a)}},methods:{validateEmail(a){/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(a)?this.msg.email="":this.msg.email="Insira um endere\xE7o de email v\xE1lido"}}});e.mount("#loginForm");

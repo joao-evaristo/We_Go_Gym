@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_16_132214) do
+ActiveRecord::Schema[7.0].define(version: 2022_11_28_010552) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -40,12 +40,12 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_16_132214) do
 
   create_table "usuarios", force: :cascade do |t|
     t.string "nome"
-    t.integer "idade"
     t.text "telefone"
     t.text "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "password_digest"
+    t.datetime "data_nascimento"
   end
 
   add_foreign_key "user_enrollments", "academia"

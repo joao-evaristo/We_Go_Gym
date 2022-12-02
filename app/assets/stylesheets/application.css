@@ -49,7 +49,7 @@ body {
 }
 
 .navbar-brand:hover {
-    color: rgba(0, 0, 0, 0);
+    color: rgba(255, 225, 92, 0.87);
 }
 
 #go {
@@ -69,16 +69,6 @@ body {
     margin-left: 2%;
 }
 
-#nav_home {
-    width: 100px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
-}
-
-#nav_home:hover {
-    color: rgba(255, 225, 92, 1);
-}
-
 #nav_academias {
     width: 140px;
     color: rgb(255, 255, 255);
@@ -90,7 +80,7 @@ body {
 }
 
 #nav_faq {
-    width: 750px;
+    width: 140px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
 }
@@ -100,9 +90,11 @@ body {
 }
 
 #nav_login{
-    width: 100px;
+    height: 50px;
+    width: 140px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+    text-align: center;
 }
 
 #nav_login:hover {
@@ -110,13 +102,17 @@ body {
 }
 
 #nav_register{
-    width: 120px;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+    width: 140px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 225, 92, 0.87);
+    text-align: center;
+    border-radius: 15px;
 }
 
 #nav_register:hover {
-    color: rgba(255, 225, 92, 1);
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .navbar-expand {
@@ -124,14 +120,35 @@ body {
     padding: 2%;
 }
 
+#search_area {
+    width: 450px;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+#search_area:focus{
+    box-shadow: 0 4px 2px -2px rgb(116, 116, 116);
+    border: none;
+}
+
 #search_button {
     color: rgb(255, 255, 255);
     background-color: rgba(253, 189, 51, 1);
-    width: 17%;
+    width: 42px;
+    border: none;
+    box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.btn-terciary {
+    border-radius: 7px;
+}
+
+#search_button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 1);
 }
 
 #search-image {
-    position: relative;
+    position: inherit;
     height: 18px;
 }
 
@@ -196,8 +213,9 @@ body {
 }
 
 #third-carousel-bt {
+    padding-top: 1.9%;
+    margin: 0 auto;
     top: 65%;
-    line-height: 95px;
 }
 
 .btn-primary {

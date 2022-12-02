@@ -7,6 +7,14 @@
       "_vue.600a141e.js"
     ]
   },
+  "entrypoints/login.js": {
+    "file": "assets/login.20bd5bf8.js",
+    "src": "entrypoints/login.js",
+    "isEntry": true,
+    "imports": [
+      "_vue.600a141e.js"
+    ]
+  },
   "entrypoints/register.js": {
     "file": "assets/register.126565f0.js",
     "src": "entrypoints/register.js",
