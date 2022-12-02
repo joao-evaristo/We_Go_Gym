@@ -39,7 +39,7 @@ body {
 }
 
 .navbar-brand {
-    color: rgba(255, 225, 92, 0.87);
+    color: rgba(255, 219, 45, 1);
     font-family: sprechen;
     font-size: 300%;
     text-align: center;
@@ -49,18 +49,18 @@ body {
 }
 
 .navbar-brand:hover {
-    color: rgba(255, 225, 92, 0.87);
+    color: rgba(255, 219, 45, 1);
 }
 
 #go {
     color: rgba(0, 0, 0, 0);
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(255, 225, 92, 0.87);
+    -webkit-text-stroke-color: rgba(255, 219, 45, 1);
 }
 
 #go:hover {
-    color: rgba(255, 225, 92, 0.87);
+    color: rgba(255, 219, 45, 1);
     -webkit-text-stroke-width: 0px;
 }
 
@@ -101,10 +101,10 @@ body {
     color: rgba(255, 225, 92, 1);
 }
 
-#nav_register{
+#nav_register {
     width: 140px;
     color: rgb(0, 0, 0);
-    background-color: rgba(255, 225, 92, 0.87);
+    background-color: rgba(255, 219, 45, 1);
     text-align: center;
     border-radius: 15px;
 }
@@ -133,10 +133,25 @@ body {
 
 #search_button {
     color: rgb(255, 255, 255);
-    background-color: rgba(253, 189, 51, 1);
+    background-color: rgba(253, 191, 0, 1);
     width: 40px;
     border: none;
     box-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+#username-area {
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+#username {
+    color: white;
+}
+
+#logout {
+    color: white;
 }
 
 .btn-terciary {

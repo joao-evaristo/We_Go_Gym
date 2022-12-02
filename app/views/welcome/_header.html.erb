@@ -22,11 +22,11 @@
       </form>
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <% if Current.user %>
-          <li class="nav-item">
-            <span class="navbar-text text-light"><%= link_to Current.user.nome, edit_usuario_path(Current.user.id) %></span>
+          <li class="nav-item" id="username-area">
+            <%= link_to 'Ver Perfil', edit_usuario_path(Current.user.id), id: "username" %>
           </li>
           <li class="nav-item">
-            <%= button_to "Sair", logout_path, method: :delete, class: "btn" %>
+            <%= button_to "Sair", logout_path, method: :delete, class: "btn", id: "logout" %>
           </li>
         <%elsif !current_page?(entrar_path) and !current_page?(cadastro_path)%>
           <li class="nav-item">
