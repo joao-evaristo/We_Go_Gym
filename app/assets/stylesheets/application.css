@@ -235,8 +235,8 @@ body {
 }
 
 .btn-primary {
-    background-color: rgba(255, 225, 92, 0.85) !important;
-    border-color: rgba(255, 225, 92, 0.829) !important;
+    background-color: rgba(255, 219, 45, 1) !important;
+    border-color: rgba(255, 219, 45, 1); !important;
     border-radius: 20px;
     font-size: 1.4vw;
     font-family: google-bold;
