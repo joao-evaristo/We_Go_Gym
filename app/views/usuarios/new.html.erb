@@ -23,8 +23,8 @@
                   <div class="col-md-6 mb-4">
 
                     <div class="form-outline">
-                      <%= form.text_field :nome, class: "form-control form-control-lg", id: "firstName", "v-model": "name" %>
                       <%= form.label :nome, "Nome", class: "form-label" , style: "font-family: google-regular;" %>
+                      <%= form.text_field :nome, class: "form-control form-control-lg", id: "firstName", "v-model": "name" %>
                       <span v-if="msg.name" style="font-size: 15.5px">{{msg.name}}</span>
                     </div>
 
@@ -32,8 +32,8 @@
                   <div class="col-md-6 mb-4">
 
                     <div class="form-outline">
-                      <input type="text" id="lastName" class="form-control form-control-lg" />
                       <label class="form-label" for="lastName" style="font-family: google-regular;">Sobrenome</label>
+                      <input type="text" id="lastName" class="form-control form-control-lg" />
                     </div>
 
                   </div>
@@ -43,16 +43,16 @@
                   <div class="col-md-6 mb-4 d-flex align-items-center">
 
                     <div class="form-outline datepicker w-100">
+                      <%= form.label :data_nascimento, "Data de Nascimento", class:  "form-label", style: "font-family: google-regular;" %>
                       <%= form.date_field :data_nascimento, class: "form-control form-control-lg", id: "birthdayDate", placeholder: "20" %>
-                      <%= form.label :data_nascimento, class:  "form-label", style: "font-family: google-regular;" %>
                     </div>
 
                   </div>
                   <div class="col-md-6 mb-4 pb-2">
 
                     <div class="form-outline">
-                      <%= form.text_field :email, class: "form-control form-control-lg",  placeholder: "ex.: seuemail@gmail.com", id: "emailAddress", "v-model": "email"%>
-                      <%= form.label :email, class:  "form-label", style: "font-family: google-regular;" %>        
+                      <%= form.label :email, class:  "form-label", style: "font-family: google-regular;" %>     
+                      <%= form.text_field :email, class: "form-control form-control-lg",  placeholder: "ex.: seuemail@gmail.com", id: "emailAddress", "v-model": "email"%>      
                       <span v-if="msg.email" style="font-size: 15.5px">{{msg.email}}</span>
                     </div>
 
@@ -63,8 +63,8 @@
                   <div class="col-md-6 mb-4 pb-2">
 
                     <div class="form-outline">
-                      <%= form.telephone_field :telefone, class: "form-control form-control-lg", id: "phoneNumber", placeholder: "(99)9999-9999", "v-model": "phone_number"%>
                       <%= form.label :telefone, class:  "form-label", style: "font-family: google-regular;" %>
+                      <%= form.telephone_field :telefone, class: "form-control form-control-lg", id: "phoneNumber", placeholder: "(99)9999-9999", "v-model": "phone_number"%>
                       <span v-if="msg.phone_number" style="font-size: 15.5px">{{msg.phone_number}}</span>
                     </div>
 
@@ -74,10 +74,9 @@
                 <div class="row">
                   <div class="col-md-6 mb-4 pb-2">
 
-                    <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
+                      <%= form.label :password, 'Senha', style: "font-family: google-regular;", class: "form-label" %> <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
                       <%= form.password_field :password, class: "form-control", id: "form3Example4c", "v-model": "password"%>
-                      <%= form.label :password, 'Senha', style: "font-family: google-regular;", class: "form-label" %>
                       <span v-if="msg.password" style="font-size: 15.5px">{{msg.password}}</span>
                     </div>
 
@@ -85,10 +84,9 @@
 
                   <div class="col-md-6 mb-4 pb-2">
 
-                    <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
+                      <%= form.label :password_confirmation, 'Confirme sua senha', class:  "form-label", style: "font-family: google-regular;" %> <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
                       <%= form.password_field :password_confirmation, class: "form-control", id: "form3Example4c" %>
-                      <%= form.label :password_confirmation, 'Confirme sua senha', class:  "form-label", style: "font-family: google-regular;" %>
                     </div>
 
                   </div>
