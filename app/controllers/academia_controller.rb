@@ -17,10 +17,6 @@ class AcademiaController < ApplicationController
     @academium = Academium.new
   end
 
-  def enroll_academia
-      UserEnrollment.new(params[usuario_id: Current.user.id, academium_name: @academium.nome, active: true])
-  end
-
   # GET /academia/1/edit
   def edit
   end
