@@ -177,8 +177,13 @@ body {
     color: rgba(255, 225, 92, 1);
 }
 
-#logout {
+#signout {
     color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    width: 33px;
 }
 
 .btn-terciary {

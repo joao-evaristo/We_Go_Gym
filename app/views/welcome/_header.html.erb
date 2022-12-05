@@ -23,7 +23,10 @@
           <%= link_to 'Ver Perfil', usuario_path(Current.user.id), id: "username"%>
         </li>
         <li class="nav-item">
-          <%= button_to "Sair", logout_path, method: :delete, class: "btn", id: "logout" %>
+          <%= button_to logout_path, method: :delete, class: "btn", id: "signout" do%>
+            <i class="fa fa-sign-out"></i>
+          <% end %>
+
         </li>
       <%elsif !current_page?(entrar_path) and !current_page?(cadastro_path)%>
         <li class="nav-item">
