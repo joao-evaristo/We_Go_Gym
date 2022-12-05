@@ -1,0 +1,51 @@
+body {
+    width: 100%;
+}
+
+#container-profile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fourth_image.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 118vh;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 3px 3px 6px 0px rgba(255, 255, 255, 0.4);
+}
+
+#profile-picture-space {
+    display: flex;
+    justify-content: center;
+}
+
+#user-profile-image {
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.profile-feature {
+    font-family: google-bold; 
+    font-size: 18px;
+}
+
+#edit-profile-feature {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 219, 45, 1);
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+}
+
+#edit-profile-feature:hover {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+#edit-profile-btn {
+    font-size: 18px;
+    padding-top: 12%;
+}

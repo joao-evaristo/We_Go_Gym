@@ -1,6 +1,91 @@
+<%= stylesheet_link_tag "user_profile" %>
+<%= vite_client_tag %>
+<%= vite_javascript_tag 'register' %>
+<%= content_for :title, "WeGoGym | Página de Usuário" %>
+
 <p style="color: green"><%= notice %></p>
 
-<%= render @usuario %>
+<div class="container-fluid" id="container-profile">
+  <section class="vh-100 mingradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card gradient-custom shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-4" style="font-family: google-bold;"><%=Current.user.nome%></h3>
+              <div class="row">
+                <div class="col-md-6 mb-4" id="profile-picture-space">
+                  <%= image_tag "default_profile_picture.png" , id:"user-profile-image", width:"200", height:"200", class:"d-inline-block align-top"%>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="row">
+                    <div class="form-outline profile-feature">
+                      <div>Nome Completo</div>
+                      <hr>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-inline">
+                      <%=Current.user.nome%>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-outline mt-4 profile-feature">
+                      <div>Email</div>
+                      <hr>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-inline">
+                      <%=Current.user.email%>
+                    </div>
+                  </div>
+                </div>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="row">
+                    <div class="form-outline mt-4 profile-feature">
+                      <div>Telefone</div>
+                      <hr>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-inline">
+                      <%=Current.user.telefone%>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="row">
+                    <div class="form-outline mt-4 profile-feature">
+                      <div>Data de Nascimento</div>
+                      <hr>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-inline">
+                      <%=Current.user.data_nascimento%>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline mt-4 profile-feature" id="edit-profile-feature">
+                  <%= link_to "Editar Perfil", edit_usuario_path(@usuario), class: "edit-link-btn", id: "edit-profile-btn", style: "color: black; text-decoration: none" %>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
 
 <div>
   <%= link_to "Edit this usuario", edit_usuario_path(@usuario) %> |
