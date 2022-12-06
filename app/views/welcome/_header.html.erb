@@ -17,14 +17,14 @@
         <%= image_tag "magnifying-glass-white.png" , id:"search-image"%>
       </button>
     </form>
-    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <% if Current.user %>
         <li class="nav-item" id="username-area">
           <%= link_to 'Ver Perfil', usuario_path(Current.user.id), id: "username"%>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="signout-area">
           <%= button_to logout_path, method: :delete, class: "btn", id: "signout" do%>
-            <i class="fa fa-sign-out"></i>
+            <i class="fa fa-sign-out" style="width: 50px;"></i>
           <% end %>
 
         </li>

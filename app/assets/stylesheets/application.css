@@ -36,8 +36,8 @@ body {
 }
 
 #navbar-main {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: rgba(14, 13, 13, 1);
 }
 
@@ -162,10 +162,11 @@ body {
 }
 
 #username-area {
-    height: 30px;
-    width: 150px;
-    margin: auto;
-    text-align: center;
+    height: 40px;
+    width: 140px;
+    margin: none;
+    text-align: left;
+    padding-top: 6.5px;
 }
 
 #username {
@@ -177,9 +178,12 @@ body {
     color: rgba(255, 225, 92, 1);
 }
 
+#signout-area {
+    padding-top: 6px;
+}
+
 #signout {
     color: white;
-    border: 1px solid white;
     display: flex;
     justify-content: center;
     height: 32px;
