@@ -178,18 +178,12 @@ body {
 
 #signout-area {
     padding-top: 6px;
-    display: flex;
-    justify-content: center;
 }
 
 #signout {
     color: white;
-    display: flex;
-    justify-content: center;
     height: 32px;
     width: 33px;
-    top: 33%;
-    position: absolute;
 }
 
 .btn-terciary {
@@ -495,11 +489,12 @@ body {
 }
 
 
-@media only screen and (max-width: 1500px) and (min-width: 1200px){
+@media only screen and (max-width: 1200px){
     #nav_faq {
         width: 80px;
     }
     #search_area {
         width: 300px;
     }
+    
 }
