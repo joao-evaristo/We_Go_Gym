@@ -49,3 +49,39 @@ body {
     font-size: 18px;
     padding-top: 12%;
 }
+
+#delete-account-btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    background-color: #E32636;
+    border: none;
+}
+
+#delete-account-btn:hover {
+    background-color: #a82934;
+}
+
+.edit-btn {
+    background-color: rgba(255, 219, 45, 1);
+    padding-top: 1.9%;
+    margin: 0 auto;
+    top: 65%;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.edit-btn:hover {
+    border-color: black;
+    background-color: transparent;
+}
+
+.edit-field {
+    border: 0.2px solid lightgray;
+    border-radius: 5px;
+    width: 100%;
+}

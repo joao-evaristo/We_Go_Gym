@@ -3,8 +3,6 @@
 <%= vite_javascript_tag 'register' %>
 <%= content_for :title, "WeGoGym | Página de Usuário" %>
 
-<p style="color: green"><%= notice %></p>
-
 <div class="container-fluid" id="container-profile">
   <section class="vh-100 mingradient-custom">
     <div class="container py-5 h-100">
@@ -64,6 +62,7 @@
                   </div>
                   <div class="row">
                     <div class="form-inline">
+                      26/06/2002
                       <%=Current.user.data_nascimento%>
                     </div>
                   </div>
@@ -76,7 +75,9 @@
                   </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                  
+                  <div class="form-outline mt-4 profile-feature">
+                    <%= button_to "Excluir sua conta", @usuario, method: :delete, id: "delete-account-btn", style: "color: white; text-decoration: none" %>
+                  </div>
                 </div>
               </div>
             </div>
@@ -85,11 +86,4 @@
       </div>
     </div>
   </section>
-</div>
-
-<div>
-  <%= link_to "Edit this usuario", edit_usuario_path(@usuario) %> |
-  <%= link_to "Back to usuarios", usuarios_path %>
-
-  <%= button_to "Destroy this usuario", @usuario, method: :delete %>
 </div>
