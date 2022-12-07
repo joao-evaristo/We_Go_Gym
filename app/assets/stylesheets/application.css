@@ -114,7 +114,6 @@ body {
     width: 140px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
-    margin: auto;
 }
 
 #nav_login:hover {
@@ -142,7 +141,6 @@ body {
 }
 
 #search_area {
-    min-width: 200px;
     width: 450px;
     border: none;
     box-shadow: 2px 2px rgb(0, 0, 0);
@@ -455,7 +453,7 @@ body {
         position:relative;
     } 
     #search_area {
-        width: 100%;
+        width: 80%;
     }
     .content-title {
         font-size: 7vw;
@@ -490,5 +488,15 @@ body {
 
     #placeholder-maps {
         display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1500px) and (min-width: 1200px){
+    #nav_faq {
+        width: 80px;
+    }
+    #search_area {
+        width: 300px;
     }
 }
