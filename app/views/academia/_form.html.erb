@@ -1,68 +1,175 @@
-<%= form_with(model: academium) do |form| %>
-  <% if academium.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(academium.errors.count, "error") %> prohibited this academium from being saved:</h2>
+<%= stylesheet_link_tag "user_profile" %>
+<%= stylesheet_link_tag "gym_profile" %>
+<%= vite_client_tag %>
+<%= vite_javascript_tag 'register' %>
+<%= content_for :title, "WeGoGym | Editar Usuário" %>
 
-      <ul>
-        <% academium.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
+<div class="container-fluid" id="container-gymprofile">
+  <section class="vh-100 mingradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card gradient-custom shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <%= form_with(model: academium) do |form| %>
+                <% if academium.errors.any? %>
+                  <div style="color: red">
+                    <h2><%= pluralize(academium.errors.count, "error") %> prohibited this academium from being saved:</h2>
+              
+                    <ul>
+                      <% academium.errors.each do |error| %>
+                        <li><%= error.full_message %></li>
+                      <% end %>
+                    </ul>
+                  </div>
+                <% end %>
+                <h3 class="mb-4 pb-2 pb-md-0 mb-md-4" style="font-family: google-bold;">Nome Academia - Editar Informações</h3>
+                <div class="row">
+                  <div style="font-family:google-bold; font-size: 20px; padding-bottom: 10px">Informações Principas</div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline profile-feature">
+                        <div>Nome da Academia</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :nome, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline profile-feature">
+                        <div>CNPJ</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :cnpj, class: "edit-field"  %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Telefone</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :telefone, class: "edit-field"  %>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Endereço</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :endereco, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="font-family:google-bold; font-size: 20px;">Preços</div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Preço da Matrícula</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :precoMatricula, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Preço da Mensalidade</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                      <%= form.text_field :precoMensalidade, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div style="font-family:google-bold; font-size: 20px;">Redes Sociais</div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Site</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :site, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Instagram</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                      <%= form.text_field :instagram, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Facebook</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                      <%= form.text_field :facebook, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline mt-4 profile-feature">
+                      <%= form.submit :"Salvar alterações", class: "edit-btn", id: "edit-btn", style: "color: black; text-decoration: none"%>
+                    </div>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  <% end %>
-
-  <br>
-  <br>
-  <br>
-  <br>
-
-  
-  <div style="color: white">
-    <%= form.label :nome, style: "display: block" %>
-    <%= form.text_field :nome %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :cnpj, style: "display: block" %>
-    <%= form.text_field :cnpj %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :telefone, style: "display: block" %>
-    <%= form.text_field :telefone %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :endereco, style: "display: block" %>
-    <%= form.text_field :endereco %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :precoMatricula, style: "display: block" %>
-    <%= form.text_field :precoMatricula %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :precoMensalidade, style: "display: block" %>
-    <%= form.text_field :precoMensalidade %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :site, style: "display: block" %>
-    <%= form.text_field :site %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :instagram, style: "display: block" %>
-    <%= form.text_field :instagram %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :facebook, style: "display: block" %>
-    <%= form.text_field :facebook %>
-  </div>
-
-  <div>
-    <%= form.submit %>
-  </div>
-<% end %>
+  </section>
+</div>
