@@ -23,8 +23,8 @@
           <%= link_to 'Ver Perfil', usuario_path(Current.user.id), id: "username"%>
         </li>
         <li class="nav-item" id="signout-area">
-          <%= button_to logout_path, method: :delete, class: "btn", id: "signout" do%>
-            <i class="fa fa-sign-out" style="width: 50px;"></i>
+          <%= button_to logout_path, method: :delete, class: "btn nav-link", style: "display: flex; justify-content: center", id: "signout" do%>
+            <i class="fa fa-sign-out"></i>
           <% end %>
 
         </li>

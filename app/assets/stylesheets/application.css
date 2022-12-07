@@ -178,6 +178,8 @@ body {
 
 #signout-area {
     padding-top: 6px;
+    display: flex;
+    justify-content: center;
 }
 
 #signout {
@@ -186,6 +188,8 @@ body {
     justify-content: center;
     height: 32px;
     width: 33px;
+    top: 33%;
+    position: absolute;
 }
 
 .btn-terciary {
