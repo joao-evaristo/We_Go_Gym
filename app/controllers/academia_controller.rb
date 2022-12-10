@@ -1,5 +1,6 @@
 class AcademiaController < ApplicationController
   before_action :set_academium, only: %i[ show edit update destroy ]
+  skip_before_action :verify_authenticity_token
 
   # GET /academia
   def index
@@ -8,6 +9,7 @@ class AcademiaController < ApplicationController
 
   # GET /academia/1
   def show
+    @usuarios = Usuario.where(id: UserEnrollment.where(academium_id: @academium.id).pluck(:usuario_id)).pluck(:nome)
   end
 
   # GET /academia/new
@@ -39,6 +41,10 @@ class AcademiaController < ApplicationController
     end
   end
 
+  def show_users
+    nome_usuario = Usuario.where(id: 1)
+    puts nome_usuario.inspect
+  end
   # DELETE /academia/1
   def destroy
     @academium.destroy

@@ -1,6 +1,7 @@
 class UserEnrollmentsController < ApplicationController
   before_action :set_user_enrollment, only: %i[ show edit update destroy ]
   before_action :require_user_logged_in!, only: [:show, :edit, :create, :update]
+  skip_before_action :verify_authenticity_token
 
   # GET /user_enrollments
   def index
