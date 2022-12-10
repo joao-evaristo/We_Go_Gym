@@ -1,0 +1,12 @@
+#container-gymprofile {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fifth_image.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 118vh;
+    width: 100%;
+}
+
+.profile-feature {
+    font-family: google-regular; 
+    font-size: 18px;
+}

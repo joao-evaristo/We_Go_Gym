@@ -1,52 +1,122 @@
-<%= form_with(model: usuario) do |form| %>
-  <% if usuario.errors.any? %>
-    <div style="color: red">
-      <h2><%= pluralize(usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
+<%= stylesheet_link_tag "user_profile" %>
+<%= vite_client_tag %>
+<%= vite_javascript_tag 'register' %>
+<%= content_for :title, "WeGoGym | Editar Usuário" %>
 
-      <ul>
-        <% usuario.errors.each do |error| %>
-          <li><%= error.full_message %></li>
-        <% end %>
-      </ul>
+<div class="container-fluid" id="container-profile">
+  <section class="vh-100 mingradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card gradient-custom shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <%= form_with(model: usuario) do |form| %>
+                <% if usuario.errors.any? %>
+                  <div style="color: red">
+                    <h2><%= pluralize(usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
+              
+                    <ul>
+                      <% usuario.errors.each do |error| %>
+                        <li><%= error.full_message %></li>
+                      <% end %>
+                    </ul>
+                  </div>
+                <% end %>
+                <h3 class="mb-4 pb-2 pb-md-0 mb-md-4" style="font-family: google-bold;"><%=Current.user.nome%></h3>
+                <div class="row">
+                  <div class="col-md-6 mb-4" id="profile-picture-space">
+                    <%= image_tag "default_profile_picture.png" , id:"user-profile-image", width:"200", height:"200", class:"d-inline-block align-top"%>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline profile-feature">
+                        <div>Nome Completo</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :nome, class: "edit-field"  %>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Email</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :email, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Telefone</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.text_field :telefone, class: "edit-field"  %>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Data de Nascimento</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.date_field :data_nascimento, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Senha</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                        <%= form.password_field :password, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="row">
+                      <div class="form-outline mt-4 profile-feature">
+                        <div>Confirme a senha</div>
+                        <hr>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="form-inline">
+                      <%= form.password_field :password_confirmation, class: "edit-field" %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline mt-4 profile-feature">
+                      <%= form.submit :"Salvar alterações", class: "edit-btn", id: "edit-btn", style: "color: black; text-decoration: none"%>
+                    </div>
+                  </div>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  <% end %>
-
-  <br>
-  <br>
-  <br>
-  <br>
-
-
-  <div style="color: white">
-    <%= form.label :nome, style: "display: block" %>
-    <%= form.text_field :nome %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :data_nascimento, style: "display: block" %>
-    <%= form.date_field :data_nascimento %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :telefone, style: "display: block" %>
-    <%= form.text_area :telefone %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :email, style: "display: block" %>
-    <%= form.text_area :email %>
-  </div>
-
-  <div style="color: white">
-    <%= form.label :password, style: "display: block" %>
-    <%= form.password_field :password %>
-  </div>
-  <div style="color: white">
-    <%= form.label :password_confirmation, style: "display: block" %>
-    <%= form.password_field :password_confirmation %>
-  </div>
-
-  <div style="color: white">
-    <%= form.submit %>
-  </div>
-<% end %>

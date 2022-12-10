@@ -1,10 +1,10 @@
-<nav id="navbar-main" class="navbar navbar-expand-lg fixed-top">
+<nav id="navbar-main" class="navbar navbar-expand-xl fixed-top">
   <%= link_to root_path, class:'navbar-brand align-itens-start' do %>
     <%= image_tag "dumbbell_yellow_icon.png" , id:"logo", width:"30", height:"30", class:"d-inline-block align-top"%>
     We<%= content_tag :span, "Go" , :class=> "home-link", :id=> "go"%>Gym
   <% end %>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon icon-bar" style="color: white"></span>
+  <button class="navbar-toggler" id="toggler-bt" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon icon-bar"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -17,13 +17,16 @@
         <%= image_tag "magnifying-glass-white.png" , id:"search-image"%>
       </button>
     </form>
-    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <% if Current.user %>
         <li class="nav-item" id="username-area">
-          <%= link_to 'Ver Perfil', edit_usuario_path(Current.user.id), id: "username" %>
+          <%= link_to 'Ver Perfil', usuario_path(Current.user.id), id: "username"%>
         </li>
-        <li class="nav-item">
-          <%= button_to "Sair", logout_path, method: :delete, class: "btn", id: "logout" %>
+        <li class="nav-item" id="signout-area">
+          <%= button_to logout_path, method: :delete, class: "btn nav-link", style: "display: flex; justify-content: center", id: "signout" do%>
+            <i class="fa fa-sign-out"></i>
+          <% end %>
+
         </li>
       <%elsif !current_page?(entrar_path) and !current_page?(cadastro_path)%>
         <li class="nav-item">
