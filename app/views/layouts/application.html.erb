@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title><%= yield(:title).presence || 'WeGoGym | Página Inicial' %></title>
+  <title><%= yield(:title).presence || 'WeGoGym | Home' %></title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <%= favicon_link_tag asset_path('dumbbell_yellow_icon.png') %>
@@ -31,7 +31,7 @@ Visit the guide for more information: https://vite-ruby.netlify.app/guide/rails
 <%= render 'welcome/header' %>
 
 <%= yield %>
-  <div class="footer-basic">
+<div class="footer-basic">
     <footer>
       <div class="social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i
             class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a
