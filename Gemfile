@@ -12,7 +12,7 @@ gem "bcrypt"
 
 # Use postgresql as the database for Active Record
 gem "pg"
-gem 'vite_rails'
+gem "vite_rails", "~> 3.0.12"
 
 gem "font-awesome-rails"
 
