@@ -17,6 +17,7 @@ COPY --from=builder /usr/local/bundle/ /usr/local/bundle/
 COPY . .
 RUN yarn add @vitejs/plugin-vue
 RUN yarn add vue@3.2.33
+RUN yarn add vite-plugin-ruby
 RUN npm install
 RUN RAILS_ENV=production bundle exec rake assets:precompile
 EXPOSE 3000
