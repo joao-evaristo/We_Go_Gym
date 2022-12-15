@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :user_gym_admins
   resources :user_enrollments
   resources :academia
   resources :usuarios
