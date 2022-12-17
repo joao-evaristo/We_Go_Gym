@@ -8,6 +8,12 @@ class AcademiaController < ApplicationController
 
   # GET /academia/1
   def show
+
+  end
+
+  # GET /search
+  def search 
+    @academia_busca = Academium.where("lower(nome) LIKE ?", "%" + params[:q].downcase + "%")
   end
 
   # GET /academia/new
