@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "welcome/index"
   get "welcome/login"
   get "cadastro", to: "usuarios#new"
+  get "search", to: "academia#search"
   post "cadastro", to: "usuarios#create"
   get "entrar", to: "usuarios#login"
   post "entrar", to: "usuarios#login_func"

@@ -10,6 +10,12 @@ class AcademiaController < ApplicationController
   # GET /academia/1
   def show
     @usuarios = Usuario.where(id: UserEnrollment.where(academium_id: @academium.id).pluck(:usuario_id)).pluck(:nome)
+
+  end
+
+  # GET /search
+  def search 
+    @academia_busca = Academium.where("lower(nome) LIKE ?", "%" + params[:q].downcase + "%")
   end
 
   # GET /academia/new
