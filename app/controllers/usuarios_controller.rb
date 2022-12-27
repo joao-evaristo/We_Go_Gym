@@ -43,6 +43,7 @@ class UsuariosController < ApplicationController
 
   # POST /usuarios
   def create
+    usuario_params[:role] = 'commom_user'
     @usuario = Usuario.new(usuario_params)
 
     if @usuario.save
