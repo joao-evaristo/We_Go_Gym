@@ -177,7 +177,7 @@ DEPENDENCIES
   rails (~> 7.0.4)
   sprockets-rails
   tzinfo-data
-  vite_rails
+  vite_rails (~> 3.0.12)
 
 RUBY VERSION
    ruby 3.1.2p107
