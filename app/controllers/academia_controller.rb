@@ -1,5 +1,6 @@
 class AcademiaController < ApplicationController
   before_action :set_academium, only: %i[ show edit update destroy ]
+  before_action :require_user_gym_permission!
   skip_before_action :verify_authenticity_token
 
   # GET /academia

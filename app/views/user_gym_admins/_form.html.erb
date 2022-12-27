@@ -1,0 +1,32 @@
+<%= form_with(model: user_gym_admin) do |form| %>
+  <% if user_gym_admin.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(user_gym_admin.errors.count, "error") %> prohibited this user_gym_admin from being saved:</h2>
+
+      <ul>
+        <% user_gym_admin.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :active, style: "display: block" %>
+    <%= form.check_box :active %>
+  </div>
+
+  <div>
+    <%= form.label :usuario_id, style: "display: block" %>
+    <%= form.text_field :usuario_id %>
+  </div>
+
+  <div>
+    <%= form.label :academium_id, style: "display: block" %>
+    <%= form.text_field :academium_id %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
