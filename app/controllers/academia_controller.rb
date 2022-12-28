@@ -10,7 +10,6 @@ class AcademiaController < ApplicationController
   # GET /academia/1
   def show
     @usuarios = Usuario.where(id: UserEnrollment.where(academium_id: @academium.id).pluck(:usuario_id)).pluck(:nome)
-
   end
 
   # GET /search
