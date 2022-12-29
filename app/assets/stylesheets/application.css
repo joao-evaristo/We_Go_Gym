@@ -35,10 +35,19 @@ body {
     src: url('Product Sans Regular.ttf');
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 #navbar-main {
     padding-left: 5%;
     padding-right: 5%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar-toggler {
@@ -169,6 +178,7 @@ body {
 #search_area {
     width: 450px;
     border: none;
+    background-color: white;
     box-shadow: 2px 2px rgb(0, 0, 0);
 }
 
@@ -469,6 +479,69 @@ body {
     height: 1500px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 2%;
+}
+
+.section-title {
+    color: black;
+    font-family: google-bold;
+    text-align: center;
+    font-size: 4.6vh;
+}
+
+#section-first-title {
+    left: 0; 
+    right: 0;
+    padding-top: 6vh;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.section-text {
+    font-family: google-regular;
+    color: rgb(63, 63, 63);
+    text-align: center;
+    font-size: 2.3vh;
+}
+
+#section-first-text {
+    width: 70%;
+    left: 0; 
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-bottom: 2.3vh;
+}
+
+#first-content-section {
+    margin-top: 5%;
+    overflow: auto;
+    display: flex;
+}
+
+#first-polygon {
+    width: 45vw;
+    height: 65vh;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
+    float: left;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(second_image.jpg);
+}
+
+#checklist-text {
+    float: left;
+    overflow: hidden;
+    height: 70vh;
+    width: 50vw;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 3.2vh;;
+    color: black;
+}
+
+.check-item {
+    padding-left: 5%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -511,6 +584,14 @@ body {
 
     #placeholder-maps {
         display: none;
+    }
+
+    #first-polygon {
+        clip-path: polygon(0 0%, 75% 0%, 75% 100%, 0% 100%);
+    }
+
+    #checklist-text {
+        padding-left: 0%;
     }
 }
 
