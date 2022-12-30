@@ -476,7 +476,7 @@ a:hover {
 
 #main-sec {
     background-color: white;
-    height: 1500px;
+    height: fit-content;
     width: 100%;
     margin: 0 auto;
     padding-top: 2%;
@@ -489,7 +489,7 @@ a:hover {
     font-size: 4.6vh;
 }
 
-#section-first-title {
+#main-section-first-title {
     left: 0; 
     right: 0;
     padding-top: 6vh;
@@ -502,10 +502,10 @@ a:hover {
     color: rgb(63, 63, 63);
     text-align: center;
     font-size: 2.3vh;
+    width: 70%;
 }
 
-#section-first-text {
-    width: 70%;
+#main-section-first-text {
     left: 0; 
     right: 0;
     margin-left: auto; 
@@ -514,7 +514,7 @@ a:hover {
 }
 
 #first-content-section {
-    margin-top: 5%;
+    margin-top: 3%;
     overflow: auto;
     display: flex;
 }
@@ -525,7 +525,7 @@ a:hover {
     background-color: rgb(0, 0, 0);
     clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
     float: left;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(second_image.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sixth_image.jpg);
 }
 
 #checklist-text {
@@ -536,12 +536,74 @@ a:hover {
     text-align: left;
     padding-left: 5%;
     padding-top: 5%;
-    font-size: 3.2vh;;
+    font-size: 3.2vh;
     color: black;
 }
 
 .check-item {
     padding-left: 5%;
+}
+
+#second-section-first-text {
+    text-align: left;
+    margin: auto;
+    width: 83%;
+}
+
+#map-section {
+    overflow: auto;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+
+#map-search-area {
+    margin-right: 5%;
+    position: relative;
+}
+
+#map-search-area i{
+    position: absolute;
+    right: 3%;
+    top: 2.3%;
+}
+
+#input-address {
+    width: 30vw;
+    height: 4vh;
+    float: left;
+    background-color: rgba(207, 207, 207, 0.406);
+    border: 1px solid rgba(207, 207, 207, 0.406);
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    box-shadow: 1px 1px rgb(204, 204, 204);
+    padding-left: 4%;
+    padding-right: 2%;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#input-address:focus {
+    outline: none;
+    box-shadow: 2px 2px rgb(204, 204, 204);
+}
+
+#magnifying-glass-map {
+    color: black;
+}
+
+#map-image {
+    float: left;
+    height: 50vh;
+    width: 60vw;
+    padding-right: 10%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -593,6 +655,10 @@ a:hover {
     #checklist-text {
         padding-left: 0%;
     }
+
+    #checklist-text {
+        font-size: 2.3vh;
+    }
 }
 
 
@@ -600,10 +666,34 @@ a:hover {
     #nav_faq {
         width: 80px;
     }
+
     #search_area {
         width: 300px;
     }
+
     .navbar-nav {
         margin-left: 0;
+    }
+
+    #map-section {
+        overflow: none;
+        display: block;
+    }
+
+    #input-address {
+        float: none;
+        width: 100%;
+    }
+
+    #input-address i {
+        top: 100%;
+    }
+
+    #map-image {
+        padding-top: 5%;
+        float: none;
+        height: 100%;
+        padding-bottom: 5%;
+        margin: auto;
     }
 }
