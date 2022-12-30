@@ -611,6 +611,23 @@ a:hover {
     padding-right: 10%;
 }
 
+#third-section-first-text {
+    text-align: left;
+    padding-left: 7%;
+    width: 45%;
+    height: fit-content;
+    padding-top: 3%;
+}
+
+#third-section-second-text {
+    text-align: left;
+    padding-right: 7%;
+    width: 100%;
+    height: fit-content;
+    padding-left: 50%;
+    padding-top: 3%;
+}
+
 @media only screen and (max-width: 767px) {
     .navbar {
         position:relative;
@@ -663,6 +680,15 @@ a:hover {
 
     #checklist-text {
         font-size: 2.3vh;
+    }
+
+    #third-section-first-text {
+        width: 100%;
+    }
+    
+    #third-section-second-text {
+        padding-left: 7%;
+        width: 100%;
     }
 }
 
