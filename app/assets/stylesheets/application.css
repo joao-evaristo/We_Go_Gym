@@ -16,7 +16,7 @@
  */
 
 body {
-    background-color: black;
+    background-color: #222121;
     min-width: 300px;
 }
 
@@ -47,7 +47,7 @@ a:hover {
 #navbar-main {
     padding-left: 5%;
     padding-right: 5%;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #222121;
 }
 
 .navbar-toggler {
@@ -400,7 +400,7 @@ a:hover {
 
 .footer-basic {
     padding: 30px 0;
-    background-color: #000000;
+    background-color: #222121;
     color: rgba(255, 255, 255, 0.87);
     font-family: google-regular;
 }
