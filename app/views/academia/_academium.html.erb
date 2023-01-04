@@ -1,50 +1,49 @@
 <%= stylesheet_link_tag "search_page" %>
-<%= content_for :title, "WeGoGym | Pesquisa" %>
 
-<div id="<%= dom_id academium %>">
-  <p class="gym_item">
-    <strong>Nome:</strong>
-    <%= academium.nome %>
-  </p>
-
-  <p class="gym_item">
-    <strong>Cnpj:</strong>
-    <%= academium.cnpj %>
-  </p>
-
-  <p class="gym_item">
-    <strong>Telefone:</strong>
-    <%= academium.telefone %>
-  </p>
-
-  <p class="gym_item">
-    <strong>Endereco:</strong>
-    <%= academium.endereco %>
-  </p>
-  <!--
-  <p class="gym_item">
-    <strong>Precomatricula:</strong>
-    <%= academium.precoMatricula %>
-  </p>
-
-  <p class="gym_item">
-    <strong>Precomensalidade:</strong>
-    <%= academium.precoMensalidade %>
-  </p>
-
-  <p class="gym_item">
-    <strong>Site:</strong>
-    <%= academium.site %>
-  </p> -->
-
-  <p class="gym_item">
-    <strong>Instagram:</strong>
-    <%= academium.instagram %>
-  </p>
-
-  <p class="gym_item">
-    <strong>Facebook:</strong>
-    <%= academium.facebook %>
-  </p>
-
+<div class="card mb-4" style="max-width: 850px; height: 300px">
+  <div class="row">
+    <div class="col-md-4">
+      <div id="polygon">
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="card-body">
+        <div class="card-text">
+          <h5 class="gym-title">
+            <%= academium.nome %>
+            <hr>
+          </h5>
+        </div>
+        <p class="card-text">
+          <span class="feature-title">Telefone: </span> 
+          <%= academium.telefone %>
+        </p>
+        <p class="card-text">
+          <span class="feature-title">Endereço: </span> 
+          <%= academium.endereco %>
+        </p>
+        <p class="card-text">
+          <span class="feature-title">Site: </span> 
+          <%= academium.site %>
+        </p>
+        <p>
+          <%= link_to "Ver Academia", academium %>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="social-media-area">
+        <div>
+          <i class="fa fa-facebook icon"></i> <%= academium.facebook %>
+        </div>
+        <div>
+          <i class="fa fa-instagram icon"></i> <%= academium.instagram %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<br>
+<br>
+<br>
+<br>
