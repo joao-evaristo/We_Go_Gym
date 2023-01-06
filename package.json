@@ -1,11 +1,12 @@
 {
     "devDependencies": {
-      "vite": "latest",
-      "vite-plugin-ruby": "latest"
+        "vite": "latest",
+        "vite-plugin-ruby": "latest"
     },
     "dependencies": {
-      "@vitejs/plugin-vue": "latest",
-      "vite": "latest",
-      "vite-plugin-ruby": "latest"
+        "@vitejs/plugin-vue": "latest",
+        "install": "^0.13.0",
+        "vite": "latest",
+        "vite-plugin-ruby": "latest"
     }
 }
