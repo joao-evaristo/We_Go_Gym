@@ -195,14 +195,6 @@ a:hover {
     box-shadow: 2px 2px rgb(0, 0, 0);
 }
 
-#username-area {
-    height: 40px;
-    width: 140px;
-    margin: none;
-    text-align: left;
-    padding-top: 6.5px;
-}
-
 #username {
     color: white;
     text-decoration: none;
@@ -220,6 +212,10 @@ a:hover {
     color: white;
     height: 32px;
     width: 33px;
+}
+
+#signout:hover {
+    color: rgba(255, 225, 92, 1);
 }
 
 .btn-terciary {
@@ -630,27 +626,37 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
     .navbar {
-        position:relative;
+        position: relative;
     } 
+
+    .d-flex {
+        padding-top: 2%;
+    }
+
     #search_area {
         width: 80%;
     }
+
     .content-title {
         font-size: 7vw;
         width: 80%;
         right: 10%;
     }
+
     .content {
         display: none;
     }
+
     .btn-primary {
         display: none;
     }
+
     .line {
         height: 2.5%;
         width: 16%;
         position: absolute;
     }
+
     #line1 {
         right: 73.5%;
         top: 54%;
@@ -696,6 +702,10 @@ a:hover {
 @media only screen and (max-width: 1200px){
     #nav_faq {
         width: 80px;
+    }
+
+    .d-flex {
+        padding-top: 2%;
     }
 
     #search_area {
