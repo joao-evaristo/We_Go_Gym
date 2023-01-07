@@ -33,8 +33,4 @@ all_gyms.each do |gym|
     instagram: instagram,
     facebook: facebook
   )
-<<<<<<< HEAD
 end
-=======
-end
->>>>>>> 6df8c126e9851aab01cf35ea9fcda808906eaea2
