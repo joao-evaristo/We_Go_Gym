@@ -1,7 +1,10 @@
 <%= stylesheet_link_tag "search_page" %>
 <%= content_for :title, "WeGoGym | Resultados da Busca" %>
 
+<%= stylesheet_link_tag "application" %>
+
 <div class="index">
+    <button type="button" class="btn btn-primary"> Ordenar por Distância </button>
     <h1 class="search-gym-title">Resultados</h1>
     <%= render @academia_busca %>
 </div>
