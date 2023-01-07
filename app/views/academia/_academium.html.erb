@@ -1,49 +1,51 @@
 <%= stylesheet_link_tag "search_page" %>
 
-<div class="card mb-4" style="max-width: 850px; height: 300px">
-  <div class="row">
-    <div class="col-md-4">
-      <div id="polygon">
+<div class="container-fluid" id="container-register">
+  <section class="vh-90 mingradient-custom">
+    <div class="container py-5 h-120">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-14 col-lg-11 col-xl-9">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-0 p-md-0">
+              <div class="row">
+                <div class="col-md-5 mb-0">
+                  <%= image_tag "card-image.jpg" , id:"polygon", class:"w-100" %>  
+                </div>
+                <div class="col-md-6 mb-4 mt-3">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-4" style="font-family: google-bold;">
+                    <%= link_to academium.nome, academium, id: "gym-title" %>
+                  </h3>
+                  <hr>
+                  <div class="row">
+                    <p class="card-text">
+                      <span class="feature-title">Endereço: </span> 
+                      <%= academium.endereco %>
+                    </p>
+                  </div>
+                  <div class="row">
+                    <p class="card-text">
+                      <span class="feature-title">Telefone: </span> 
+                      <%= academium.telefone %>
+                    </p>
+                  </div>
+                  <div class="row">
+                    <p class="card-text">
+                      <span class="feature-title">Site: </span> 
+                      <%= academium.site %>
+                    </p>
+                  </div>
+                  <div class="row social-media">
+                    <i class="fa fa-facebook icon"></i> <%= academium.facebook %>
+                  </div>
+                  <div class="row social-media">
+                    <i class="fa fa-instagram icon"></i> <%= academium.instagram %>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-md-5">
-      <div class="card-body">
-        <div class="card-text">
-          <h5 class="gym-title">
-            <%= academium.nome %>
-            <hr>
-          </h5>
-        </div>
-        <p class="card-text">
-          <span class="feature-title">Telefone: </span> 
-          <%= academium.telefone %>
-        </p>
-        <p class="card-text">
-          <span class="feature-title">Endereço: </span> 
-          <%= academium.endereco %>
-        </p>
-        <p class="card-text">
-          <span class="feature-title">Site: </span> 
-          <%= academium.site %>
-        </p>
-        <p>
-          <%= link_to "Ver Academia", academium %>
-        </p>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class="social-media-area">
-        <div>
-          <i class="fa fa-facebook icon"></i> <%= academium.facebook %>
-        </div>
-        <div>
-          <i class="fa fa-instagram icon"></i> <%= academium.instagram %>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 </div>
-<br>
-<br>
-<br>
-<br>
