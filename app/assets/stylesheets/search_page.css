@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #272626;
 }
 
 .navbar {
@@ -92,6 +92,7 @@ body {
     font-family: google-bold;
     text-align: center;
     font-size: calc(2vw + 3vh);
+    color: white;
 }
 
 .gym-title {
