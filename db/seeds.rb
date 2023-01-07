@@ -25,7 +25,7 @@ all_gyms.each do |gym|
   Academium.create(
     nome: gym['Nome'],
     cnpj: '',
-    telefone: gym['Nome'],
+    telefone: gym['Telefone'],
     endereco: gym['Endereco'],
     precoMatricula: '',
     precoMensalidade: '',
