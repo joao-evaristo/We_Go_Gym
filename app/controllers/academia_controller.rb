@@ -1,6 +1,5 @@
 class AcademiaController < ApplicationController
   before_action :set_academium, only: %i[ show edit update destroy ]
-  before_action :require_user_gym_permission!
   skip_before_action :verify_authenticity_token
 
   # GET /academia
@@ -15,8 +14,9 @@ class AcademiaController < ApplicationController
   end
 
   # GET /search
-  def search 
-    @academia_busca = Academium.where("lower(nome) LIKE ?", "%" + params[:q].downcase + "%")
+  def search
+    @academia_busca = Academium.all.where(nil)
+    @academia_busca = Academium.all.search_by_name_address(params[:q]) if params[:q].present?
   end
 
   # GET /academia/new

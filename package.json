@@ -1,7 +1,7 @@
 {
     "devDependencies": {
-        "vite": "latest",
-        "vite-plugin-ruby": "latest"
+      "vite": "latest",
+      "vite-plugin-ruby": "latest"
     },
     "dependencies": {
         "@vitejs/plugin-vue": "latest",

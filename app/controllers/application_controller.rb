@@ -13,8 +13,4 @@ class ApplicationController < ActionController::Base
   def user_permission
     redirect_to root_path, alert: "Você não tem permissão para fazer isso!" if Current.user.id != @usuario.id
   end
-
-  def require_user_gym_permission!
-    redirect_to root_path, alert: "Você não tem permissão para fazer isso!"
-  end 
 end
