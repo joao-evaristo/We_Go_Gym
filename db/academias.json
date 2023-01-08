@@ -1,1 +1,2216 @@
-[{"Nome": "Academia ARENA235", "Endereco": "R. Carlos Maria Auricchio, 55 - Jardim Aquarius, São José dos Campos - SP, 12246-876", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–21:00", "sábado": "10:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98273-0026", "Site": "http://www.arena235.com.br/", "Avaliacao": "4,8", "Coordenada": ["-23.2241956", "-45.9102698"]}, {"Nome": "Academia Smart Fit - Center Vale", "Endereco": "Av. Dep. Benedito Matarazzo, 9403 - Jardim Oswaldo Cruz, São José dos Campos - SP, 12215-900", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–17:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "https://www.smartfit.com.br/academias/center-vale/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPISJC1", "Avaliacao": "4,5", "Coordenada": ["-23.1997471", "-45.8815718"]}, {"Nome": "Perform Academia", "Endereco": "R. Nagano, 299 - Jardim Oriente, São José dos Campos - SP, 12236-090", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99621-1614", "Site": "https://www.instagram.com/perform.oriente", "Avaliacao": "4,6", "Coordenada": ["-23.2439601", "-45.8946628"]}, {"Nome": "Academia Brasil Fit", "Endereco": "Av. Fusanobu Yokota, 211 - Jardim Terras do Sul, São José dos Campos - SP, 12236-075", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 97402-9040", "Site": "http://facebook.com/academiabrasilfit", "Avaliacao": "4,8", "Coordenada": ["-23.2465009", "-45.8951677"]}, {"Nome": "Workout Academia SJC", "Endereco": "R. Torataro Takitani, 295 - Jardim Rosario, São José dos Campos - SP, 12236-280", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3933-9003", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2449109", "-45.8989068"]}, {"Nome": "REDFIT Academias - Shopping Jardim Oriente - SJC", "Endereco": "R. Andorra, 500 - Jardim America, São José dos Campos - SP, 12235-050", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "10:00–16:00", "domingo": "10:00–16:00"}, "Telefone": "(11) 96469-6766", "Site": "http://www.redfit.com.br/", "Avaliacao": "4,2", "Coordenada": ["-23.2385808", "-45.8960292"]}, {"Nome": "Academia Xbody (Bosque)", "Endereco": "Av. Cidade Jardim, 3890 - sala 1 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-002", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:30–13:30", "domingo": "Fechado"}, "Telefone": "(12) 98261-4647", "Site": "---", "Avaliacao": "4,6", "Coordenada": ["-23.2474574", "-45.8858007"]}, {"Nome": "Academia Físico Forma Fitness", "Endereco": "R. Geraldo Ferreira Tavares, 271 - Bosque dos Eucaliptos, São José dos Campos - SP, 12232-110", "Horario": {"segunda": "07:00–22:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–22:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3916-3108", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2546516", "-45.8845509"]}, {"Nome": "Academia Winner", "Endereco": "R. Rosário, 650 - Jardim America, São José dos Campos - SP, 12235-420", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–21:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3931-5424", "Site": "https://www.facebook.com/academiadeesporteswinner", "Avaliacao": "4,6", "Coordenada": ["-23.2344718", "-45.9007269"]}, {"Nome": "Academia Supera", "Endereco": "R. Gisele Martins, 713 - Cidade Morumbi, São José dos Campos - SP, 12236-500", "Horario": {"segunda": "06:00–23:45", "terça": "06:00–23:45", "quarta": "06:00–23:45", "quinta": "06:00–23:45", "sexta": "06:00–23:45", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 98879-3132", "Site": "---", "Avaliacao": "4,6", "Coordenada": ["-23.2538161", "-45.8981885"]}, {"Nome": "Academia Pro Fit 1", "Endereco": "Av. Ouro Fino, 2180 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-401", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99799-1041", "Site": "https://www.instagram.com/academiaprofitum/", "Avaliacao": "4,9", "Coordenada": ["-23.2554449", "-45.8893828"]}, {"Nome": "FIT CONPANY Jd America", "Endereco": "R. Valparaíso, 401 - Jardim America, São José dos Campos - SP, 12235-380", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3341-9669", "Site": "http://www.fitconpany.com.br/", "Avaliacao": "4,8", "Coordenada": ["-23.2338924", "-45.9022813"]}, {"Nome": "FIT CONPANY Jd Morumbi", "Endereco": "R. Gisele Martins, 831 - Res. Bosque dos Ipes, São José dos Campos - SP, 12236-500", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3322-4300", "Site": "http://www.fitconpany.com.br/", "Avaliacao": "4,7", "Coordenada": ["-23.2551074", "-45.8984595"]}, {"Nome": "Arena Xtreme", "Endereco": "R. Kiyoshi Enomoto, 127 - Jardim America, São José dos Campos - SP, 12235-831", "Horario": {"segunda": "06:00–10:30", "terça": "06:00–10:30", "quarta": "06:00–10:30", "quinta": "06:00–10:30", "sexta": "06:00–10:30", "sábado": "09:00–10:00", "domingo": "Fechado"}, "Telefone": "(12) 3308-0300", "Site": "https://anabeamarals.wixsite.com/arenaxtremesjc", "Avaliacao": "5,0", "Coordenada": ["-23.2283767", "-45.8968763"]}, {"Nome": "Y2 Academia", "Endereco": "Av. Guadalupe, 498 - Jardim America, São José dos Campos - SP, 12235-000", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–14:00", "domingo": "Fechado"}, "Telefone": "(12) 99763-0833", "Site": "http://www.y2academia.com.br/", "Avaliacao": "4,6", "Coordenada": ["-23.231655", "-45.89914"]}, {"Nome": "Atos Box", "Endereco": "Av. Ouro Fino, 590 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-400", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 99214-1477", "Site": "https://www.atosbox.com.br/aulaexperimental", "Avaliacao": "4,9", "Coordenada": ["-23.2405966", "-45.8884821"]}, {"Nome": "Academia Physical Life", "Endereco": "R. Bacabal, 2890 - Parque Industrial, São José dos Campos - SP, 12235-681", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–14:00", "domingo": "Fechado"}, "Telefone": "(12) 3931-7989", "Site": "http://facebook.com.br/academiaphysicallife", "Avaliacao": "4,6", "Coordenada": ["-23.2500283", "-45.9115103"]}, {"Nome": "Academia Link Fit", "Endereco": "R. Gravataí, 14 - Jardim Satélite, São José dos Campos - SP, 12230-340", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "09:00–17:00", "domingo": "Fechado"}, "Telefone": "(12) 3307-2518", "Site": "https://www.instagram.com/linkfitacademia/", "Avaliacao": "4,7", "Coordenada": ["-23.2274439", "-45.8902622"]}, {"Nome": "FOCUSGYM", "Endereco": "Rua José Domingos Auricchio, 144 - Jardim Portugal, São José dos Campos - SP, 12232-270", "Horario": {"segunda": "05:30–12:00", "terça": "05:30–12:00", "quarta": "05:30–12:00", "quinta": "05:30–12:00", "sexta": "05:30–12:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3307-5352", "Site": "https://www.facebook.com/focusgymsjc", "Avaliacao": "4,7", "Coordenada": ["-23.2554943", "-45.8832883"]}, {"Nome": "Academia R7 Fitness &amp; Health", "Endereco": "Av. Andrômeda, 3621 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-000", "Horario": {"segunda": "07:00–12:00", "terça": "07:00–12:00", "quarta": "07:00–12:00", "quinta": "07:00–12:00", "sexta": "07:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99747-0625", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.245111", "-45.8851176"]}, {"Nome": "Power Fit Academia", "Endereco": "Av. Dr. João Baptista Soares de Queiroz Júnior, 1020 - Jardim das Industrias, São José dos Campos - SP, 12240-000", "Horario": {"segunda": "06:00–00:00", "terça": "06:00–00:00", "quarta": "06:00–00:00", "quinta": "06:00–00:00", "sexta": "06:00–00:00", "sábado": "08:00–13:00", "domingo": "09:00–12:00"}, "Telefone": "(12) 3027-8528", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.2242644", "-45.9176672"]}, {"Nome": "World Fitness", "Endereco": "Av. Fortaleza, 450 - Parque Industrial, São José dos Campos - SP, 12325-000", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 3933-5892", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2291777", "-45.9048047"]}, {"Nome": "Barra Fitness", "Endereco": "R. Barra Velha, 112 - Jardim Satélite, São José dos Campos - SP, 12230-110", "Horario": {"segunda": "07:00–22:00", "terça": "07:00–22:00", "quarta": "07:00–22:00", "quinta": "07:00–22:00", "sexta": "07:00–22:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 3206-5687", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2245469", "-45.8845714"]}, {"Nome": "Prime Fitness", "Endereco": "Rua Arequipa 191 Sobre loja - Jardim America, São José dos Campos - SP, 12235-110", "Horario": {"segunda": "06:30–22:00", "terça": "06:30–22:00", "quarta": "06:30–22:00", "quinta": "06:30–22:00", "sexta": "06:30–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98856-5322", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2297851", "-45.8962334"]}, {"Nome": "The One Box", "Endereco": "Av. Ouro Fino, 441 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-593", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "08:30–10:30", "domingo": "Fechado"}, "Telefone": "(12) 98209-6908", "Site": "https://the-one-box.negocio.site/?utm_source=gmb&utm_medium=referral", "Avaliacao": "4,9", "Coordenada": ["-23.2391794", "-45.8880197"]}, {"Nome": "Academia Corpus", "Endereco": "R. Itabaiana, 1275 - Parque Industrial, São José dos Campos - SP, 12237-540", "Horario": {"segunda": "06:00–11:30", "terça": "06:00–11:30", "quarta": "06:00–11:30", "quinta": "06:00–11:30", "sexta": "06:00–11:30", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3934-4016", "Site": "---", "Avaliacao": "4,9", "Coordenada": ["-23.2522844", "-45.9144377"]}, {"Nome": "Academia Sport Saude", "Endereco": "R. Élio Del Chiaro, 45 - Jardim Petropolis, São José dos Campos - SP, 12237-450", "Horario": {"segunda": "06:00–10:00", "terça": "06:00–10:00", "quarta": "06:00–10:00", "quinta": "06:00–10:00", "sexta": "06:00–10:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 99760-3288", "Site": "https://academia-sport-saude.negocio.site/", "Avaliacao": "4,5", "Coordenada": ["-23.243131", "-45.9133377"]}, {"Nome": "Academia Big Skull Fitness", "Endereco": "R. José de Campos, 200 - Jd. Morumbi, São José dos Campos - SP, 12236-650", "Horario": {"segunda": "06:00–22:30", "terça": "06:00–22:30", "quarta": "06:00–22:30", "quinta": "06:00–22:30", "sexta": "08:00–12:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 99674-2200", "Site": "https://www.instagram.com/bigskullfitness/", "Avaliacao": "4,8", "Coordenada": ["-23.2589775", "-45.9083141"]}, {"Nome": "Rustic Training", "Endereco": "Av. Cidade Jardim, 2241 - Jardim Satélite, São José dos Campos - SP, 12231-675", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99651-4101", "Site": "---", "Avaliacao": "4,5", "Coordenada": ["-23.2300198", "-45.8799667"]}, {"Nome": "Studio Fitness O2 - Satélite", "Endereco": "Av. Andrômeda, 753 - 1 Andar - Jardim Satélite, São José dos Campos - SP, 12230-000", "Horario": {"segunda": "06:00–11:00", "terça": "06:00–11:00", "quarta": "06:00–11:00", "quinta": "06:00–11:00", "sexta": "06:00–11:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 98811-0002", "Site": "http://www.studiofitnesso2.com.br/", "Avaliacao": "4,8", "Coordenada": ["-23.2225899", "-45.8880625"]}, {"Nome": "Ax Trainer", "Endereco": "Rua Assuntina Ciocchi Blair, 21 - Vila Ema, São José dos Campos - SP, 12243-090", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–22:00", "sábado": "08:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3923-9586", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2052216", "-45.9037057"]}, {"Nome": "Academia Perfil Sports", "Endereco": "Av. Benedito Domingues de Oliveira, 780 - Jardim Morumbi, São José dos Campos - SP, 12236-702", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 98156-2934", "Site": "https://app.tecnofit.com.br/site/?anchor=perfilsports", "Avaliacao": "4,6", "Coordenada": ["-23.2582013", "-45.9081691"]}, {"Nome": "REDFIT Academia - Jd. Aquarius - SJC", "Endereco": "Dentro Carrefour Aquarius - Av. Dep. Benedito Matarazzo, 5701 - Jardim Aquarius, São José dos Campos - SP, 12246-840", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "10:00–16:00", "domingo": "10:00–16:00"}, "Telefone": "(11) 96469-6766", "Site": "http://www.redfit.com.br/", "Avaliacao": "4,5", "Coordenada": ["-23.2228556", "-45.9058072"]}, {"Nome": "Academia Carvalho", "Endereco": "R. Santo Expedito, 284 - 284 - Res. Uniao, São José dos Campos - SP, 12239-021", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 99704-1566", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2674289", "-45.9055192"]}, {"Nome": "Academia Novo Impacto", "Endereco": "R. Fernando Bráulio de Melo, 267 - Jardim Cruzeiro do Sul, São José dos Campos - SP, 12234-811", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 98881-9236", "Site": "http://novoimpactoacademia.com.br/", "Avaliacao": "4,8", "Coordenada": ["-23.2860237", "-45.8901343"]}, {"Nome": "Desafio Natação e Hidroginástica", "Endereco": "R. Geraldo Ferreira Tavares, 100 - Bosque dos Eucaliptos, São José dos Campos - SP, 12232-110", "Horario": {"segunda": "07:00–21:00", "terça": "07:00–21:00", "quarta": "07:00–21:00", "quinta": "07:00–21:00", "sexta": "07:00–21:00", "sábado": "07:00–11:00", "domingo": "Fechado"}, "Telefone": "(12) 3916-6079", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.2532492", "-45.8846821"]}, {"Nome": "Academia Smart Fit - Satélite", "Endereco": "R. Pedro Tursi, 180 - Jardim Satélite, São José dos Campos - SP, 12230-075", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–17:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "https://www.smartfit.com.br/academias/satelite-1/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPISJC5", "Avaliacao": "4,6", "Coordenada": ["-23.2222618", "-45.8854046"]}, {"Nome": "ACM São José dos Campos (academia/associação)", "Endereco": "R. José Alves dos Santos, 172 - Floradas de São José, São José dos Campos - SP, 12230-081", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–15:00", "domingo": "Fechado"}, "Telefone": "(12) 3935-2000", "Site": "https://acmsaopaulo.org.br/", "Avaliacao": "4,6", "Coordenada": ["-23.2186098", "-45.8898674"]}, {"Nome": "Selfit Academias Oswaldo Cruz", "Endereco": "Av. Dr. Nélson d'Ávila, 1941 - Jardim Oswaldo Cruz, São José dos Campos - SP, 12245-030", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–14:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "https://www.selfitacademias.com.br/", "Avaliacao": "4,7", "Coordenada": ["-23.2028703", "-45.8838451"]}, {"Nome": "Center Fit Academia", "Endereco": "Av. Pres. Juscelino Kubitschek, 5336 - Monte Castelo, São José dos Campos - SP, 12215-380", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–21:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3921-0364", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.1827476", "-45.8706196"]}, {"Nome": "Academia Higor's", "Endereco": "R. Carlos Nunes de Paula, 1662 - Jardim Imperial, São José dos Campos - SP, 12234-000", "Horario": {"segunda": "06:00–00:00", "terça": "06:00–00:00", "quarta": "06:00–00:00", "quinta": "06:00–00:00", "sexta": "06:00–00:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "", "Site": "https://www.facebook.com/profile.php?id=100011990899048", "Avaliacao": "4,7", "Coordenada": ["-23.2802893", "-45.8963648"]}, {"Nome": "academia xbody Vila Adyana", "Endereco": "R. Teopompo de Vasconcelos, 508 - Vila Adyana, São José dos Campos - SP, 12243-830", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 98261-4647", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.196133", "-45.8960969"]}, {"Nome": "Academia Corpore Esplanada", "Endereco": "Av. Barão do Rio Branco, 540 - Jardim Esplanada, São José dos Campos - SP, 12242-800", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3909-4444", "Site": "http://sjc.corporetraininggym.com.br/?utm_source=google&utm_medium=organico&utm_campaign=googlemeunegocio", "Avaliacao": "4,8", "Coordenada": ["-23.1960993", "-45.9048219"]}, {"Nome": "Bluefit São José dos Campos", "Endereco": "Av. Cassiano Ricardo, 521 - 3 andar- Sl 01 - Jardim Alvorada, São José dos Campos - SP, 12246-870", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–14:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2182487", "-45.9099854"]}, {"Nome": "Academia Mega Fitness", "Endereco": "Av. João Rodolfo Castelli, 810 - Putim, São José dos Campos - SP, 12228-000", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3944-3885", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.2445076", "-45.8344785"]}, {"Nome": "Selfit Academias Colinas: Musculação, Funcional, HIIT, FitDance, Pilates, São José dos Campos, SP", "Endereco": "Av. Jorge Zarur, 100 - Jardim Apolo, São José dos Campos - SP, 12243-081", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–14:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "https://www.selfitacademias.com.br/", "Avaliacao": "4,4", "Coordenada": ["-23.2074892", "-45.9060486"]}, {"Nome": "Academia Sprint", "Endereco": "Rua Professor Gordiano de Faria Alvim Filho, 103 - Parque Res. Uniao, São José dos Campos - SP, 12239-009", "Horario": {"segunda": "06:00–13:00", "terça": "06:00–13:00", "quarta": "06:00–13:00", "quinta": "06:00–13:00", "sexta": "06:00–13:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3018-4920", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.26629", "-45.908733"]}, {"Nome": "Academia Emerson Miranda", "Endereco": "Av. Dr. Ademar de Barros, 1177 - Jardim Sao Dimas, São José dos Campos - SP, 12245-010", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98829-7045", "Site": "---", "Avaliacao": "4,5", "Coordenada": ["-23.2026781", "-45.8930932"]}, {"Nome": "Personal Health Academia", "Endereco": "R. Maj. Vaz, 100 - Vila Adyana, São José dos Campos - SP, 12243-670", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99721-8306", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2033874", "-45.8945185"]}, {"Nome": "Cross Experience Morumbi", "Endereco": "R. Joana Soares Ferreira, 890 - Cidade Morumbi, São José dos Campos - SP, 12236-420", "Horario": {"segunda": "06:00–10:00", "terça": "06:00–10:00", "quarta": "06:00–10:00", "quinta": "06:00–10:00", "sexta": "06:00–10:00", "sábado": "08:00–10:00", "domingo": "Fechado"}, "Telefone": "(12) 99715-0810", "Site": "https://www.crossxperience.com.br/", "Avaliacao": "4,9", "Coordenada": ["-23.2533378", "-45.9026769"]}, {"Nome": "Academia Vale Fight Club", "Endereco": "Av. Dr. Nélson d'Ávila, 1046 - Jardim Sao Dimas, São José dos Campos - SP, 12245-031", "Horario": {"segunda": "06:30–23:00", "terça": "06:30–23:00", "quarta": "06:30–23:00", "quinta": "06:30–23:00", "sexta": "06:30–23:00", "sábado": "10:00–15:00", "domingo": "Fechado"}, "Telefone": "(12) 3913-6567", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.1952945", "-45.886049"]}, {"Nome": "Forma fisica", "Endereco": "R. Manoel Bôsco Ribeiro, 52 - Jardim das Industrias, São José dos Campos - SP, 12241-070", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3934-8687", "Site": "https://pt-br.facebook.com/academiaformafisica.sjc/", "Avaliacao": "4,4", "Coordenada": ["-23.2263509", "-45.9234389"]}, {"Nome": "Vale Fitness Academia", "Endereco": "R. Madrid, 50 - Jardim Augusta, São José dos Campos - SP, 12216-750", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3204-3353", "Site": "https://www.facebook.com/robertovalefitness/", "Avaliacao": "4,5", "Coordenada": ["-23.1969867", "-45.8780357"]}, {"Nome": "Academia Afonso Monteiro", "Endereco": "R. Antônio Saes, 270 - Centro, São José dos Campos - SP, 12210-040", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3922-6415", "Site": "http://business.google.com/website/academia-afonso-monteiro", "Avaliacao": "4,7", "Coordenada": ["-23.1860628", "-45.8823541"]}, {"Nome": "Academia Smart Fit - Aquarius", "Endereco": "Av. Comendador Vicente de Paulo Penido, 251 - Parque Res. Aquarius, São José dos Campos - SP, 12246-856", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "08:00–17:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "https://www.smartfit.com.br/academias/aquarius/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPISJC4", "Avaliacao": "4,6", "Coordenada": ["-23.2141255", "-45.9020314"]}, {"Nome": "Academia Power Físico", "Endereco": "Av. José Antonio Silvério, 411 - Jardim Santa Júlia, São José dos Campos - SP, 12228-272", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98811-8130", "Site": "https://academia-power-fisico.negocio.site/?utm_source=gmb&utm_medium=referral", "Avaliacao": "4,9", "Coordenada": ["-23.238101", "-45.8245997"]}, {"Nome": "Academia Água Viva", "Endereco": "R. Olinda, 375 - Parque Industrial, São José dos Campos - SP, 12235-830", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3931-9983", "Site": "---", "Avaliacao": "4,0", "Coordenada": ["-23.2434794", "-45.9083736"]}, {"Nome": "T4 Fitness Academia", "Endereco": "Av. Professor Sebastião Paulo de Toledo Pontes, 755 - Vila Industrial, São José dos Campos - SP, 12220-380", "Horario": {"segunda": "06:00–00:00", "terça": "06:00–00:00", "quarta": "06:00–00:00", "quinta": "06:00–00:00", "sexta": "06:00–00:00", "sábado": "09:00–15:00", "domingo": "09:00–12:00"}, "Telefone": "(12) 98881-9959", "Site": "https://lp.t4academiafitness.com.br/", "Avaliacao": "4,8", "Coordenada": ["-23.1753426", "-45.8553387"]}, {"Nome": "Fit Point Academia", "Endereco": "Av. Ten. Névio Baracho, 159 - Jardim Bela Vista, São José dos Campos - SP, 12209-020", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–11:00", "domingo": "Fechado"}, "Telefone": "(12) 99628-0410", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.178093", "-45.8878446"]}, {"Nome": "Academia Calasans Camargo", "Endereco": "R. Estefânia do Nascimento, 29 - Jardim das Industrias, São José dos Campos - SP, 12240-470", "Horario": {"segunda": "16:00–22:00", "terça": "16:00–22:00", "quarta": "16:00–22:00", "quinta": "16:00–22:00", "sexta": "16:00–22:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 99117-0787", "Site": "http://academiacalasanscamargo.com.br/", "Avaliacao": "4,8", "Coordenada": ["-23.2295041", "-45.9134882"]}, {"Nome": "Academia Athletic Center", "Endereco": "R. dos Periquitos, 1070 - Vila Tatetuba, São José dos Campos - SP, 12220-130", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:30–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3912-1018", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.1810055", "-45.8476873"]}, {"Nome": "Academia Uniclo", "Endereco": "R. Manoel Joaquim de Oliveira, 372 - Monte Castelo, São José dos Campos - SP, 12215-090", "Horario": {"segunda": "06:00–21:30", "terça": "06:00–21:30", "quarta": "06:00–21:30", "quinta": "06:00–21:30", "sexta": "06:00–21:30", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99106-7147", "Site": "https://instagram.com/academiauniclo_oficial?igshid=YmMyMTA2M2Y=", "Avaliacao": "4,6", "Coordenada": ["-23.1858874", "-45.8734129"]}, {"Nome": "academia Xbody Santana", "Endereco": "Av. Rui Barbosa, 837 - Jardim Bela Vista, São José dos Campos - SP, 12209-000", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.1712841", "-45.8917761"]}, {"Nome": "Academia Overall Fitness", "Endereco": "R. Carlos Nunes de Paula, 1260 - Jardim Imperial, São José dos Campos - SP, 12234-000", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98896-2661", "Site": "https://www.facebook.com/academiaoverall2017/", "Avaliacao": "4,9", "Coordenada": ["-23.277482", "-45.8993456"]}, {"Nome": "Maré Alta Academia e Escola de Natação", "Endereco": "Av. Cidade Jardim, 861 - Jardim Satélite, São José dos Campos - SP, 12231-675", "Horario": {"segunda": "06:30–11:30", "terça": "06:30–11:30", "quarta": "06:30–11:30", "quinta": "06:30–11:30", "sexta": "06:30–11:30", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3937-4893", "Site": "https://linktr.ee/academiamarealtasports", "Avaliacao": "4,4", "Coordenada": ["-23.2202672", "-45.8848473"]}, {"Nome": "academia Conexão", "Endereco": "R. Dejanira de Paula Freire, 34 - Campos de São José, São José dos Campos - SP, 12226-590", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "06:00–12:00", "domingo": "Fechado"}, "Telefone": "", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2096364", "-45.8062947"]}, {"Nome": "Academia Liber Fit", "Endereco": "Av. Brasilio Duarte, 80 - Res. Vista Linda, São José dos Campos - SP, 12220-045", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98262-0755", "Site": "https://www.instagram.com/academialiberfit/", "Avaliacao": "4,9", "Coordenada": ["-23.1770398", "-45.8606878"]}, {"Nome": "Villa Academia - Villa Branca", "Endereco": "Av. Marginal José Cândido Pôrto, 885 - Vila Branca, Jacareí - SP, 12301-000", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 98262-8874", "Site": "http://www.villaacademia.com.br/", "Avaliacao": "4,7", "Coordenada": ["-23.2720235", "-45.9352956"]}, {"Nome": "Academia Citrus Gym", "Endereco": "R. Santa Clara, 886 - Vila Adyana, São José dos Campos - SP, 12243-630", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 92000-1735", "Site": "http://citrusgymsjc.wixsite.com/site", "Avaliacao": "4,6", "Coordenada": ["-23.201764", "-45.894712"]}, {"Nome": "Fitness Point Academia", "Endereco": "R. das Andorinhas, 650 - Vila Tatetuba, São José dos Campos - SP, 12200-000", "Horario": {"segunda": "Atendimento 24 horas", "terça": "Atendimento 24 horas", "quarta": "Atendimento 24 horas", "quinta": "Atendimento 24 horas", "sexta": "Atendimento 24 horas", "sábado": "00:00–20:00", "domingo": "10:00–14:00"}, "Telefone": "(12) 99647-8826", "Site": "https://www.facebook.com/fitnesspoint24h", "Avaliacao": "4,5", "Coordenada": ["-23.1808366", "-45.8508902"]}, {"Nome": "Academia Oficina do Corpo", "Endereco": "Av. Rui Barbosa, 1353 - Vila Rossi, São José dos Campos - SP, 12211-105", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3322-5556", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.1672387", "-45.8932399"]}, {"Nome": "Academia Element Fit", "Endereco": "Av. Joaquim Ribeiro Guedes, 417 - Jardim Mariana I, São José dos Campos - SP, 12226-852", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98829-5111", "Site": "http://www.academiaelementfit.com/", "Avaliacao": "4,9", "Coordenada": ["-23.2150871", "-45.8021914"]}, {"Nome": "Academia Boulevard Fitness", "Endereco": "Av. Elmira Martins Moreira, 233 - Jardim Altos de Santana I, Jacareí - SP, 12306-730", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3351-7501", "Site": "http://www.boulevardfitness.com.br/", "Avaliacao": "4,6", "Coordenada": ["-23.2870746", "-45.9472653"]}, {"Nome": "Start Power Academia", "Endereco": "Av. São Jorge, 2087 - Cidade Salvador, Jacareí - SP, 12312-000", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–15:00", "domingo": "Fechado"}, "Telefone": "(12) 98186-7363", "Site": "https://www.facebook.com/felipestartpower/", "Avaliacao": "4,8", "Coordenada": ["-23.2983951", "-45.9274063"]}, {"Nome": "Academia Qualidade e Vida", "Endereco": "Av. Dom Pedro Primeiro, 240 - 4 - Parque dos Príncipes, Jacareí - SP, 12310-060", "Horario": {"segunda": "07:00–22:00", "terça": "07:00–22:00", "quarta": "07:00–22:00", "quinta": "07:00–22:00", "sexta": "07:00–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98825-6371", "Site": "https://www.facebook.com/fitnessqualidadeevida/", "Avaliacao": "4,8", "Coordenada": ["-23.2984591", "-45.9411252"]}, {"Nome": "ATIVAS WELLNESS - Academia Feminina - SJC", "Endereco": "Av. Barão do Rio Branco, 338 - Jardim Esplanada, São José dos Campos - SP, 12242-800", "Horario": {"segunda": "06:00–20:00", "terça": "06:00–20:00", "quarta": "06:00–20:00", "quinta": "06:00–20:00", "sexta": "06:00–20:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 3943-8065", "Site": "https://ativas-wellness-academia-feminina-sjc.negocio.site/?utm_source=gmb&utm_medium=referral", "Avaliacao": "4,9", "Coordenada": ["-23.1949881", "-45.9031038"]}, {"Nome": "Enerfit Academia", "Endereco": "Av. Ilídio Meinberg Pôrto, 237 - Jardim Sao Vicente, São José dos Campos - SP, 12224-310", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3209-4666", "Site": "https://www.instagram.com/academia_enerfit/?hl=pt-br", "Avaliacao": "4,5", "Coordenada": ["-23.1729655", "-45.8153505"]}, {"Nome": "Academia Espaço Atlético", "Endereco": "Av. Rui Barbosa, 2229 - Santana, São José dos Campos - SP, 12212-000", "Horario": {"segunda": "05:00–00:00", "terça": "05:00–00:00", "quarta": "05:00–00:00", "quinta": "05:00–00:00", "sexta": "05:00–00:00", "sábado": "07:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 3942-2329", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.1604579", "-45.8972762"]}, {"Nome": "Iron Company Academia", "Endereco": "R. Los Ângeles, 367 - Jardim California, Jacareí - SP, 12305-800", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "08:30–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3354-5737", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2752458", "-45.9445415"]}, {"Nome": "DWA Academia", "Endereco": "R. Avião Paulistinha, 338 - Jardim Souto, São José dos Campos - SP, 12227-081", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 99126-5115", "Site": "https://instagram.com/dwaacademia", "Avaliacao": "5,0", "Coordenada": ["-23.2020795", "-45.8612468"]}, {"Nome": "Academia NFF", "Endereco": "Av. Pico das Agulhas Negras, 190 - Jardim Altos de Santana, São José dos Campos - SP, 12214-000", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "", "Site": "---", "Avaliacao": "4,6", "Coordenada": ["-23.1641681", "-45.9100701"]}, {"Nome": "My Box Centro SJC", "Endereco": "R. Maj. Antônio Domingues, 356 - Centro, São José dos Campos - SP, 12245-750", "Horario": {"segunda": "06:30–20:00", "terça": "06:30–20:00", "quarta": "06:30–20:00", "quinta": "06:30–20:00", "sexta": "06:30–20:00", "sábado": "09:00–10:00", "domingo": "Fechado"}, "Telefone": "(12) 99604-2103", "Site": "https://bit.ly/Contatomybox", "Avaliacao": "5,0", "Coordenada": ["-23.1906673", "-45.8897142"]}, {"Nome": "Academia CompassFit (Primavera)", "Endereco": "Rod. Geraldo Scavone, 415 - Jardim Primavera, Jacareí - SP, 12305-490", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 99655-7171", "Site": "http://biolinky.co/compassfit", "Avaliacao": "4,5", "Coordenada": ["-23.2876146", "-45.9514733"]}, {"Nome": "Academia Novafit", "Endereco": "Av. Shishima Hifumi, 2212 - Urbanova I, São José dos Campos - SP, 12244-390", "Horario": {"segunda": "05:00–20:00", "terça": "05:00–20:00", "quarta": "05:00–20:00", "quinta": "05:00–20:00", "sexta": "05:00–20:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 98184-4458", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.2037842", "-45.943853"]}, {"Nome": "Academia XBody Urbanova", "Endereco": "Av. Ironman Victor Garrido, 527 - Urbanova, São José dos Campos - SP, 12244-392", "Horario": {"segunda": "06:00–13:00", "terça": "06:00–13:00", "quarta": "06:00–13:00", "quinta": "06:00–13:00", "sexta": "06:00–13:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 99159-5800", "Site": "---", "Avaliacao": "4,2", "Coordenada": ["-23.200993", "-45.9484718"]}, {"Nome": "Academia Fisicus", "Endereco": "R. Dom Sancho I, 199 - Parque dos Príncipes, Jacareí - SP, 12310-002", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "08:00–11:00", "domingo": "Fechado"}, "Telefone": "(12) 3953-9663", "Site": "https://academia-fisicus.business.site/", "Avaliacao": "4,6", "Coordenada": ["-23.2998626", "-45.9391668"]}, {"Nome": "Academia Total Fitness D.A", "Endereco": "Av: pico das agulhas negras - Jardim Altos de Santana, São José dos Campos - SP, 12212-000", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98249-4836", "Site": "---", "Avaliacao": "4,9", "Coordenada": ["-23.1605726", "-45.915089"]}, {"Nome": "Academia Smart Fit - Villa Branca", "Endereco": "Av. das Letras, 659 - Loja 36 - Lot. Villa Branca, Jacareí - SP, 12301-330", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–17:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "https://www.smartfit.com.br/academias/villa-branca/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPIJAC2", "Avaliacao": "4,6", "Coordenada": ["-23.2679375", "-45.9408316"]}, {"Nome": "EKO Academia de Ginástica", "Endereco": "Av. Siqueira Campos, 875 - Jardim Esper, Jacareí - SP, 12307-000", "Horario": {"segunda": "05:30–22:00", "terça": "05:30–22:00", "quarta": "05:30–22:00", "quinta": "05:30–22:00", "sexta": "05:30–22:00", "sábado": "07:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3962-4887", "Site": "---", "Avaliacao": "4,7", "Coordenada": ["-23.2950522", "-45.9578187"]}, {"Nome": "Águia Academia", "Endereco": "R. Rio Canindé, 25 - Jardim Santa Ines II, São José dos Campos - SP, 12248", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98227-6375", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.1710444", "-45.8037694"]}, {"Nome": "Academia X3", "Endereco": "Av. Condé Francisco Matarazzo, 280 - Jardim Telespark, São José dos Campos - SP, 12212-710", "Horario": {"segunda": "06:00–10:00", "terça": "06:00–10:00", "quarta": "06:00–10:00", "quinta": "06:00–10:00", "sexta": "06:00–10:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3917-9362", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.1589394", "-45.9066799"]}, {"Nome": "Academia CompassFit (Farol)", "Endereco": "Rua Chiquinha Schurig, 466 - Jardim Marister, Jacareí - SP, 12321-800", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "08:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 99172-8906", "Site": "https://biolinky.co/compassfit", "Avaliacao": "4,7", "Coordenada": ["-23.3048635", "-45.9787887"]}, {"Nome": "Academia TNT GYM", "Endereco": "Av. São Jorge, 1661 - Cidade Salvador, Jacareí - SP, 12312-000", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "07:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98164-6239", "Site": "https://pt-br.facebook.com/TntGymJacarei/", "Avaliacao": "4,8", "Coordenada": ["-23.301597", "-45.929735"]}, {"Nome": "Nautilus Academia", "Endereco": "R. Celso Moreira de Almeida, 188 - Jardim Santa Maria, Jacareí - SP, 12328-085", "Horario": {"segunda": "06:00–12:30", "terça": "06:00–12:30", "quarta": "06:00–12:30", "quinta": "06:00–12:30", "sexta": "06:00–12:30", "sábado": "08:00–12:30", "domingo": "Fechado"}, "Telefone": "(12) 99227-0681", "Site": "https://nuv.link/nautilusacademia", "Avaliacao": "4,6", "Coordenada": ["-23.2926676", "-45.9645081"]}, {"Nome": "Academia Big Bear", "Endereco": "Av. Andrômeda, 2452 - Jardim Satélite, São José dos Campos - SP, 12230-001", "Horario": {"segunda": "07:00–12:00", "terça": "07:00–12:00", "quarta": "07:00–12:00", "quinta": "07:00–12:00", "sexta": "07:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99131-0296", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2348239", "-45.8851258"]}, {"Nome": "ACADEMIA NOVA FLORIDA", "Endereco": "R. Carmem Franklin, 316 - Jardim Nova Florida, São José dos Campos - SP, 12225-097", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "06:00–23:00", "domingo": "Fechado"}, "Telefone": "(12) 98816-4471", "Site": "https://www.facebook.com/katiaacademia/", "Avaliacao": "5,0", "Coordenada": ["-23.177237", "-45.8096072"]}, {"Nome": "TFA Tatekawa Fight Academy", "Endereco": "R. Joséfa Oliveira Santos, n°16 - Res. Bosque dos Ipes, São José dos Campos - SP, 12236-887", "Horario": {"Dia": "Não fornecido"}, "Telefone": "(12) 99797-5448", "Site": "---", "Avaliacao": "5,0", "Coordenada": ["-23.2570158", "-45.8970364"]}, {"Nome": "CENTRO DE TREINAMENTO ABSOLUTAS MUAY THAI", "Endereco": "R. Frutal, n 414 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-360", "Horario": {"segunda": "07:00–22:00", "terça": "07:00–22:00", "quarta": "07:00–22:30", "quinta": "06:00–22:00", "sexta": "07:00–21:00", "sábado": "07:00–11:00", "domingo": "Fechado"}, "Telefone": "(12) 98206-4901", "Site": "---", "Avaliacao": "4,6", "Coordenada": ["-23.2473945", "-45.8868287"]}, {"Nome": "F4 Natação &amp; Fitness", "Endereco": "Av. Shishima Hifumi, 1250 - Urbanova, São José dos Campos - SP, 12244-000", "Horario": {"segunda": "06:00–12:00", "terça": "06:00–12:00", "quarta": "06:00–12:00", "quinta": "06:00–12:00", "sexta": "06:00–12:00", "sábado": "09:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 3204-5859", "Site": "---", "Avaliacao": "4,3", "Coordenada": ["-23.2031668", "-45.9406831"]}, {"Nome": "Taekwondo Força de Tigre", "Endereco": "R. Benedita Cantinho de Moura, 62 - Jardim Rosario, São José dos Campos - SP, 12236-000", "Horario": {"segunda": "19:30–21:00", "terça": "Fechado", "quarta": "19:30–21:00", "quinta": "Fechado", "sexta": "19:30–21:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 98177-7387", "Site": "http://www.instagram.com/forcadetigretkd", "Avaliacao": "5,0", "Coordenada": ["-23.2421363", "-45.8986272"]}, {"Nome": "Academia Vida Ativa", "Endereco": "Av. Josefina Pozzi Bondesan, 323 - Jardim Castanheiras, São José dos Campos - SP, 12225-270", "Horario": {"segunda": "05:00–11:00", "terça": "05:00–11:00", "quarta": "05:00–11:00", "quinta": "05:00–11:00", "sexta": "05:00–11:00", "sábado": "09:00–11:00", "domingo": "Fechado"}, "Telefone": "(12) 98242-2098", "Site": "https://www.instagram.com/academiavida_ativa/", "Avaliacao": "4,8", "Coordenada": ["-23.1862191", "-45.7934648"]}, {"Nome": "Crossfit Anamá - Training &amp; Fitness", "Endereco": "Av. Cidade Jardim, 5370 - Bosque dos Eucaliptos, São José dos Campos - SP, 12232-000", "Horario": {"segunda": "06:00–11:00", "terça": "06:00–11:00", "quarta": "06:00–11:00", "quinta": "06:00–11:00", "sexta": "06:00–11:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 98143-3853", "Site": "https://www.instagram.com/cross.anama/", "Avaliacao": "4,9", "Coordenada": ["-23.2608562", "-45.8866758"]}, {"Nome": "Geração Studio", "Endereco": "R. José Antônio Romeno Neme, 67 - Jardim Sao Dimas, São José dos Campos - SP, 12245-400", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 3943-6228", "Site": "---", "Avaliacao": "5,0", "Coordenada": ["-23.1944248", "-45.8888687"]}, {"Nome": "CrossFit Sanja Shopping Jd Oriente", "Endereco": "R. Andorra, 500 Loja Semi Ancora B - Jardim America, São José dos Campos - SP, 12235-050", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–21:00", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 97898-0000", "Site": "---", "Avaliacao": "4,8", "Coordenada": ["-23.2378664", "-45.8958103"]}, {"Nome": "Escola de Kung Fu Lung Fu SJC", "Endereco": "R. Bacabal, 1488 - Parque Industrial, São José dos Campos - SP, 12235-680", "Horario": {"segunda": "15:00–21:30", "terça": "15:00–21:30", "quarta": "Fechado", "quinta": "Fechado", "sexta": "15:00–21:30", "sábado": "08:00–12:00", "domingo": "Fechado"}, "Telefone": "(12) 99121-0080", "Site": "http://www.lungfusjc.com.br/", "Avaliacao": "5,0", "Coordenada": ["-23.2389923", "-45.9054333"]}, {"Nome": "REBORN", "Endereco": "Av. Dr. João Baptista Soares de Queiroz Júnior, 724 - Jardim das Industrias, São José dos Campos - SP, 12240-000", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–21:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 3512-9153", "Site": "http://letsreborn.com/", "Avaliacao": "4,8", "Coordenada": ["-23.2268559", "-45.9160181"]}, {"Nome": "Academia Smart Fit - Jacareí", "Endereco": "Av. Sen. Joaquim Miguel Martins de Siqueira - Jardim Pereira do Amparo, Jacareí - SP, 12327-695", "Horario": {"segunda": "06:00–23:00", "terça": "06:00–23:00", "quarta": "06:00–23:00", "quinta": "06:00–23:00", "sexta": "06:00–23:00", "sábado": "08:00–17:00", "domingo": "08:00–14:00"}, "Telefone": "", "Site": "https://www.smartfit.com.br/academias/jacarei/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPIJAC1", "Avaliacao": "4,6", "Coordenada": ["-23.3015785", "-45.9677705"]}, {"Nome": "Academia King", "Endereco": "R. Juazeiro, 434 - Jardim Vale do Sol, São José dos Campos - SP, 12238-080", "Horario": {"segunda": "07:00–21:00", "terça": "06:00–21:00", "quarta": "07:00–21:00", "quinta": "06:00–21:00", "sexta": "07:00–21:00", "sábado": "09:00–13:00", "domingo": "Fechado"}, "Telefone": "(12) 99735-9117", "Site": "---", "Avaliacao": "5,0", "Coordenada": ["-23.2564719", "-45.9122431"]}, {"Nome": "Alliance Sjc", "Endereco": "R. Antônio Aleixo da Silva, 690 - Jardim Satélite, São José dos Campos - SP, 12231-650", "Horario": {"segunda": "07:00–21:00", "terça": "07:00–21:00", "quarta": "07:00–21:00", "quinta": "07:00–21:00", "sexta": "07:00–21:00", "sábado": "09:30–13:00", "domingo": "Fechado"}, "Telefone": "(12) 99659-3442", "Site": "https://www.alliancesaojosedoscampos.com.br/", "Avaliacao": "5,0", "Coordenada": ["-23.218574", "-45.8859577"]}, {"Nome": "Academia Aloha Bem São ( treinamento funcional / fitness )", "Endereco": "Rua major vaz 197, R. Santa Clara, 1082 - Vila Ema, São José dos Campos - SP, 12243-600", "Horario": {"segunda": "06:00–21:00", "terça": "06:00–21:00", "quarta": "06:00–21:00", "quinta": "06:00–21:00", "sexta": "06:00–21:00", "sábado": "09:00–11:00", "domingo": "Fechado"}, "Telefone": "(11) 95380-8832", "Site": "---", "Avaliacao": "5,0", "Coordenada": ["-23.2033793", "-45.8954054"]}, {"Nome": "Academia Gym Horse", "Endereco": "R. Um, 5 - Santa Cecilia I, São José dos Campos - SP, 12200-000", "Horario": {"segunda": "06:00–22:00", "terça": "06:00–22:00", "quarta": "06:00–22:00", "quinta": "06:00–22:00", "sexta": "06:00–22:00", "sábado": "Fechado", "domingo": "Fechado"}, "Telefone": "(12) 98251-7075", "Site": "---", "Avaliacao": "5,0", "Coordenada": ["-23.2189874", "-45.7981907"]}]
+[
+    {
+        "Nome": "Academia ARENA235",
+        "Endereco": "R. Carlos Maria Auricchio, 55 - Jardim Aquarius, São José dos Campos - SP, 12246-876",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–21:00",
+            "sábado": "10:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98273-0026",
+        "Site": "http://www.arena235.com.br/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2241956",
+            "-45.9102698"
+        ]
+    },
+    {
+        "Nome": "Academia Smart Fit - Center Vale",
+        "Endereco": "Av. Dep. Benedito Matarazzo, 9403 - Jardim Oswaldo Cruz, São José dos Campos - SP, 12215-900",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–17:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "https://www.smartfit.com.br/academias/center-vale/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPISJC1",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.1997471",
+            "-45.8815718"
+        ]
+    },
+    {
+        "Nome": "Perform Academia",
+        "Endereco": "R. Nagano, 299 - Jardim Oriente, São José dos Campos - SP, 12236-090",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99621-1614",
+        "Site": "https://www.instagram.com/perform.oriente",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2439601",
+            "-45.8946628"
+        ]
+    },
+    {
+        "Nome": "Academia Brasil Fit",
+        "Endereco": "Av. Fusanobu Yokota, 211 - Jardim Terras do Sul, São José dos Campos - SP, 12236-075",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 97402-9040",
+        "Site": "http://facebook.com/academiabrasilfit",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2465009",
+            "-45.8951677"
+        ]
+    },
+    {
+        "Nome": "Workout Academia SJC",
+        "Endereco": "R. Torataro Takitani, 295 - Jardim Rosario, São José dos Campos - SP, 12236-280",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3933-9003",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2449109",
+            "-45.8989068"
+        ]
+    },
+    {
+        "Nome": "REDFIT Academias - Shopping Jardim Oriente - SJC",
+        "Endereco": "R. Andorra, 500 - Jardim America, São José dos Campos - SP, 12235-050",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "10:00–16:00",
+            "domingo": "10:00–16:00"
+        },
+        "Telefone": "(11) 96469-6766",
+        "Site": "http://www.redfit.com.br/",
+        "Avaliacao": "4,2",
+        "Coordenada": [
+            "-23.2385808",
+            "-45.8960292"
+        ]
+    },
+    {
+        "Nome": "Academia Xbody (Bosque)",
+        "Endereco": "Av. Cidade Jardim, 3890 - sala 1 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-002",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:30–13:30",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98261-4647",
+        "Site": "---",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2474574",
+            "-45.8858007"
+        ]
+    },
+    {
+        "Nome": "Academia Físico Forma Fitness",
+        "Endereco": "R. Geraldo Ferreira Tavares, 271 - Bosque dos Eucaliptos, São José dos Campos - SP, 12232-110",
+        "Horario": {
+            "segunda": "07:00–22:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3916-3108",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2546516",
+            "-45.8845509"
+        ]
+    },
+    {
+        "Nome": "Academia Winner",
+        "Endereco": "R. Rosário, 650 - Jardim America, São José dos Campos - SP, 12235-420",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3931-5424",
+        "Site": "https://www.facebook.com/academiadeesporteswinner",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2344718",
+            "-45.9007269"
+        ]
+    },
+    {
+        "Nome": "Academia Supera",
+        "Endereco": "R. Gisele Martins, 713 - Cidade Morumbi, São José dos Campos - SP, 12236-500",
+        "Horario": {
+            "segunda": "06:00–23:45",
+            "terça": "06:00–23:45",
+            "quarta": "06:00–23:45",
+            "quinta": "06:00–23:45",
+            "sexta": "06:00–23:45",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98879-3132",
+        "Site": "---",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2538161",
+            "-45.8981885"
+        ]
+    },
+    {
+        "Nome": "Academia Pro Fit 1",
+        "Endereco": "Av. Ouro Fino, 2180 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-401",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99799-1041",
+        "Site": "https://www.instagram.com/academiaprofitum/",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.2554449",
+            "-45.8893828"
+        ]
+    },
+    {
+        "Nome": "FIT CONPANY Jd America",
+        "Endereco": "R. Valparaíso, 401 - Jardim America, São José dos Campos - SP, 12235-380",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3341-9669",
+        "Site": "http://www.fitconpany.com.br/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2338924",
+            "-45.9022813"
+        ]
+    },
+    {
+        "Nome": "FIT CONPANY Jd Morumbi",
+        "Endereco": "R. Gisele Martins, 831 - Res. Bosque dos Ipes, São José dos Campos - SP, 12236-500",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3322-4300",
+        "Site": "http://www.fitconpany.com.br/",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2551074",
+            "-45.8984595"
+        ]
+    },
+    {
+        "Nome": "Arena Xtreme",
+        "Endereco": "R. Kiyoshi Enomoto, 127 - Jardim America, São José dos Campos - SP, 12235-831",
+        "Horario": {
+            "segunda": "06:00–10:30",
+            "terça": "06:00–10:30",
+            "quarta": "06:00–10:30",
+            "quinta": "06:00–10:30",
+            "sexta": "06:00–10:30",
+            "sábado": "09:00–10:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3308-0300",
+        "Site": "https://anabeamarals.wixsite.com/arenaxtremesjc",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2283767",
+            "-45.8968763"
+        ]
+    },
+    {
+        "Nome": "Y2 Academia",
+        "Endereco": "Av. Guadalupe, 498 - Jardim America, São José dos Campos - SP, 12235-000",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–14:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99763-0833",
+        "Site": "http://www.y2academia.com.br/",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.231655",
+            "-45.89914"
+        ]
+    },
+    {
+        "Nome": "Atos Box",
+        "Endereco": "Av. Ouro Fino, 590 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-400",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99214-1477",
+        "Site": "https://www.atosbox.com.br/aulaexperimental",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.2405966",
+            "-45.8884821"
+        ]
+    },
+    {
+        "Nome": "Academia Physical Life",
+        "Endereco": "R. Bacabal, 2890 - Parque Industrial, São José dos Campos - SP, 12235-681",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–14:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3931-7989",
+        "Site": "http://facebook.com.br/academiaphysicallife",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2500283",
+            "-45.9115103"
+        ]
+    },
+    {
+        "Nome": "Academia Link Fit",
+        "Endereco": "R. Gravataí, 14 - Jardim Satélite, São José dos Campos - SP, 12230-340",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "09:00–17:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3307-2518",
+        "Site": "https://www.instagram.com/linkfitacademia/",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2274439",
+            "-45.8902622"
+        ]
+    },
+    {
+        "Nome": "FOCUSGYM",
+        "Endereco": "Rua José Domingos Auricchio, 144 - Jardim Portugal, São José dos Campos - SP, 12232-270",
+        "Horario": {
+            "segunda": "05:30–12:00",
+            "terça": "05:30–12:00",
+            "quarta": "05:30–12:00",
+            "quinta": "05:30–12:00",
+            "sexta": "05:30–12:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3307-5352",
+        "Site": "https://www.facebook.com/focusgymsjc",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2554943",
+            "-45.8832883"
+        ]
+    },
+    {
+        "Nome": "Academia R7 Fitness &amp; Health",
+        "Endereco": "Av. Andrômeda, 3621 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-000",
+        "Horario": {
+            "segunda": "07:00–12:00",
+            "terça": "07:00–12:00",
+            "quarta": "07:00–12:00",
+            "quinta": "07:00–12:00",
+            "sexta": "07:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99747-0625",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.245111",
+            "-45.8851176"
+        ]
+    },
+    {
+        "Nome": "Power Fit Academia",
+        "Endereco": "Av. Dr. João Baptista Soares de Queiroz Júnior, 1020 - Jardim das Industrias, São José dos Campos - SP, 12240-000",
+        "Horario": {
+            "segunda": "06:00–00:00",
+            "terça": "06:00–00:00",
+            "quarta": "06:00–00:00",
+            "quinta": "06:00–00:00",
+            "sexta": "06:00–00:00",
+            "sábado": "08:00–13:00",
+            "domingo": "09:00–12:00"
+        },
+        "Telefone": "(12) 3027-8528",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2242644",
+            "-45.9176672"
+        ]
+    },
+    {
+        "Nome": "World Fitness",
+        "Endereco": "Av. Fortaleza, 450 - Parque Industrial, São José dos Campos - SP, 12325-000",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3933-5892",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2291777",
+            "-45.9048047"
+        ]
+    },
+    {
+        "Nome": "Barra Fitness",
+        "Endereco": "R. Barra Velha, 112 - Jardim Satélite, São José dos Campos - SP, 12230-110",
+        "Horario": {
+            "segunda": "07:00–22:00",
+            "terça": "07:00–22:00",
+            "quarta": "07:00–22:00",
+            "quinta": "07:00–22:00",
+            "sexta": "07:00–22:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3206-5687",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2245469",
+            "-45.8845714"
+        ]
+    },
+    {
+        "Nome": "Prime Fitness",
+        "Endereco": "Rua Arequipa 191 Sobre loja - Jardim America, São José dos Campos - SP, 12235-110",
+        "Horario": {
+            "segunda": "06:30–22:00",
+            "terça": "06:30–22:00",
+            "quarta": "06:30–22:00",
+            "quinta": "06:30–22:00",
+            "sexta": "06:30–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98856-5322",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2297851",
+            "-45.8962334"
+        ]
+    },
+    {
+        "Nome": "The One Box",
+        "Endereco": "Av. Ouro Fino, 441 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-593",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:30–10:30",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98209-6908",
+        "Site": "https://the-one-box.negocio.site/?utm_source=gmb&utm_medium=referral",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.2391794",
+            "-45.8880197"
+        ]
+    },
+    {
+        "Nome": "Academia Corpus",
+        "Endereco": "R. Itabaiana, 1275 - Parque Industrial, São José dos Campos - SP, 12237-540",
+        "Horario": {
+            "segunda": "06:00–11:30",
+            "terça": "06:00–11:30",
+            "quarta": "06:00–11:30",
+            "quinta": "06:00–11:30",
+            "sexta": "06:00–11:30",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3934-4016",
+        "Site": "---",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.2522844",
+            "-45.9144377"
+        ]
+    },
+    {
+        "Nome": "Academia Sport Saude",
+        "Endereco": "R. Élio Del Chiaro, 45 - Jardim Petropolis, São José dos Campos - SP, 12237-450",
+        "Horario": {
+            "segunda": "06:00–10:00",
+            "terça": "06:00–10:00",
+            "quarta": "06:00–10:00",
+            "quinta": "06:00–10:00",
+            "sexta": "06:00–10:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99760-3288",
+        "Site": "https://academia-sport-saude.negocio.site/",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.243131",
+            "-45.9133377"
+        ]
+    },
+    {
+        "Nome": "Academia Big Skull Fitness",
+        "Endereco": "R. José de Campos, 200 - Jd. Morumbi, São José dos Campos - SP, 12236-650",
+        "Horario": {
+            "segunda": "06:00–22:30",
+            "terça": "06:00–22:30",
+            "quarta": "06:00–22:30",
+            "quinta": "06:00–22:30",
+            "sexta": "08:00–12:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99674-2200",
+        "Site": "https://www.instagram.com/bigskullfitness/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2589775",
+            "-45.9083141"
+        ]
+    },
+    {
+        "Nome": "Rustic Training",
+        "Endereco": "Av. Cidade Jardim, 2241 - Jardim Satélite, São José dos Campos - SP, 12231-675",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99651-4101",
+        "Site": "---",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.2300198",
+            "-45.8799667"
+        ]
+    },
+    {
+        "Nome": "Studio Fitness O2 - Satélite",
+        "Endereco": "Av. Andrômeda, 753 - 1 Andar - Jardim Satélite, São José dos Campos - SP, 12230-000",
+        "Horario": {
+            "segunda": "06:00–11:00",
+            "terça": "06:00–11:00",
+            "quarta": "06:00–11:00",
+            "quinta": "06:00–11:00",
+            "sexta": "06:00–11:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98811-0002",
+        "Site": "http://www.studiofitnesso2.com.br/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2225899",
+            "-45.8880625"
+        ]
+    },
+    {
+        "Nome": "Ax Trainer",
+        "Endereco": "Rua Assuntina Ciocchi Blair, 21 - Vila Ema, São José dos Campos - SP, 12243-090",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3923-9586",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2052216",
+            "-45.9037057"
+        ]
+    },
+    {
+        "Nome": "Academia Perfil Sports",
+        "Endereco": "Av. Benedito Domingues de Oliveira, 780 - Jardim Morumbi, São José dos Campos - SP, 12236-702",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98156-2934",
+        "Site": "https://app.tecnofit.com.br/site/?anchor=perfilsports",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2582013",
+            "-45.9081691"
+        ]
+    },
+    {
+        "Nome": "REDFIT Academia - Jd. Aquarius - SJC",
+        "Endereco": "Dentro Carrefour Aquarius - Av. Dep. Benedito Matarazzo, 5701 - Jardim Aquarius, São José dos Campos - SP, 12246-840",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "10:00–16:00",
+            "domingo": "10:00–16:00"
+        },
+        "Telefone": "(11) 96469-6766",
+        "Site": "http://www.redfit.com.br/",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.2228556",
+            "-45.9058072"
+        ]
+    },
+    {
+        "Nome": "Academia Carvalho",
+        "Endereco": "R. Santo Expedito, 284 - 284 - Res. Uniao, São José dos Campos - SP, 12239-021",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99704-1566",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2674289",
+            "-45.9055192"
+        ]
+    },
+    {
+        "Nome": "Academia Novo Impacto",
+        "Endereco": "R. Fernando Bráulio de Melo, 267 - Jardim Cruzeiro do Sul, São José dos Campos - SP, 12234-811",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98881-9236",
+        "Site": "http://novoimpactoacademia.com.br/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2860237",
+            "-45.8901343"
+        ]
+    },
+    {
+        "Nome": "Desafio Natação e Hidroginástica",
+        "Endereco": "R. Geraldo Ferreira Tavares, 100 - Bosque dos Eucaliptos, São José dos Campos - SP, 12232-110",
+        "Horario": {
+            "segunda": "07:00–21:00",
+            "terça": "07:00–21:00",
+            "quarta": "07:00–21:00",
+            "quinta": "07:00–21:00",
+            "sexta": "07:00–21:00",
+            "sábado": "07:00–11:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3916-6079",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2532492",
+            "-45.8846821"
+        ]
+    },
+    {
+        "Nome": "Academia Smart Fit - Satélite",
+        "Endereco": "R. Pedro Tursi, 180 - Jardim Satélite, São José dos Campos - SP, 12230-075",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–17:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "https://www.smartfit.com.br/academias/satelite-1/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPISJC5",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2222618",
+            "-45.8854046"
+        ]
+    },
+    {
+        "Nome": "ACM São José dos Campos (academia/associação)",
+        "Endereco": "R. José Alves dos Santos, 172 - Floradas de São José, São José dos Campos - SP, 12230-081",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–15:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3935-2000",
+        "Site": "https://acmsaopaulo.org.br/",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2186098",
+            "-45.8898674"
+        ]
+    },
+    {
+        "Nome": "Selfit Academias Oswaldo Cruz",
+        "Endereco": "Av. Dr. Nélson d'Ávila, 1941 - Jardim Oswaldo Cruz, São José dos Campos - SP, 12245-030",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–14:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "https://www.selfitacademias.com.br/",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2028703",
+            "-45.8838451"
+        ]
+    },
+    {
+        "Nome": "Center Fit Academia",
+        "Endereco": "Av. Pres. Juscelino Kubitschek, 5336 - Monte Castelo, São José dos Campos - SP, 12215-380",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3921-0364",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.1827476",
+            "-45.8706196"
+        ]
+    },
+    {
+        "Nome": "Academia Higor's",
+        "Endereco": "R. Carlos Nunes de Paula, 1662 - Jardim Imperial, São José dos Campos - SP, 12234-000",
+        "Horario": {
+            "segunda": "06:00–00:00",
+            "terça": "06:00–00:00",
+            "quarta": "06:00–00:00",
+            "quinta": "06:00–00:00",
+            "sexta": "06:00–00:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "",
+        "Site": "https://www.facebook.com/profile.php?id=100011990899048",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2802893",
+            "-45.8963648"
+        ]
+    },
+    {
+        "Nome": "academia xbody Vila Adyana",
+        "Endereco": "R. Teopompo de Vasconcelos, 508 - Vila Adyana, São José dos Campos - SP, 12243-830",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98261-4647",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.196133",
+            "-45.8960969"
+        ]
+    },
+    {
+        "Nome": "Academia Corpore Esplanada",
+        "Endereco": "Av. Barão do Rio Branco, 540 - Jardim Esplanada, São José dos Campos - SP, 12242-800",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3909-4444",
+        "Site": "http://sjc.corporetraininggym.com.br/?utm_source=google&utm_medium=organico&utm_campaign=googlemeunegocio",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.1960993",
+            "-45.9048219"
+        ]
+    },
+    {
+        "Nome": "Bluefit São José dos Campos",
+        "Endereco": "Av. Cassiano Ricardo, 521 - 3 andar- Sl 01 - Jardim Alvorada, São José dos Campos - SP, 12246-870",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–14:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2182487",
+            "-45.9099854"
+        ]
+    },
+    {
+        "Nome": "Academia Mega Fitness",
+        "Endereco": "Av. João Rodolfo Castelli, 810 - Putim, São José dos Campos - SP, 12228-000",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3944-3885",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2445076",
+            "-45.8344785"
+        ]
+    },
+    {
+        "Nome": "Selfit Academias Colinas: Musculação, Funcional, HIIT, FitDance, Pilates, São José dos Campos, SP",
+        "Endereco": "Av. Jorge Zarur, 100 - Jardim Apolo, São José dos Campos - SP, 12243-081",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–14:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "https://www.selfitacademias.com.br/",
+        "Avaliacao": "4,4",
+        "Coordenada": [
+            "-23.2074892",
+            "-45.9060486"
+        ]
+    },
+    {
+        "Nome": "Academia Sprint",
+        "Endereco": "Rua Professor Gordiano de Faria Alvim Filho, 103 - Parque Res. Uniao, São José dos Campos - SP, 12239-009",
+        "Horario": {
+            "segunda": "06:00–13:00",
+            "terça": "06:00–13:00",
+            "quarta": "06:00–13:00",
+            "quinta": "06:00–13:00",
+            "sexta": "06:00–13:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3018-4920",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.26629",
+            "-45.908733"
+        ]
+    },
+    {
+        "Nome": "Academia Emerson Miranda",
+        "Endereco": "Av. Dr. Ademar de Barros, 1177 - Jardim Sao Dimas, São José dos Campos - SP, 12245-010",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98829-7045",
+        "Site": "---",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.2026781",
+            "-45.8930932"
+        ]
+    },
+    {
+        "Nome": "Personal Health Academia",
+        "Endereco": "R. Maj. Vaz, 100 - Vila Adyana, São José dos Campos - SP, 12243-670",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99721-8306",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2033874",
+            "-45.8945185"
+        ]
+    },
+    {
+        "Nome": "Cross Experience Morumbi",
+        "Endereco": "R. Joana Soares Ferreira, 890 - Cidade Morumbi, São José dos Campos - SP, 12236-420",
+        "Horario": {
+            "segunda": "06:00–10:00",
+            "terça": "06:00–10:00",
+            "quarta": "06:00–10:00",
+            "quinta": "06:00–10:00",
+            "sexta": "06:00–10:00",
+            "sábado": "08:00–10:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99715-0810",
+        "Site": "https://www.crossxperience.com.br/",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.2533378",
+            "-45.9026769"
+        ]
+    },
+    {
+        "Nome": "Academia Vale Fight Club",
+        "Endereco": "Av. Dr. Nélson d'Ávila, 1046 - Jardim Sao Dimas, São José dos Campos - SP, 12245-031",
+        "Horario": {
+            "segunda": "06:30–23:00",
+            "terça": "06:30–23:00",
+            "quarta": "06:30–23:00",
+            "quinta": "06:30–23:00",
+            "sexta": "06:30–23:00",
+            "sábado": "10:00–15:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3913-6567",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.1952945",
+            "-45.886049"
+        ]
+    },
+    {
+        "Nome": "Forma fisica",
+        "Endereco": "R. Manoel Bôsco Ribeiro, 52 - Jardim das Industrias, São José dos Campos - SP, 12241-070",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3934-8687",
+        "Site": "https://pt-br.facebook.com/academiaformafisica.sjc/",
+        "Avaliacao": "4,4",
+        "Coordenada": [
+            "-23.2263509",
+            "-45.9234389"
+        ]
+    },
+    {
+        "Nome": "Vale Fitness Academia",
+        "Endereco": "R. Madrid, 50 - Jardim Augusta, São José dos Campos - SP, 12216-750",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3204-3353",
+        "Site": "https://www.facebook.com/robertovalefitness/",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.1969867",
+            "-45.8780357"
+        ]
+    },
+    {
+        "Nome": "Academia Afonso Monteiro",
+        "Endereco": "R. Antônio Saes, 270 - Centro, São José dos Campos - SP, 12210-040",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3922-6415",
+        "Site": "http://business.google.com/website/academia-afonso-monteiro",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.1860628",
+            "-45.8823541"
+        ]
+    },
+    {
+        "Nome": "Academia Smart Fit - Aquarius",
+        "Endereco": "Av. Comendador Vicente de Paulo Penido, 251 - Parque Res. Aquarius, São José dos Campos - SP, 12246-856",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:00–17:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "https://www.smartfit.com.br/academias/aquarius/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPISJC4",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2141255",
+            "-45.9020314"
+        ]
+    },
+    {
+        "Nome": "Academia Power Físico",
+        "Endereco": "Av. José Antonio Silvério, 411 - Jardim Santa Júlia, São José dos Campos - SP, 12228-272",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98811-8130",
+        "Site": "https://academia-power-fisico.negocio.site/?utm_source=gmb&utm_medium=referral",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.238101",
+            "-45.8245997"
+        ]
+    },
+    {
+        "Nome": "Academia Água Viva",
+        "Endereco": "R. Olinda, 375 - Parque Industrial, São José dos Campos - SP, 12235-830",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3931-9983",
+        "Site": "---",
+        "Avaliacao": "4,0",
+        "Coordenada": [
+            "-23.2434794",
+            "-45.9083736"
+        ]
+    },
+    {
+        "Nome": "T4 Fitness Academia",
+        "Endereco": "Av. Professor Sebastião Paulo de Toledo Pontes, 755 - Vila Industrial, São José dos Campos - SP, 12220-380",
+        "Horario": {
+            "segunda": "06:00–00:00",
+            "terça": "06:00–00:00",
+            "quarta": "06:00–00:00",
+            "quinta": "06:00–00:00",
+            "sexta": "06:00–00:00",
+            "sábado": "09:00–15:00",
+            "domingo": "09:00–12:00"
+        },
+        "Telefone": "(12) 98881-9959",
+        "Site": "https://lp.t4academiafitness.com.br/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.1753426",
+            "-45.8553387"
+        ]
+    },
+    {
+        "Nome": "Fit Point Academia",
+        "Endereco": "Av. Ten. Névio Baracho, 159 - Jardim Bela Vista, São José dos Campos - SP, 12209-020",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–11:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99628-0410",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.178093",
+            "-45.8878446"
+        ]
+    },
+    {
+        "Nome": "Academia Calasans Camargo",
+        "Endereco": "R. Estefânia do Nascimento, 29 - Jardim das Industrias, São José dos Campos - SP, 12240-470",
+        "Horario": {
+            "segunda": "16:00–22:00",
+            "terça": "16:00–22:00",
+            "quarta": "16:00–22:00",
+            "quinta": "16:00–22:00",
+            "sexta": "16:00–22:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99117-0787",
+        "Site": "http://academiacalasanscamargo.com.br/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2295041",
+            "-45.9134882"
+        ]
+    },
+    {
+        "Nome": "Academia Athletic Center",
+        "Endereco": "R. dos Periquitos, 1070 - Vila Tatetuba, São José dos Campos - SP, 12220-130",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:30–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3912-1018",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.1810055",
+            "-45.8476873"
+        ]
+    },
+    {
+        "Nome": "Academia Uniclo",
+        "Endereco": "R. Manoel Joaquim de Oliveira, 372 - Monte Castelo, São José dos Campos - SP, 12215-090",
+        "Horario": {
+            "segunda": "06:00–21:30",
+            "terça": "06:00–21:30",
+            "quarta": "06:00–21:30",
+            "quinta": "06:00–21:30",
+            "sexta": "06:00–21:30",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99106-7147",
+        "Site": "https://instagram.com/academiauniclo_oficial?igshid=YmMyMTA2M2Y=",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.1858874",
+            "-45.8734129"
+        ]
+    },
+    {
+        "Nome": "academia Xbody Santana",
+        "Endereco": "Av. Rui Barbosa, 837 - Jardim Bela Vista, São José dos Campos - SP, 12209-000",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.1712841",
+            "-45.8917761"
+        ]
+    },
+    {
+        "Nome": "Academia Overall Fitness",
+        "Endereco": "R. Carlos Nunes de Paula, 1260 - Jardim Imperial, São José dos Campos - SP, 12234-000",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98896-2661",
+        "Site": "https://www.facebook.com/academiaoverall2017/",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.277482",
+            "-45.8993456"
+        ]
+    },
+    {
+        "Nome": "Maré Alta Academia e Escola de Natação",
+        "Endereco": "Av. Cidade Jardim, 861 - Jardim Satélite, São José dos Campos - SP, 12231-675",
+        "Horario": {
+            "segunda": "06:30–11:30",
+            "terça": "06:30–11:30",
+            "quarta": "06:30–11:30",
+            "quinta": "06:30–11:30",
+            "sexta": "06:30–11:30",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3937-4893",
+        "Site": "https://linktr.ee/academiamarealtasports",
+        "Avaliacao": "4,4",
+        "Coordenada": [
+            "-23.2202672",
+            "-45.8848473"
+        ]
+    },
+    {
+        "Nome": "academia Conexão",
+        "Endereco": "R. Dejanira de Paula Freire, 34 - Campos de São José, São José dos Campos - SP, 12226-590",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "06:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2096364",
+            "-45.8062947"
+        ]
+    },
+    {
+        "Nome": "Academia Liber Fit",
+        "Endereco": "Av. Brasilio Duarte, 80 - Res. Vista Linda, São José dos Campos - SP, 12220-045",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98262-0755",
+        "Site": "https://www.instagram.com/academialiberfit/",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.1770398",
+            "-45.8606878"
+        ]
+    },
+    {
+        "Nome": "Villa Academia - Villa Branca",
+        "Endereco": "Av. Marginal José Cândido Pôrto, 885 - Vila Branca, Jacareí - SP, 12301-000",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98262-8874",
+        "Site": "http://www.villaacademia.com.br/",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2720235",
+            "-45.9352956"
+        ]
+    },
+    {
+        "Nome": "Academia Citrus Gym",
+        "Endereco": "R. Santa Clara, 886 - Vila Adyana, São José dos Campos - SP, 12243-630",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 92000-1735",
+        "Site": "http://citrusgymsjc.wixsite.com/site",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.201764",
+            "-45.894712"
+        ]
+    },
+    {
+        "Nome": "Fitness Point Academia",
+        "Endereco": "R. das Andorinhas, 650 - Vila Tatetuba, São José dos Campos - SP, 12200-000",
+        "Horario": {
+            "segunda": "Atendimento 24 horas",
+            "terça": "Atendimento 24 horas",
+            "quarta": "Atendimento 24 horas",
+            "quinta": "Atendimento 24 horas",
+            "sexta": "Atendimento 24 horas",
+            "sábado": "00:00–20:00",
+            "domingo": "10:00–14:00"
+        },
+        "Telefone": "(12) 99647-8826",
+        "Site": "https://www.facebook.com/fitnesspoint24h",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.1808366",
+            "-45.8508902"
+        ]
+    },
+    {
+        "Nome": "Academia Oficina do Corpo",
+        "Endereco": "Av. Rui Barbosa, 1353 - Vila Rossi, São José dos Campos - SP, 12211-105",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3322-5556",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.1672387",
+            "-45.8932399"
+        ]
+    },
+    {
+        "Nome": "Academia Element Fit",
+        "Endereco": "Av. Joaquim Ribeiro Guedes, 417 - Jardim Mariana I, São José dos Campos - SP, 12226-852",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98829-5111",
+        "Site": "http://www.academiaelementfit.com/",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.2150871",
+            "-45.8021914"
+        ]
+    },
+    {
+        "Nome": "Academia Boulevard Fitness",
+        "Endereco": "Av. Elmira Martins Moreira, 233 - Jardim Altos de Santana I, Jacareí - SP, 12306-730",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3351-7501",
+        "Site": "http://www.boulevardfitness.com.br/",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2870746",
+            "-45.9472653"
+        ]
+    },
+    {
+        "Nome": "Start Power Academia",
+        "Endereco": "Av. São Jorge, 2087 - Cidade Salvador, Jacareí - SP, 12312-000",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–15:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98186-7363",
+        "Site": "https://www.facebook.com/felipestartpower/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2983951",
+            "-45.9274063"
+        ]
+    },
+    {
+        "Nome": "Academia Qualidade e Vida",
+        "Endereco": "Av. Dom Pedro Primeiro, 240 - 4 - Parque dos Príncipes, Jacareí - SP, 12310-060",
+        "Horario": {
+            "segunda": "07:00–22:00",
+            "terça": "07:00–22:00",
+            "quarta": "07:00–22:00",
+            "quinta": "07:00–22:00",
+            "sexta": "07:00–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98825-6371",
+        "Site": "https://www.facebook.com/fitnessqualidadeevida/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2984591",
+            "-45.9411252"
+        ]
+    },
+    {
+        "Nome": "ATIVAS WELLNESS - Academia Feminina - SJC",
+        "Endereco": "Av. Barão do Rio Branco, 338 - Jardim Esplanada, São José dos Campos - SP, 12242-800",
+        "Horario": {
+            "segunda": "06:00–20:00",
+            "terça": "06:00–20:00",
+            "quarta": "06:00–20:00",
+            "quinta": "06:00–20:00",
+            "sexta": "06:00–20:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3943-8065",
+        "Site": "https://ativas-wellness-academia-feminina-sjc.negocio.site/?utm_source=gmb&utm_medium=referral",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.1949881",
+            "-45.9031038"
+        ]
+    },
+    {
+        "Nome": "Enerfit Academia",
+        "Endereco": "Av. Ilídio Meinberg Pôrto, 237 - Jardim Sao Vicente, São José dos Campos - SP, 12224-310",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3209-4666",
+        "Site": "https://www.instagram.com/academia_enerfit/?hl=pt-br",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.1729655",
+            "-45.8153505"
+        ]
+    },
+    {
+        "Nome": "Academia Espaço Atlético",
+        "Endereco": "Av. Rui Barbosa, 2229 - Santana, São José dos Campos - SP, 12212-000",
+        "Horario": {
+            "segunda": "05:00–00:00",
+            "terça": "05:00–00:00",
+            "quarta": "05:00–00:00",
+            "quinta": "05:00–00:00",
+            "sexta": "05:00–00:00",
+            "sábado": "07:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3942-2329",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.1604579",
+            "-45.8972762"
+        ]
+    },
+    {
+        "Nome": "Iron Company Academia",
+        "Endereco": "R. Los Ângeles, 367 - Jardim California, Jacareí - SP, 12305-800",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:30–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3354-5737",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2752458",
+            "-45.9445415"
+        ]
+    },
+    {
+        "Nome": "DWA Academia",
+        "Endereco": "R. Avião Paulistinha, 338 - Jardim Souto, São José dos Campos - SP, 12227-081",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99126-5115",
+        "Site": "https://instagram.com/dwaacademia",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2020795",
+            "-45.8612468"
+        ]
+    },
+    {
+        "Nome": "Academia NFF",
+        "Endereco": "Av. Pico das Agulhas Negras, 190 - Jardim Altos de Santana, São José dos Campos - SP, 12214-000",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "",
+        "Site": "---",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.1641681",
+            "-45.9100701"
+        ]
+    },
+    {
+        "Nome": "My Box Centro SJC",
+        "Endereco": "R. Maj. Antônio Domingues, 356 - Centro, São José dos Campos - SP, 12245-750",
+        "Horario": {
+            "segunda": "06:30–20:00",
+            "terça": "06:30–20:00",
+            "quarta": "06:30–20:00",
+            "quinta": "06:30–20:00",
+            "sexta": "06:30–20:00",
+            "sábado": "09:00–10:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99604-2103",
+        "Site": "https://bit.ly/Contatomybox",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.1906673",
+            "-45.8897142"
+        ]
+    },
+    {
+        "Nome": "Academia CompassFit (Primavera)",
+        "Endereco": "Rod. Geraldo Scavone, 415 - Jardim Primavera, Jacareí - SP, 12305-490",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99655-7171",
+        "Site": "http://biolinky.co/compassfit",
+        "Avaliacao": "4,5",
+        "Coordenada": [
+            "-23.2876146",
+            "-45.9514733"
+        ]
+    },
+    {
+        "Nome": "Academia Novafit",
+        "Endereco": "Av. Shishima Hifumi, 2212 - Urbanova I, São José dos Campos - SP, 12244-390",
+        "Horario": {
+            "segunda": "05:00–20:00",
+            "terça": "05:00–20:00",
+            "quarta": "05:00–20:00",
+            "quinta": "05:00–20:00",
+            "sexta": "05:00–20:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98184-4458",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2037842",
+            "-45.943853"
+        ]
+    },
+    {
+        "Nome": "Academia XBody Urbanova",
+        "Endereco": "Av. Ironman Victor Garrido, 527 - Urbanova, São José dos Campos - SP, 12244-392",
+        "Horario": {
+            "segunda": "06:00–13:00",
+            "terça": "06:00–13:00",
+            "quarta": "06:00–13:00",
+            "quinta": "06:00–13:00",
+            "sexta": "06:00–13:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99159-5800",
+        "Site": "---",
+        "Avaliacao": "4,2",
+        "Coordenada": [
+            "-23.200993",
+            "-45.9484718"
+        ]
+    },
+    {
+        "Nome": "Academia Fisicus",
+        "Endereco": "R. Dom Sancho I, 199 - Parque dos Príncipes, Jacareí - SP, 12310-002",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "08:00–11:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3953-9663",
+        "Site": "https://academia-fisicus.business.site/",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2998626",
+            "-45.9391668"
+        ]
+    },
+    {
+        "Nome": "Academia Total Fitness D.A",
+        "Endereco": "Av: pico das agulhas negras - Jardim Altos de Santana, São José dos Campos - SP, 12212-000",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98249-4836",
+        "Site": "---",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.1605726",
+            "-45.915089"
+        ]
+    },
+    {
+        "Nome": "Academia Smart Fit - Villa Branca",
+        "Endereco": "Av. das Letras, 659 - Loja 36 - Lot. Villa Branca, Jacareí - SP, 12301-330",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–17:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "https://www.smartfit.com.br/academias/villa-branca/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPIJAC2",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2679375",
+            "-45.9408316"
+        ]
+    },
+    {
+        "Nome": "EKO Academia de Ginástica",
+        "Endereco": "Av. Siqueira Campos, 875 - Jardim Esper, Jacareí - SP, 12307-000",
+        "Horario": {
+            "segunda": "05:30–22:00",
+            "terça": "05:30–22:00",
+            "quarta": "05:30–22:00",
+            "quinta": "05:30–22:00",
+            "sexta": "05:30–22:00",
+            "sábado": "07:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3962-4887",
+        "Site": "---",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.2950522",
+            "-45.9578187"
+        ]
+    },
+    {
+        "Nome": "Águia Academia",
+        "Endereco": "R. Rio Canindé, 25 - Jardim Santa Ines II, São José dos Campos - SP, 12248",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98227-6375",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.1710444",
+            "-45.8037694"
+        ]
+    },
+    {
+        "Nome": "Academia X3",
+        "Endereco": "Av. Condé Francisco Matarazzo, 280 - Jardim Telespark, São José dos Campos - SP, 12212-710",
+        "Horario": {
+            "segunda": "06:00–10:00",
+            "terça": "06:00–10:00",
+            "quarta": "06:00–10:00",
+            "quinta": "06:00–10:00",
+            "sexta": "06:00–10:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3917-9362",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.1589394",
+            "-45.9066799"
+        ]
+    },
+    {
+        "Nome": "Academia CompassFit (Farol)",
+        "Endereco": "Rua Chiquinha Schurig, 466 - Jardim Marister, Jacareí - SP, 12321-800",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "08:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99172-8906",
+        "Site": "https://biolinky.co/compassfit",
+        "Avaliacao": "4,7",
+        "Coordenada": [
+            "-23.3048635",
+            "-45.9787887"
+        ]
+    },
+    {
+        "Nome": "Academia TNT GYM",
+        "Endereco": "Av. São Jorge, 1661 - Cidade Salvador, Jacareí - SP, 12312-000",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "07:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98164-6239",
+        "Site": "https://pt-br.facebook.com/TntGymJacarei/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.301597",
+            "-45.929735"
+        ]
+    },
+    {
+        "Nome": "Nautilus Academia",
+        "Endereco": "R. Celso Moreira de Almeida, 188 - Jardim Santa Maria, Jacareí - SP, 12328-085",
+        "Horario": {
+            "segunda": "06:00–12:30",
+            "terça": "06:00–12:30",
+            "quarta": "06:00–12:30",
+            "quinta": "06:00–12:30",
+            "sexta": "06:00–12:30",
+            "sábado": "08:00–12:30",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99227-0681",
+        "Site": "https://nuv.link/nautilusacademia",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2926676",
+            "-45.9645081"
+        ]
+    },
+    {
+        "Nome": "Academia Big Bear",
+        "Endereco": "Av. Andrômeda, 2452 - Jardim Satélite, São José dos Campos - SP, 12230-001",
+        "Horario": {
+            "segunda": "07:00–12:00",
+            "terça": "07:00–12:00",
+            "quarta": "07:00–12:00",
+            "quinta": "07:00–12:00",
+            "sexta": "07:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99131-0296",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2348239",
+            "-45.8851258"
+        ]
+    },
+    {
+        "Nome": "ACADEMIA NOVA FLORIDA",
+        "Endereco": "R. Carmem Franklin, 316 - Jardim Nova Florida, São José dos Campos - SP, 12225-097",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "06:00–23:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98816-4471",
+        "Site": "https://www.facebook.com/katiaacademia/",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.177237",
+            "-45.8096072"
+        ]
+    },
+    {
+        "Nome": "TFA Tatekawa Fight Academy",
+        "Endereco": "R. Joséfa Oliveira Santos, n°16 - Res. Bosque dos Ipes, São José dos Campos - SP, 12236-887",
+        "Horario": {
+            "Dia": "Não fornecido"
+        },
+        "Telefone": "(12) 99797-5448",
+        "Site": "---",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2570158",
+            "-45.8970364"
+        ]
+    },
+    {
+        "Nome": "CENTRO DE TREINAMENTO ABSOLUTAS MUAY THAI",
+        "Endereco": "R. Frutal, n 414 - Bosque dos Eucaliptos, São José dos Campos - SP, 12233-360",
+        "Horario": {
+            "segunda": "07:00–22:00",
+            "terça": "07:00–22:00",
+            "quarta": "07:00–22:30",
+            "quinta": "06:00–22:00",
+            "sexta": "07:00–21:00",
+            "sábado": "07:00–11:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98206-4901",
+        "Site": "---",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.2473945",
+            "-45.8868287"
+        ]
+    },
+    {
+        "Nome": "F4 Natação &amp; Fitness",
+        "Endereco": "Av. Shishima Hifumi, 1250 - Urbanova, São José dos Campos - SP, 12244-000",
+        "Horario": {
+            "segunda": "06:00–12:00",
+            "terça": "06:00–12:00",
+            "quarta": "06:00–12:00",
+            "quinta": "06:00–12:00",
+            "sexta": "06:00–12:00",
+            "sábado": "09:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3204-5859",
+        "Site": "---",
+        "Avaliacao": "4,3",
+        "Coordenada": [
+            "-23.2031668",
+            "-45.9406831"
+        ]
+    },
+    {
+        "Nome": "Taekwondo Força de Tigre",
+        "Endereco": "R. Benedita Cantinho de Moura, 62 - Jardim Rosario, São José dos Campos - SP, 12236-000",
+        "Horario": {
+            "segunda": "19:30–21:00",
+            "terça": "Fechado",
+            "quarta": "19:30–21:00",
+            "quinta": "Fechado",
+            "sexta": "19:30–21:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98177-7387",
+        "Site": "http://www.instagram.com/forcadetigretkd",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2421363",
+            "-45.8986272"
+        ]
+    },
+    {
+        "Nome": "Academia Vida Ativa",
+        "Endereco": "Av. Josefina Pozzi Bondesan, 323 - Jardim Castanheiras, São José dos Campos - SP, 12225-270",
+        "Horario": {
+            "segunda": "05:00–11:00",
+            "terça": "05:00–11:00",
+            "quarta": "05:00–11:00",
+            "quinta": "05:00–11:00",
+            "sexta": "05:00–11:00",
+            "sábado": "09:00–11:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98242-2098",
+        "Site": "https://www.instagram.com/academiavida_ativa/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.1862191",
+            "-45.7934648"
+        ]
+    },
+    {
+        "Nome": "Crossfit Anamá - Training &amp; Fitness",
+        "Endereco": "Av. Cidade Jardim, 5370 - Bosque dos Eucaliptos, São José dos Campos - SP, 12232-000",
+        "Horario": {
+            "segunda": "06:00–11:00",
+            "terça": "06:00–11:00",
+            "quarta": "06:00–11:00",
+            "quinta": "06:00–11:00",
+            "sexta": "06:00–11:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98143-3853",
+        "Site": "https://www.instagram.com/cross.anama/",
+        "Avaliacao": "4,9",
+        "Coordenada": [
+            "-23.2608562",
+            "-45.8866758"
+        ]
+    },
+    {
+        "Nome": "Geração Studio",
+        "Endereco": "R. José Antônio Romeno Neme, 67 - Jardim Sao Dimas, São José dos Campos - SP, 12245-400",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3943-6228",
+        "Site": "---",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.1944248",
+            "-45.8888687"
+        ]
+    },
+    {
+        "Nome": "CrossFit Sanja Shopping Jd Oriente",
+        "Endereco": "R. Andorra, 500 Loja Semi Ancora B - Jardim America, São José dos Campos - SP, 12235-050",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–21:00",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 97898-0000",
+        "Site": "---",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2378664",
+            "-45.8958103"
+        ]
+    },
+    {
+        "Nome": "Escola de Kung Fu Lung Fu SJC",
+        "Endereco": "R. Bacabal, 1488 - Parque Industrial, São José dos Campos - SP, 12235-680",
+        "Horario": {
+            "segunda": "15:00–21:30",
+            "terça": "15:00–21:30",
+            "quarta": "Fechado",
+            "quinta": "Fechado",
+            "sexta": "15:00–21:30",
+            "sábado": "08:00–12:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99121-0080",
+        "Site": "http://www.lungfusjc.com.br/",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2389923",
+            "-45.9054333"
+        ]
+    },
+    {
+        "Nome": "REBORN",
+        "Endereco": "Av. Dr. João Baptista Soares de Queiroz Júnior, 724 - Jardim das Industrias, São José dos Campos - SP, 12240-000",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–21:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 3512-9153",
+        "Site": "http://letsreborn.com/",
+        "Avaliacao": "4,8",
+        "Coordenada": [
+            "-23.2268559",
+            "-45.9160181"
+        ]
+    },
+    {
+        "Nome": "Academia Smart Fit - Jacareí",
+        "Endereco": "Av. Sen. Joaquim Miguel Martins de Siqueira - Jardim Pereira do Amparo, Jacareí - SP, 12327-695",
+        "Horario": {
+            "segunda": "06:00–23:00",
+            "terça": "06:00–23:00",
+            "quarta": "06:00–23:00",
+            "quinta": "06:00–23:00",
+            "sexta": "06:00–23:00",
+            "sábado": "08:00–17:00",
+            "domingo": "08:00–14:00"
+        },
+        "Telefone": "",
+        "Site": "https://www.smartfit.com.br/academias/jacarei/?utm_source=google&utm_medium=maps&utm_campaign=mirum-SPIJAC1",
+        "Avaliacao": "4,6",
+        "Coordenada": [
+            "-23.3015785",
+            "-45.9677705"
+        ]
+    },
+    {
+        "Nome": "Academia King",
+        "Endereco": "R. Juazeiro, 434 - Jardim Vale do Sol, São José dos Campos - SP, 12238-080",
+        "Horario": {
+            "segunda": "07:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "07:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "07:00–21:00",
+            "sábado": "09:00–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99735-9117",
+        "Site": "---",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2564719",
+            "-45.9122431"
+        ]
+    },
+    {
+        "Nome": "Alliance Sjc",
+        "Endereco": "R. Antônio Aleixo da Silva, 690 - Jardim Satélite, São José dos Campos - SP, 12231-650",
+        "Horario": {
+            "segunda": "07:00–21:00",
+            "terça": "07:00–21:00",
+            "quarta": "07:00–21:00",
+            "quinta": "07:00–21:00",
+            "sexta": "07:00–21:00",
+            "sábado": "09:30–13:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 99659-3442",
+        "Site": "https://www.alliancesaojosedoscampos.com.br/",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.218574",
+            "-45.8859577"
+        ]
+    },
+    {
+        "Nome": "Academia Aloha Bem São ( treinamento funcional / fitness )",
+        "Endereco": "Rua major vaz 197, R. Santa Clara, 1082 - Vila Ema, São José dos Campos - SP, 12243-600",
+        "Horario": {
+            "segunda": "06:00–21:00",
+            "terça": "06:00–21:00",
+            "quarta": "06:00–21:00",
+            "quinta": "06:00–21:00",
+            "sexta": "06:00–21:00",
+            "sábado": "09:00–11:00",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(11) 95380-8832",
+        "Site": "---",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2033793",
+            "-45.8954054"
+        ]
+    },
+    {
+        "Nome": "Academia Gym Horse",
+        "Endereco": "R. Um, 5 - Santa Cecilia I, São José dos Campos - SP, 12200-000",
+        "Horario": {
+            "segunda": "06:00–22:00",
+            "terça": "06:00–22:00",
+            "quarta": "06:00–22:00",
+            "quinta": "06:00–22:00",
+            "sexta": "06:00–22:00",
+            "sábado": "Fechado",
+            "domingo": "Fechado"
+        },
+        "Telefone": "(12) 98251-7075",
+        "Site": "---",
+        "Avaliacao": "5,0",
+        "Coordenada": [
+            "-23.2189874",
+            "-45.7981907"
+        ]
+    }
+]
