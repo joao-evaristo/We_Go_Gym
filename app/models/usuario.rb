@@ -7,6 +7,5 @@ class Usuario < ApplicationRecord
   validates :email, uniqueness: {message: 'Já existe uma conta com esse e-mail'}
   validates :telefone, uniqueness: {message: 'Telefone já cadastrado'}
   validates :password, length: { minimum: 8}, on: :create
-  validates :role, inclusion: { in: %w(admin gym commom_user), message: "%{value} is not a valid size" }
 
 end
