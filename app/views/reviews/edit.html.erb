@@ -1,8 +1,11 @@
 <br>
 <br>
 <br>
+<br>
 
-<%= form_for([@academium, @academium.reviews.build]) do |form|%>
+<h1>Editar avaliacao</h1>
+
+<%= form_for([@academium, @review]) do |form|%>
   <!-- simple_form_for([@academium, @academium.reviews.build])-->
   <%= form.number_field :rating %>
   <%= form.text_field :comment %>

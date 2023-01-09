@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   resources :user_gym_admins
   resources :user_enrollments
-  resources :academia
+  resources :academia do
+    resources :reviews
+  end
   resources :usuarios
   get "welcome/index"
   get "welcome/login"

@@ -1,5 +1,7 @@
+<%= vite_client_tag %>
+<%= vite_javascript_tag 'rating' %>
 <p style="color: green"><%= notice %></p>
-
+<div id="app"></div>
 <%= render @academium %>
 
 <div>
@@ -8,4 +10,6 @@
 
   <%= button_to "Destroy this academium", @academium, method: :delete %>
   <%= @usuarios %>
+  <%= render @academium.reviews %>
+  <%= link_to "Adicionar comentario", new_academium_review_path(@academium) %>
 </div>

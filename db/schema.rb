@@ -31,6 +31,15 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_08_013809) do
     t.string "infoextra"
   end
 
+  create_table "reviews", force: :cascade do |t|
+    t.integer "rating"
+    t.text "comment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+    t.integer "academium_id"
+  end
+
   create_table "user_enrollments", force: :cascade do |t|
     t.boolean "active"
     t.bigint "usuario_id", null: false

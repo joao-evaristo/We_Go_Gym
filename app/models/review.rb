@@ -1,4 +1,4 @@
 class Review < ApplicationRecord
-  belongs_to :academium
-  belongs_to :usuario
+  belongs_to :academium, optional: true
+  belongs_to :usuario, optional: true
 end
