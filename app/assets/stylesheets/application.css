@@ -509,8 +509,12 @@ a:hover {
     padding-bottom: 2.3vh;
 }
 
+.content-section {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 #first-content-section {
-    margin-top: 3%;
     overflow: auto;
     display: flex;
 }
@@ -538,6 +542,10 @@ a:hover {
 
 .check-item {
     padding-left: 5%;
+}
+
+#second-content-section {
+    padding-top: 0%;
 }
 
 #second-section-first-text {
@@ -607,12 +615,20 @@ a:hover {
     padding-right: 10%;
 }
 
+#third-content-section {
+    background-color: #222121;
+}
+
+#third-section-first-title {
+    color: white;
+}
+
 #third-section-first-text {
     text-align: left;
     padding-left: 7%;
     width: 45%;
     height: fit-content;
-    padding-top: 3%;
+    color: white;
 }
 
 #third-section-second-text {
@@ -621,7 +637,17 @@ a:hover {
     width: 100%;
     height: fit-content;
     padding-left: 50%;
-    padding-top: 3%;
+    color: white;
+}
+
+#forth-section-first-text {
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#fifth-section-first-text {
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 @media only screen and (max-width: 767px) {
