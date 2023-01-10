@@ -55,4 +55,8 @@ class UserGymAdminsController < ApplicationController
     def user_gym_admin_params
       params.require(:user_gym_admin).permit(:active, :usuario_id, :academium_id)
     end
+
+    def find_academia
+      @academium = Academium.find(params[:academium_id])
+    end
 end

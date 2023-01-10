@@ -1,7 +1,7 @@
 class AcademiaController < ApplicationController
   before_action :set_academium, only: %i[ show edit update destroy ]
   skip_before_action :verify_authenticity_token
-  before_action :require_user_logged_in!, only: [:new, :edit, :destroy]
+  before_action :require_user_logged_in!, only: [:new, :edit, :destroy, :enroll]
   before_action :is_gym_owner!, only: [:new, :edit, :destroy]
 
   # GET /academia
@@ -12,7 +12,8 @@ class AcademiaController < ApplicationController
   # GET /academia/1
   def show
     @usuarios = Usuario.where(id: UserEnrollment.where(academium_id: @academium.id).pluck(:usuario_id)).pluck(:nome)
-
+    @gym_owner = UserGymAdmin.find_by(academium_id: @academium.id).usuario_id if UserGymAdmin.find_by(academium_id: @academium.id)
+    @user_enrollment = UserEnrollment.new
   end
 
   # GET /search
@@ -24,6 +25,7 @@ class AcademiaController < ApplicationController
   # GET /academia/new
   def new
     @academium = Academium.new
+    @user_gym_admin = UserGymAdmin.new
   end
 
   # GET /academia/1/edit
@@ -35,10 +37,23 @@ class AcademiaController < ApplicationController
     @academium = Academium.new(academium_params)
 
     if @academium.save
+      @user_gym_admin = UserGymAdmin.new
+      @user_gym_admin.usuario_id = Current.user.id
+      @user_gym_admin.academium_id = @academium.id
+      @user_gym_admin.active = true
+      @user_gym_admin.save!
       redirect_to @academium, notice: "Academium was successfully created."
     else
       render :new, status: :unprocessable_entity
     end
+  end
+
+  def enroll
+    @user_enrollment = UserEnrollment.new
+    @user_enrollment.usuario_id = Current.user.id
+    @user_enrollment.academium_id = @academium.id
+    @user_enrollment.active = true
+    @user_enrollment.save!
   end
 
   # PATCH/PUT /academia/1
@@ -69,5 +84,9 @@ class AcademiaController < ApplicationController
     # Only allow a list of trusted parameters through.
     def academium_params
       params.require(:academium).permit(:nome, :cnpj, :telefone, :endereco, :precoMatricula, :precoMensalidade, :site, :instagram, :facebook)
+    end
+
+    def user_gym_admins_params
+      params.require(:user_gym_admins).permit(:usuario_id, :academium_id)
     end
 end

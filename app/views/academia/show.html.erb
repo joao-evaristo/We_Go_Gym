@@ -2,14 +2,17 @@
 <%= render @academium %>
 
 <div>
-  <% if Current.user %>
-    <% if %>
+  <% if @gym_owner and Current.user %>
+    <% if @gym_owner == Current.user.id %>
+      <%= link_to "Editar informações", edit_academium_path(@academium) %>
+      <%= button_to "Apagar academia", @academium, method: :delete %>
+    <% end %>
   <% end %>
-  <%= link_to "Edit this academium", edit_academium_path(@academium) %> |
-  <%= link_to "Back to academia", academia_path %>
-
-  <%= button_to "Destroy this academium", @academium, method: :delete %>
-  <%= @usuarios %>
+  <%= button_to "Faço parte dessa academia!", @academium, method: :enroll %>
+  <%= link_to "Voltar para as academias", academia_path %>
+  <% if @usuarios.any? %>
+    <%= @usuarios %>
+  <% end %>
   <%= render @academium.reviews %>
   <%= link_to "Adicionar comentario", new_academium_review_path(@academium) %>
 </div>
