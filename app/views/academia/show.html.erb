@@ -1,10 +1,10 @@
-<%= vite_client_tag %>
-<%= vite_javascript_tag 'rating' %>
 <p style="color: green"><%= notice %></p>
-<div id="app"></div>
 <%= render @academium %>
 
 <div>
+  <% if Current.user %>
+    <% if %>
+  <% end %>
   <%= link_to "Edit this academium", edit_academium_path(@academium) %> |
   <%= link_to "Back to academia", academia_path %>
 

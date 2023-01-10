@@ -1,6 +1,8 @@
 class AcademiaController < ApplicationController
   before_action :set_academium, only: %i[ show edit update destroy ]
   skip_before_action :verify_authenticity_token
+  before_action :require_user_logged_in!, only: [:new, :edit, :destroy]
+  before_action :is_gym_owner!, only: [:new, :edit, :destroy]
 
   # GET /academia
   def index
