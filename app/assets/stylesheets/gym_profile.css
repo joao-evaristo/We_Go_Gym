@@ -1,9 +1,17 @@
+body {
+    height: max-content;
+}
+
 #container-gymprofile {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fifth_image.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 118vh;
+    min-height: fit-content;
     width: 100%;
+}
+
+.mingradient-custom {
+    padding-top: 5%;
 }
 
 .profile-feature {
