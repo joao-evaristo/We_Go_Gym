@@ -1,0 +1,47 @@
+.gym_item {
+    color: white;
+}
+
+#nav_academias {
+    position: relative;
+    color: rgba(255, 225, 92, 1);;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+    width: fit-content;
+}
+
+#nav_academias:hover {
+    color: rgba(255, 225, 92, 1);
+}
+
+#nav_academias::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 225, 92, 1);
+    border-radius: 5rem;
+}
+
+#nav_home {
+    position: relative;
+    color: rgb(255, 255, 255);;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.151);
+    width: fit-content;
+}
+
+#nav_home:hover {
+    color: rgba(255, 225, 92, 1);
+}
+
+#nav_home::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 225, 92, 0);
+    border-radius: 5rem;
+}

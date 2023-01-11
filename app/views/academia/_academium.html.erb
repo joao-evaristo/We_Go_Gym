@@ -1,8 +1,6 @@
-<style>
-  .gym_item {
-    color: white;
-  }
-</style>
+<%= stylesheet_link_tag "search_page" %>
+<%= content_for :title, "WeGoGym | Pesquisa" %>
+
 
 <div id="<%= dom_id academium %>">
   <p class="gym_item">
@@ -24,7 +22,7 @@
     <strong>Endereco:</strong>
     <%= academium.endereco %>
   </p>
-
+  
   <p class="gym_item">
     <strong>Precomatricula:</strong>
     <%= academium.precoMatricula %>
@@ -38,7 +36,7 @@
   <p class="gym_item">
     <strong>Site:</strong>
     <%= academium.site %>
-  </p>
+  </p> -->
 
   <p class="gym_item">
     <strong>Instagram:</strong>
