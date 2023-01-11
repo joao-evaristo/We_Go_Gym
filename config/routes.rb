@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
+  resources :user_gym_admins
   resources :user_enrollments
-  resources :academia
+  resources :academia do
+    resources :reviews
+    resources :user_gym_admins
+    resources :user_enrollments
+  end
+  post "academia/:id", to: "user_enrollments#create"
   resources :usuarios
   get "welcome/index"
   get "welcome/login"

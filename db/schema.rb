@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_11_28_010552) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_08_013809) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -26,6 +26,18 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_28_010552) do
     t.string "facebook"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.float "lat"
+    t.float "lng"
+    t.string "infoextra"
+  end
+
+  create_table "reviews", force: :cascade do |t|
+    t.integer "rating"
+    t.text "comment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "user_id"
+    t.integer "academium_id"
   end
 
   create_table "user_enrollments", force: :cascade do |t|
@@ -38,6 +50,16 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_28_010552) do
     t.index ["usuario_id"], name: "index_user_enrollments_on_usuario_id"
   end
 
+  create_table "user_gym_admins", force: :cascade do |t|
+    t.boolean "active"
+    t.bigint "usuario_id", null: false
+    t.bigint "academium_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["academium_id"], name: "index_user_gym_admins_on_academium_id"
+    t.index ["usuario_id"], name: "index_user_gym_admins_on_usuario_id"
+  end
+
   create_table "usuarios", force: :cascade do |t|
     t.string "nome"
     t.text "telefone"
@@ -46,8 +68,11 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_28_010552) do
     t.datetime "updated_at", null: false
     t.string "password_digest"
     t.datetime "data_nascimento"
+    t.string "role"
   end
 
   add_foreign_key "user_enrollments", "academia"
   add_foreign_key "user_enrollments", "usuarios"
+  add_foreign_key "user_gym_admins", "academia"
+  add_foreign_key "user_gym_admins", "usuarios"
 end

@@ -9,7 +9,11 @@ class ApplicationController < ActionController::Base
   def require_user_logged_in!
     redirect_to entrar_path, alert: "Você deve estar logado para fazer isso!" if Current.user.nil?
   end
+
   def user_permission
     redirect_to root_path, alert: "Você não tem permissão para fazer isso!" if Current.user.id != @usuario.id
+  end
+  def is_gym_owner!
+    redirect_to root_path, alert: "Você não tem permissão para fazer isso!" if Current.user.role != "gym_owner"
   end
 end

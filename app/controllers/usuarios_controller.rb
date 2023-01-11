@@ -43,6 +43,7 @@ class UsuariosController < ApplicationController
 
   # POST /usuarios
   def create
+    #usuario_params[:role] = 'commom_user'
     @usuario = Usuario.new(usuario_params)
 
     if @usuario.save
@@ -76,6 +77,6 @@ class UsuariosController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def usuario_params
-      params.require(:usuario).permit(:nome, :data_nascimento, :telefone, :email, :password, :password_confirmation)
+      params.require(:usuario).permit(:nome, :data_nascimento, :telefone, :email, :password, :password_confirmation, :role)
     end
 end

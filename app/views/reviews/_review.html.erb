@@ -1,0 +1,11 @@
+<p><%= review.rating %></p>
+
+<div class="review-rating" data-score="<%= review.rating %>"></div>
+
+<p><%= review.comment %></p>
+<% if Current.user %>
+  <% if review.user_id == Current.user.id %>
+    <%= link_to "Editar", edit_academium_review_path(review.academium, review) %>
+    <%= button_to "Apagar comentario", academium_review_path(review.academium, review), method: :delete, data:{confirm: "Tem certeza?"} %>
+  <% end %>
+<% end %>

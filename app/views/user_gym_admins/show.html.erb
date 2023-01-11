@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @user_gym_admin %>
+
+<div>
+  <%= link_to "Edit this user gym admin", edit_user_gym_admin_path(@user_gym_admin) %> |
+  <%= link_to "Back to user gym admins", user_gym_admins_path %>
+
+  <%= button_to "Destroy this user gym admin", @user_gym_admin, method: :delete %>
+</div>
