@@ -22,11 +22,6 @@ class AcademiaController < ApplicationController
     @academia_busca = Academium.all.search_by_name_address(params[:q]) if params[:q].present?
   end
 
-  # GET /search
-  def search 
-    @academia_busca = Academium.where("lower(nome) LIKE ?", "%" + params[:q].downcase + "%")
-  end
-
   # GET /academia/new
   def new
     @academium = Academium.new
