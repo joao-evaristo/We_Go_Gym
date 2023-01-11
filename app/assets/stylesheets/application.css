@@ -195,14 +195,6 @@ a:hover {
     box-shadow: 2px 2px rgb(0, 0, 0);
 }
 
-#username-area {
-    height: 40px;
-    width: 140px;
-    margin: none;
-    text-align: left;
-    padding-top: 6.5px;
-}
-
 #username {
     color: white;
     text-decoration: none;
@@ -220,6 +212,10 @@ a:hover {
     color: white;
     height: 32px;
     width: 33px;
+}
+
+#signout:hover {
+    color: rgba(255, 225, 92, 1);
 }
 
 .btn-terciary {
@@ -513,8 +509,12 @@ a:hover {
     padding-bottom: 2.3vh;
 }
 
+.content-section {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
 #first-content-section {
-    margin-top: 3%;
     overflow: auto;
     display: flex;
 }
@@ -542,6 +542,10 @@ a:hover {
 
 .check-item {
     padding-left: 5%;
+}
+
+#second-content-section {
+    padding-top: 0%;
 }
 
 #second-section-first-text {
@@ -611,12 +615,20 @@ a:hover {
     padding-right: 10%;
 }
 
+#third-content-section {
+    background-color: #222121;
+}
+
+#third-section-first-title {
+    color: white;
+}
+
 #third-section-first-text {
     text-align: left;
     padding-left: 7%;
     width: 45%;
     height: fit-content;
-    padding-top: 3%;
+    color: white;
 }
 
 #third-section-second-text {
@@ -625,32 +637,52 @@ a:hover {
     width: 100%;
     height: fit-content;
     padding-left: 50%;
-    padding-top: 3%;
+    color: white;
+}
+
+#forth-section-first-text {
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#fifth-section-first-text {
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 @media only screen and (max-width: 767px) {
     .navbar {
-        position:relative;
+        position: relative;
     } 
+
+    .d-flex {
+        padding-top: 2%;
+    }
+
     #search_area {
         width: 80%;
     }
+
     .content-title {
         font-size: 7vw;
         width: 80%;
         right: 10%;
     }
+
     .content {
         display: none;
     }
+
     .btn-primary {
         display: none;
     }
+
     .line {
         height: 2.5%;
         width: 16%;
         position: absolute;
     }
+
     #line1 {
         right: 73.5%;
         top: 54%;
@@ -696,6 +728,10 @@ a:hover {
 @media only screen and (max-width: 1200px){
     #nav_faq {
         width: 80px;
+    }
+
+    .d-flex {
+        padding-top: 2%;
     }
 
     #search_area {
