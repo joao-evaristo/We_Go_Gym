@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+#NomeAcad {
+    padding-left: 15%;
+    padding-top: 4%;
+    width: 60vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: google-bold;
+    font-size: 3vw;
+}
+
+#container{
+    overflow: auto;
+    float: left;
+}
+
+#small-carousel {
+    padding-left: 15%;
+    margin-top: 3%;
+    width: 60vw;
+}
+
+.carousel-item {
+    padding-left: 0%;
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+#background-gym{
+    padding-top: 3%;
+    height: 160vh;
+}
+
+.card-text{
+    color: white;
+    padding: 2%;
+    font-family: google-regular;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#info-title-tel{
+    color: white;
+    padding-top: 4%;
+    text-align: center;
+    font-family: google-bold;
+}
+
+#info-title-addr{
+    color:white;
+    text-align: center;
+    font-family: google-bold;
+}
+
+#info-title-site{
+    color: white;
+    text-align: center;
+    font-family: google-bold;
+}
+
+#last-content{
+    padding-top: 3%;
+}
+
+#info-cards{
+    margin-top: -0.8%;
+
+ }
+
+#cards-custom{
+    background-color: #222121;
+    width: 25vw;
+    height: 59vh;
+}
+
+.line-border{
+    color: white;
+}
+
+#rating-title{
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    font-family: google-bold;
+}
+
+#rating-cards-custom{
+    background-color: #222121;
+    width: 60vw;
+    height: 50vh;
+}
+
+#rating-info-cards{
+    align-content: center;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+@media only screen and (max-width: 767px) {
+    #small-carousel{
+        width: 80vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #NomeAcad{
+        font-size: 4vw;
+        margin: auto;
+    }
+    #container{
+        float: none;
+    }
+    #info-cards{
+        margin-top: -0.8%;
+        padding: 5%;
+     }
+     #cards-custom{
+        background-color: #222121;
+        width: 80vw;
+        height: auto;
+    }
+}
