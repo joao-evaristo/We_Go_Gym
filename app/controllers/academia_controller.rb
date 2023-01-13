@@ -21,27 +21,12 @@ class AcademiaController < ApplicationController
     lat = params[:lat]
     lng = params[:lng]
 
-    
-    order_by_distance_query = "select id
-    FROM
-    ( SELECT id, ((ACOS(SIN(#{lat} * PI() / 180) * SIN(u.lat * PI() / 180) + COS(#{lat} * PI() / 180) * COS(u.lat * PI() / 180) * COS((#{lng} - u.lng) * PI() / 180)) * 180 / PI()) * 60 * 1.1515) as distance
-    FROM academia u ) d
-    order by distance"
-
-    puts order_by_distance_query
-    puts '--------'
-    puts params
-    
-    result = ActiveRecord::Base.connection.execute(order_by_distance_query)
-
-    gyms = result.flat_map do |row|
-        row['id']
-    end
-
+    has_locations = lat.present? && lng.present?
+    gyms = helpers.order_by_location(lat,lng) if has_locations
 
     @academia_busca = Academium.all.where(nil)
     @academia_busca = Academium.all.search_by_name_address(params[:q]) if params[:q].present?
-    @academia_busca = @academia_busca.in_order_of(:id, gyms)
+    @academia_busca = @academia_busca.in_order_of(:id, gyms) if has_locations
   end
 
   # GET /academia/new
