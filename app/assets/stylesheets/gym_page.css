@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+}
+#NomeAcad {
+    width: 100%;
+    padding-top: 4%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: google-bold;
+    font-size: 3vw;
+}
+
+.gym-button{
+    border: none;
+    width: 16vw;
+    background-color: rgba(255, 219, 45, 1) !important;
+    border-color: rgba(255, 219, 45, 1) !important;
+    border-radius: 20px;
+    font-size: 1vw;
+    font-family: google-bold;
+    color: black;
+    box-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+#btn-gym-content{
+    padding: 2%;
+}
+#back-button{
+    width: 85vw;
+    padding-right: 51%;
+}
+
+#container{
+    overflow: auto;
+    float: left;
+}
+
+#small-carousel {
+    padding-left: 15%;
+    margin-top: 3%;
+    width: 60vw;
+}
+
+.carousel-item {
+    padding-left: 0%;
+    background-position: center;
+    background-size: cover;
+    height: 30vw;
+}
+
+#background-gym{
+    padding-top: 3%;
+    height: 160vh;
+}
+
+.card-text{
+    color: white;
+    padding: 2%;
+    font-family: google-regular;
+    font-size: 2vh;
+    text-align: center;
+}
+
+#info-title-tel{
+    color: white;
+    padding-top: 4%;
+    text-align: center;
+    font-family: google-bold;
+}
+
+#info-title-addr{
+    color:white;
+    text-align: center;
+    font-family: google-bold;
+}
+
+#info-title-site{
+    color: white;
+    text-align: center;
+    font-family: google-bold;
+}
+
+#last-content{
+    text-align: center;
+}
+
+#last-content:hover{
+    color: rgb(243, 243, 148);
+}
+
+#info-cards{
+    margin-top: -0.4%;
+
+ }
+
+#cards-custom{
+    background-color: #222121;
+    width: 25vw;
+    height: 59vh;
+}
+
+.line-border{
+    color: white;
+}
+
+#rating-title{
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+    font-family: google-bold;
+}
+
+#rating-cards-custom{
+    background-color: #222121;
+    width: 60vw;
+    height: 50vh;
+}
+
+#rating-info-cards{
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+#rating-card-body{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media only screen and (max-width: 767px) {
+    #small-carousel{
+        width: 80vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #NomeAcad{
+        font-size: 4vw;
+        margin: auto;
+    }
+    #container{
+        float: none;
+    }
+    #info-cards{
+        margin-top: -0.8%;
+        padding: 5%;
+     }
+     #cards-custom{
+        background-color: #222121;
+        width: 80vw;
+        height: auto;
+    }
+}
