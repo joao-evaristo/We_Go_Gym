@@ -10,7 +10,8 @@ RUN apk add \
     nodejs \
     postgresql-dev \
     npm \
-    yarn
+    yarn \
+    make
 WORKDIR /app
 # We copy over the entire gems directory for our builder image, containing the already built artifact
 COPY --from=builder /usr/local/bundle/ /usr/local/bundle/

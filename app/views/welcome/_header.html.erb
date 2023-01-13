@@ -13,6 +13,8 @@
     </ul>
     <form class="d-flex" role="search" action="/search">
       <input id="search_area" class="form-control me-2" type="search" name="q" placeholder="Busque por academias, centros esportivos, etc..." aria-label="Search">
+      <input id='lat' type='hidden', name='lat'>
+      <input id='lng' type='hidden', name='lng'>
       <button id="search_button" class="btn-terciary" type="submit">
         <%= image_tag "magnifying-glass-white.png" , id:"search-image"%>
       </button>
