@@ -31,14 +31,14 @@
                   <div class="row">
                     <p class="card-text">
                       <span class="feature-title">Site: </span> 
-                      <%= academium.site %>
+                      <%= link_to academium.site, academium.site,   :target => "_blank" %>
                     </p>
                   </div>
                   <div class="row social-media">
-                    <i class="fa fa-facebook icon"></i> <%= academium.facebook %>
+                    <i class="fa fa-facebook icon"></i><%= link_to academium.facebook, academium.facebook,   :target => "_blank" %>
                   </div>
                   <div class="row social-media">
-                    <i class="fa fa-instagram icon"></i> <%= academium.instagram %>
+                    <i class="fa fa-instagram icon"></i> <%= link_to academium.instagram, academium.instagram,   :target => "_blank" %>
                   </div>
                 </div>
               </div>
