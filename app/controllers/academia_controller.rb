@@ -56,11 +56,7 @@ class AcademiaController < ApplicationController
   end
 
   def enroll
-    @user_enrollment = UserEnrollment.new
-    @user_enrollment.usuario_id = Current.user.id
-    @user_enrollment.academium_id = @academium.id
-    @user_enrollment.active = true
-    @user_enrollment.save!
+    @user_enrollment = UserEnrollment.create!(usuario_id: Current.user.id, academium_id: @academium.id, active: true)
   end
 
   # PATCH/PUT /academia/1

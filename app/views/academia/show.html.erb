@@ -7,11 +7,22 @@
       <%= button_to "Apagar academia", @academium, method: :delete %>
     <% end %>
   <% end %>
-  <%= button_to "Faço parte dessa academia!", @academium, method: :enroll %>
+  <% if UserEnrollment.where(usuario_id: Current.user.id, academium_id: @academium.id, active: true).count == 0%>
+    <% if UserEnrollment.where(usuario_id: Current.user.id, academium_id: @academium.id, active: false).count != 0 %>
+      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "enroll", :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , :method=>:patch%>
+    <% else %>
+      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "create", :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , :method=>:post%>
+    <% end %>
+  <% else %>
+    <%= button_to "Desmatricular", {:controller => "user_enrollments", :action => "unenroll", :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => false } , :method=>:put%>
+  <% end %>
+
   <%= link_to "Voltar para as academias", academia_path %>
   <% if @usuarios.any? %>
     <%= @usuarios %>
   <% end %>
-  <%= render @academium.reviews %>
+  <% if Current.user %>
+    <%= render @academium.reviews.where(user_id: Current.user.id)%>
+  <% end %>
   <%= link_to "Adicionar comentario", new_academium_review_path(@academium) %>
 </div>
