@@ -146,3 +146,20 @@ body {
         padding-top: 2%;
     }   
 }
+
+@media only screen and (max-width: 767px) {
+    #polygon {
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+        border-bottom-left-radius: 0px;
+    }
+
+    #title {
+        padding-left : 5%; 
+        padding-right: 5%;
+    }
+
+    .social-media {
+        padding-left : 5%; 
+        padding-right: 5%;
+    }
+}
