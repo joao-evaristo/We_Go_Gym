@@ -137,4 +137,12 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    min-height: 100vh;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .d-flex {
+        padding-top: 2%;
+    }   
 }
