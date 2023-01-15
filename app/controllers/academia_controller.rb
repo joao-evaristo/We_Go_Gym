@@ -18,8 +18,15 @@ class AcademiaController < ApplicationController
 
   # GET /search
   def search
+    lat = params[:lat]
+    lng = params[:lng]
+
+    has_locations = lat.present? && lng.present?
+    gyms = helpers.order_by_location(lat,lng) if has_locations
+
     @academia_busca = Academium.all.where(nil)
     @academia_busca = Academium.all.search_by_name_address(params[:q]) if params[:q].present?
+    @academia_busca = @academia_busca.in_order_of(:id, gyms) if has_locations
   end
 
   # GET /academia/new
