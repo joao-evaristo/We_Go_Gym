@@ -652,6 +652,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 767px) {
+    .navbar {
+        position: relative;
+    } 
+
+    .d-flex {
+        padding-top: 2%;
+    }
     #search_area {
         width: 80%;
     }
@@ -725,6 +732,10 @@ a:hover {
 
     .navbar-nav {
         margin-left: 0;
+    }
+
+    .d-flex {
+        padding-top: 2%;
     }
 
     #search_area {

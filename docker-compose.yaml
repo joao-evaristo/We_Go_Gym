@@ -4,7 +4,7 @@ services:
     image: wegogym
     build:
       context: .
-      dockerfile: Dockerfile
+    command: make start
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWD: "123456"
