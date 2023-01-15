@@ -102,6 +102,10 @@ body {
     text-align: center;
 }
 
+.social-media {
+    text-align: left;
+}
+
 .icon {
     width: 20px;
     height: 20px;
