@@ -12,10 +12,12 @@
                   <%= image_tag "card-image.jpg" , id:"polygon", class:"w-100" %>  
                 </div>
                 <div class="col-md-6 mb-4 mt-3">
-                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-4" style="font-family: google-bold;">
-                    <%= link_to academium.nome, academium, id: "gym-title" %>
-                  </h3>
+                  <div id="title">  
+                    <h3 class="mb-4 pb-2 pb-md-0 mb-md-4" style="font-family: google-bold;">
+                      <%= link_to academium.nome, academium, id: "gym-title" %>
+                    </h3>
                   <hr>
+                  </div>
                   <div class="row">
                     <p class="card-text">
                       <span class="feature-title">Endereço: </span> 

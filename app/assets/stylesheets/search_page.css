@@ -102,6 +102,10 @@ body {
     text-align: center;
 }
 
+.social-media {
+    text-align: left;
+}
+
 .icon {
     width: 20px;
     height: 20px;
@@ -137,4 +141,29 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    min-height: 100vh;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .d-flex {
+        padding-top: 2%;
+    }   
+}
+
+@media only screen and (max-width: 767px) {
+    #polygon {
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+        border-bottom-left-radius: 0px;
+    }
+
+    #title {
+        padding-left : 5%; 
+        padding-right: 5%;
+    }
+
+    .social-media {
+        padding-left : 5%; 
+        padding-right: 5%;
+    }
 }

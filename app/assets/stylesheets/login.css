@@ -1,14 +1,16 @@
+.navbar {
+    position: relative;
+}
+
 .form-control {
     font-style: italic;
 }
 
 #loginForm {
     border-radius: 10px;
-    height: 700px;
-    width: 600px;
     background-color: white;
     font-size: 26px;
-    min-height: 700px;
+    width: fit-content;
 }
 
 .container-fluid {
@@ -22,8 +24,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(third_image.jpg);
     background-position: center;
     background-size: cover;
-    min-height: 118vh;
-    max-height: 150vh;
 }
 
 #iconFace {
@@ -45,6 +45,7 @@
     background-color: rgb(250, 250, 250);
     font-family: google-bold;
     text-align: center;
+    padding: 5%;
 }
 
 #reg-bt {
@@ -87,4 +88,14 @@
     height: 4px;
     background-color: rgba(255, 225, 92, 0);
     border-radius: 5rem;
+}
+
+.hover-text:hover {
+    color: rgb(97, 97, 97);
+}
+
+@media only screen and (min-width: 767px) {
+    #loginForm {
+        width: 600px;
+    }
 }
