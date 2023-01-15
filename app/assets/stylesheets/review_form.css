@@ -1,0 +1,101 @@
+#background-review{
+    height: 100vh;
+    background-color: rgb(17, 16, 16);
+}
+
+#form-custom{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 3%;
+    background-color: #222121;;
+}
+
+#rating-input{
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#rating-title{
+    margin-top: 4%;
+    padding: auto;
+    color: white;
+    font-family: google-bold;
+    text-align: center;
+}
+
+#submit-rating-btn{
+    border: none;
+    width: 100px;
+    background-color: rgba(255, 219, 45, 1) !important;
+    border-color: rgba(255, 219, 45, 1) !important;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: google-bold;
+    color: black;
+    box-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+#rating-number{
+    padding-bottom: 5%;
+}
+
+#rating-submit{
+    padding-bottom: 5%;
+    padding-top: 5%
+}
+
+#text-box{
+    width: 30vw;
+    height: 20vh;
+    border-radius: 10px;
+    box-shadow: 1px 1px rgb(122, 122, 122);
+}
+
+
+#edit-review-btn{
+    color:white;
+}
+
+#edit-review-btn:hover{
+    color:rgb(243, 243, 148);
+}
+
+#delete-review-btn{
+    border: none;
+    width: 100px;
+    background-color: rgba(255, 219, 45, 1) !important;
+    border-color: rgba(255, 219, 45, 1) !important;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: google-bold;
+    color: black;
+    box-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+#cur-user-rating{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#edit-div{
+    padding-bottom :2%;
+}
+
+#delete-div{
+    padding-top: 2%;
+    padding-bottom :2%;
+}
+#review-text{
+    padding-bottom :2%;   
+}
+
+#review-number{
+    padding-bottom :2%;
+}

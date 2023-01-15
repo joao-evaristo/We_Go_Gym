@@ -1,11 +1,15 @@
-<p><%= review.rating %></p>
+<%= stylesheet_link_tag "review_form" %>
+
+<div>
+<div id="review-number" ><p>Nota: <%= review.rating %></p></div>
 
 <div class="review-rating" data-score="<%= review.rating %>"></div>
 
-<p><%= review.comment %></p>
+<div id="review-text" ><p><%= review.comment %></p></div>
 <% if Current.user %>
   <% if review.user_id == Current.user.id %>
-    <%= link_to "Editar", edit_academium_review_path(review.academium, review) %>
-    <%= button_to "Apagar comentario", academium_review_path(review.academium, review), method: :delete, data:{confirm: "Tem certeza?"} %>
+   <div id="edit-div"> <%= link_to "Editar", edit_academium_review_path(review.academium, review), id:"edit-review-btn" %> </div>
+    <div id="delete-div"> <%= button_to "Apagar comentario", academium_review_path(review.academium, review), method: :delete, data:{confirm: "Tem certeza?"}, id:"delete-review-btn" %> </div>
   <% end %>
 <% end %>
+</div>

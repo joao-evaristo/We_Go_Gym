@@ -1,9 +1,43 @@
-<br>
-<br>
-<br>
-<br>
+<%= stylesheet_link_tag "review_form" %>
 
-<h1>Editar avaliacao</h1>
+<div id="background-review">
+
+    <div id="form-cards" class="container-fluid">
+        <section class="vh-100 mingradient-custom">
+            <div  class="container h-100">
+                <div  class="d-flex row justify-content-center align-items-center h-100">
+                    <div class="col col-lg-9 col-xl-7">
+                        <div id = "form-custom" class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                            <div class="card-body p-0 p-md-0">
+
+                                <div id="rating-div">
+                                    <h1 id="rating-title">Edite Sua Avaliação</h1>
+                                    <%= form_for([@academium, @review]) do |form|%>
+                                   <div class="row">
+                                   <div class="col">
+                                   <div id="rating-number"> <%= form.range_field:rating, :min=>0, :max=>5, :step=>1, id:"slider"%> </div>
+                                   </div>
+
+                                  <div class="col">
+                                  <div id="rating-text"><%= form.text_field :comment, id:"text-box" %></div>
+                                  </div>
+                                  <div class="col">
+                                  <div id="rating-submit"> <%= form.submit :Enviar, id:"submit-rating-btn" %> </div>
+                                  </div>
+                                  </div>
+                                  <% end %>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</div>
+
 
 <%= form_for([@academium, @review]) do |form|%>
   <!-- simple_form_for([@academium, @academium.reviews.build])-->

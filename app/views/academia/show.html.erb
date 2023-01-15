@@ -94,9 +94,9 @@
  <div id="rating-info-cards">
   <section class="vh-90 mingradient-custom">
     <div  class="container py-5 h-100">
-      <div  class="row justify-content-center align-items-center h-100">
+      <div  class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-14 col-lg-11 col-xl-9">
-          <div id = "rating-cards-custom" class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+          <div id = "rating-cards-custom" class="mx-auto card shadow-2-strong card-registration" style="border-radius: 15px;">
             <div class="card-body p-0 p-ml-0">
  
                 <div>
@@ -105,8 +105,21 @@
                 </h1>
                     <hr class="line-border">
                     </div>
-
-                    
+                <div class="row"> 
+                <div id="user-review" class="col">
+                 <% if Current.user %>
+                  <h1 id="your-review">Sua Avaliação: </h1>
+                  <h1 id="show-ratings" ><%= render @academium.reviews.where(user_id: Current.user.id)%></h1>
+                 <% end %>
+                  <%= link_to "Fazer Avaliação", new_academium_review_path(@academium), id:"review-button" %>
+                </div>
+                    <div id="geral-ratings" class="col">
+                    <h1>Avaliação Geral: </h1>
+                    <h1 id="true-review-number"> 4.8 <h1>
+                    <h1 id="review-count"> 15 avaliações </h1>
+                    <div id="div-rv-btn"> <button id="all-reviews-btn" type="button"> Ver avaliações </button> </div>
+                    </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -122,12 +135,6 @@
       <%= button_to "Apagar academia", @academium, method: :delete %>
     <% end %>
   <% end %>
-      <%= button_to "Faço parte dessa academia!", @academium, method: :enroll %> </button>
-        <% if @usuarios.any? %>
-          <%= @usuarios %>
-        <% end %>
-  <%= render @academium.reviews %>
-  <%= link_to "Adicionar comentario", new_academium_review_path(@academium) %>
   </div>
 
 </div>
