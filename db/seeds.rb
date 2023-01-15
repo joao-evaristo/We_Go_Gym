@@ -31,6 +31,8 @@ all_gyms.each do |gym|
     precoMensalidade: '',
     site: site,
     instagram: instagram,
-    facebook: facebook
+    facebook: facebook,
+    lat: gym['Coordenada'].first,
+    lng: gym['Coordenada'].last
   )
 end

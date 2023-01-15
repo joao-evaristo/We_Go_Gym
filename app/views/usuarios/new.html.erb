@@ -90,6 +90,16 @@
                     </div>
 
                   </div>
+
+                  <div class="col-md-6 mb-4 pb-2">
+
+                    <div class="form-outline flex-fill mb-0">
+                      <%= form.label :role, 'Filiação', class:  "form-label", style: "font-family: google-regular;"%><br>
+                      <%= form.radio_button :role, 'commom_user'%> Usuário
+                      <%= form.radio_button :role, 'gym_owner'%> Dono de Academia
+                    </div>
+
+                  </div>
                 </div>
 
                 <div class="col-md-6 mb-4 pb-2">
