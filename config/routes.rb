@@ -7,6 +7,7 @@ Rails.application.routes.draw do
     resources :user_enrollments
   end
   post "academia/:id", to: "user_enrollments#create"
+  patch "academia/:id", to: "user_enrollments#update"
   resources :usuarios
   get "welcome/index"
   get "welcome/login"

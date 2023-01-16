@@ -24,19 +24,14 @@ class UserEnrollmentsController < ApplicationController
   # POST /user_enrollments
   def create
     @user_enrollment = UserEnrollment.new(user_enrollment_params)
-    @user_enrollments.save!
-    if @user_enrollment.save
-      redirect_to @user_enrollment, notice: "User enrollment was successfully created."
-    else
+    unless @user_enrollment.save
       render :new, status: :unprocessable_entity
     end
   end
 
   # PATCH/PUT /user_enrollments/1
   def update
-    if @user_enrollment.update(user_enrollment_params)
-      redirect_to @user_enrollment, notice: "User enrollment was successfully updated."
-    else
+    unless @user_enrollment.update(user_enrollment_params)
       render :edit, status: :unprocessable_entity
     end
   end
@@ -55,6 +50,6 @@ class UserEnrollmentsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def user_enrollment_params
-      params.require(:user_enrollment).permit(:active, :usuario_id, :academium_id)
+      params.permit(:active, :usuario_id, :academium_id)
     end
 end
