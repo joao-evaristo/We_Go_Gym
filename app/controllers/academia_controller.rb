@@ -57,10 +57,6 @@ class AcademiaController < ApplicationController
     end
   end
 
-  def enroll
-    @user_enrollment = UserEnrollment.create!(usuario_id: Current.user.id, academium_id: @academium.id, active: true)
-  end
-
   # PATCH/PUT /academia/1
   def update
     if @academium.update(academium_params)
