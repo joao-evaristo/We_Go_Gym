@@ -51,7 +51,7 @@ body{
 #background-gym{
     background-color: rgb(17, 16, 16);
     padding-top: 3%;
-    height: 175vh;
+    height: 200vh;
 }
 
 .card-text{
@@ -111,8 +111,9 @@ body{
 }
 
 #rating-cards-custom{
+    padding-bottom: 5%;
     background-color: #222121;
-    height: 60vh;
+    height: 70vh;
 }
 
 #rating-info-cards{

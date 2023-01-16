@@ -9,7 +9,7 @@ class ReviewsController < ApplicationController
   def create
     @review = Review.new(review_params)
     @review.academium_id = @academium.id
-    @review.user_id = Current.user.id
+    @review.usuario_id = Current.user.id
     if @review.save
       redirect_to @academium
     else

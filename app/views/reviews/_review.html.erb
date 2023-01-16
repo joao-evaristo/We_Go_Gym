@@ -10,11 +10,12 @@
                 <div class="card-body p-4 p-md-5">
                   <div id="all-reviews">
                     <div>
+                      <div> <p>Usuário: <%=review.usuario.nome%></p>
                       <div id="review-number" ><p>Nota: <%= review.rating%></p></div>
                         <div class="review-rating" data-score="<%= review.rating %>"></div> 
                           <div id="review-text" ><p>Avaliação: <%= review.comment %></p></div>
                             <% if Current.user %>
-                              <% if review.user_id == Current.user.id %>
+                              <% if review.usuario_id == Current.user.id %>
                               <div id="edit-div"> <%= link_to "Editar", edit_academium_review_path(review.academium, review), id:"edit-review-btn" %> </div>
                               <div id="delete-div"> <%= button_to "Apagar comentario", academium_review_path(review.academium, review), method: :delete, data:{confirm: "Tem certeza?"}, id:"delete-review-btn" %> </div>
                               <% end %>
