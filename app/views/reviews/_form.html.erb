@@ -4,7 +4,7 @@
 
 <%= form_for([@academium, @academium.reviews.build]) do |form|%>
   <!-- simple_form_for([@academium, @academium.reviews.build])-->
-  <%= form.number_field :rating %>
+  <%= form.number_field :rating, max: 5, min: 1%>
   <%= form.text_field :comment %>
   <%= form.submit :submit %>
 <% end %>
