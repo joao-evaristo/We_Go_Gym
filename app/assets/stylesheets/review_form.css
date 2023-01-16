@@ -82,7 +82,8 @@ body{
 
 
 #edit-review-btn{
-    color:white;
+    color: rgba(255, 219, 45, 1);
+    text-decoration: underline;
 }
 
 #edit-review-btn:hover{

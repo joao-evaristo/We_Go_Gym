@@ -1,6 +1,11 @@
 body{
     background-color: black;
 }
+
+.navbar {
+    position: relative;
+}
+
 #NomeAcad {
     width: 100%;
     text-align: center;
@@ -152,13 +157,14 @@ body{
 }
 
 #review-button{
-    font-size: 35px;
-    color: white;
- }
+    font-size: 30px;
+    color: rgba(255, 219, 45, 1);
+    text-decoration: underline;
+}
  
- #review-button:hover{
-     color: rgb(243, 243, 148);
- }
+#review-button:hover{
+    color: rgb(243, 243, 148);
+}
 
  #your-review{
     padding-bottom: 2%;
