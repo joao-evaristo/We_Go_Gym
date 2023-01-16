@@ -3,6 +3,7 @@
 
 <div class="index">
   <h1 class="search-gym-title">Academias</h1>
+  <button class="button" ><%= link_to "Cadastrar Academia", new_academium_path %>
 
   <div id="academia">
     <% @academia.each do |academium| %>
@@ -10,5 +11,5 @@
     <% end %>
   </div>
 
-  <%= link_to "New academium", new_academium_path %>
+  
 </div>
