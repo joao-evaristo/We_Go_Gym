@@ -3,8 +3,11 @@
 
 <div class="index">
   <h1 class="search-gym-title">Academias</h1>
+  <%if Current.user%>
+  <% if Current.user.role == 'gym_owner'%>
   <button id="reg-gym-button"><%= link_to "É dono de academia? Cadastre-a!", new_academium_path, class: "button" %> </button>
-
+  <% end %>
+  <% end %>
   <div id="academia">
     <% @academia.each do |academium| %>
       <%= render academium %>

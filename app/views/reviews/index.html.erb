@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag "review_form" %>
+
+
+
+
+<div>
+     <h1 class="search-gym-title">Avaliações</h1>
+    <% @review.each do |review| %>
+    <div id="background-rating">
+    <%= render review%>
+    </div>
+    <% end %>
+</div>

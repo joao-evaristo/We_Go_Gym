@@ -1,10 +1,18 @@
-<br>
-<br>
-<br>
+<%= stylesheet_link_tag "review_form" %>
+
 
 <%= form_for([@academium, @academium.reviews.build]) do |form|%>
   <!-- simple_form_for([@academium, @academium.reviews.build])-->
-  <%= form.number_field :rating, max: 5, min: 1%>
-  <%= form.text_field :comment %>
-  <%= form.submit :submit %>
+  <div class="row">
+  <div class="col">
+  <div id="rating-number"> <%= form.range_field:rating, :min=>0, :max=>5, :step=>1, id:"slider"%> </div>
+  </div>
+
+  <div class="col">
+  <div id="rating-text"><%= form.text_field :comment, id:"text-box" %></div>
+  </div>
+  <div class="col">
+  <div id="rating-submit"> <%= form.submit :Enviar, id:"submit-rating-btn" %> </div>
+  </div>
+  </div>
 <% end %>

@@ -1,4 +1,4 @@
-class Usuario < ApplicationRecord
+class Usuario < ApplicationRecord 
   has_secure_password
   has_many :user_gym_admins
   has_many :reviews

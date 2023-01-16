@@ -1,0 +1,20 @@
+    <%= stylesheet_link_tag "review_form" %>
+    <div id="background-review">
+    
+    <div class="container-fluid" id="container-register">
+        <section class="vh-100 mingradient-custom">
+            <div class="container py-5 h-100">
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-12 col-lg-9 col-xl-7">
+                        <div id="form-custom"class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                            <div class="card-body p-4 p-md-5">
+                                <div id="all-reviews">
+                                <%= render @academium.reviews%>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>

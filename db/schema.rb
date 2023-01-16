@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_01_11_015632) do
+ActiveRecord::Schema[7.0].define(version: 2023_01_16_135605) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -37,7 +37,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_11_015632) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"
-    t.integer "academium_id"
+    t.bigint "usuario_id", null: false
+    t.bigint "academium_id", null: false
+    t.index ["academium_id"], name: "index_reviews_on_academium_id"
+    t.index ["usuario_id"], name: "index_reviews_on_usuario_id"
   end
 
   create_table "user_enrollments", force: :cascade do |t|
@@ -72,6 +75,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_11_015632) do
     t.string "role"
   end
 
+  add_foreign_key "reviews", "academia"
+  add_foreign_key "reviews", "usuarios"
   add_foreign_key "user_enrollments", "academia"
   add_foreign_key "user_enrollments", "usuarios"
   add_foreign_key "user_gym_admins", "academia"
