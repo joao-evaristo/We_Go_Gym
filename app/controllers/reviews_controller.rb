@@ -20,6 +20,17 @@ class ReviewsController < ApplicationController
   def edit
   end
 
+  def all
+  end
+  
+  def index
+    @review = Review.all
+  end
+
+  def show
+    @review = Review.where(academium_id:params[:id])
+  end
+
   def update
     if @review.update(review_params)
       redirect_to @academium

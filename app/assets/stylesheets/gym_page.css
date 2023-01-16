@@ -112,7 +112,7 @@ body{
 
 #rating-cards-custom{
     background-color: #222121;
-    height: 53vh;
+    height: 60vh;
 }
 
 #rating-info-cards{
@@ -132,18 +132,10 @@ body{
      color: rgb(243, 243, 148);
  }
 
- #user-review{
-    width: 55%;
- 
- }
-
  #your-review{
     padding-bottom: 2%;
 }
 
-#geral-ratings{
-    width: 40%;
-}
 
 #true-review-number{
     padding-top: 5%;

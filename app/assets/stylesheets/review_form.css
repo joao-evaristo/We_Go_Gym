@@ -1,6 +1,30 @@
+body{
+    background-color: rgb(17, 16, 16);;
+}
+
 #background-review{
-    height: 100vh;
+    height: fit-content;
     background-color: rgb(17, 16, 16);
+}
+
+#background-rating{
+    height: fit-content;
+    background-color: rgb(17, 16, 16);
+    padding-bottom: 5%;
+}
+
+.navbar{
+    position: relative;
+}
+
+.search-gym-title {
+    background-color: rgb(17, 16, 16);
+    padding-top: 4%;
+    padding-bottom: 5%;
+    font-family: google-bold;
+    text-align: center;
+    font-size: calc(2vw + 3vh);
+    color: white;
 }
 
 #form-custom{
@@ -85,7 +109,7 @@
 }
 
 #edit-div{
-    padding-bottom :2%;
+    padding-bottom :5%;
 }
 
 #delete-div{
@@ -98,4 +122,11 @@
 
 #review-number{
     padding-bottom :2%;
+}
+
+#all-reviews{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: white;
 }
