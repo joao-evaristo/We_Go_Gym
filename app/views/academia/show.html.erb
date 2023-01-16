@@ -5,11 +5,27 @@
   <div id="NomeAcad"> 
 
   <%= @academium.nome %> 
+    <div class="row">
 
-    <div id="back-button">
+    <div class="col">
       <button class="gym-button"><%= link_to "Voltar para as academias", academia_path, id:'btn-gym-content' %></button>
       </div>
 
+       <div class="col">
+       <%if Current.user%>
+  <% if @enroll_active.count == 0%>
+    <% if @enroll_inactive.count != 0 %>
+      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "update", :id => @enroll_inactive.pluck(:id), :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , id:"register-button", :method=>:patch%>
+    <% else %>
+      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "create", :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , id:"register-button",:method=>:post%>
+    <% end %>
+  <% else %>
+    <%= button_to "Desmatricular", {:controller => "user_enrollments", :action => "update", :id => @enroll_active.pluck(:id),:usuario_id => Current.user.id, :academium_id=> @academium.id, :active => false }, id:"register-button", :method=>:patch%>
+  <% end %>
+    <%else%> <%= link_to 'Faço parte dessa academia' , entrar_path, id:"unlogged-user"%>
+  <%end%>
+  </div>
+</div>
   <div id="container">
     <div class="container-fluid" id="small-carousel">
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -119,7 +135,10 @@
                       <div id="user-review" class="col">
                     <% if Current.user %>
                     <h1 id="your-review">Sua Avaliação: </h1>
+                     <% unless @academium.reviews.where(usuario_id: Current.user.id).any? %>
                     <div> <h1><%= link_to "Fazer Avaliação", new_academium_review_path(@academium), id:"review-button" %></h1> </div>
+                     <% end %>
+                    
                     <h1 id="show-ratings"><%= render @academium.reviews.where(usuario_id: Current.user.id)%></h1>
                     
                     <% end %>
@@ -144,24 +163,12 @@
   <% end %>
   </div>
 
-
-  </div>
-  <% if @enroll_active.count == 0%>
-    <% if @enroll_inactive.count != 0 %>
-      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "update", :id => @enroll_inactive.pluck(:id), :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , :method=>:patch%>
-    <% else %>
-      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "create", :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , :method=>:post%>
-    <% end %>
-  <% else %>
-    <%= button_to "Desmatricular", {:controller => "user_enrollments", :action => "update", :id => @enroll_active.pluck(:id),:usuario_id => Current.user.id, :academium_id=> @academium.id, :active => false } , :method=>:patch%>
-  <% end %>
-
-  <%= link_to "Voltar para as academias", academia_path %>
-  <% if @usuarios.any? %>
+  <div>
+   <% if @usuarios.any? %>
     <%= @usuarios %>
   <% end %>
-  <%= render @academium.reviews%>
-  <% unless @academium.reviews.where(user_id: Current.user.id).any? %>
-    <%= link_to "Adicionar comentario", new_academium_review_path(@academium) %>
-  <% end %>
-</div>
+  </div>
+
+ 
+
+ 

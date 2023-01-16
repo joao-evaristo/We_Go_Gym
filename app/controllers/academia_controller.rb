@@ -14,9 +14,11 @@ class AcademiaController < ApplicationController
     @usuarios = Usuario.where(id: UserEnrollment.where(academium_id: @academium.id).pluck(:usuario_id)).pluck(:nome)
     @gym_owner = UserGymAdmin.find_by(academium_id: @academium.id).usuario_id if UserGymAdmin.find_by(academium_id: @academium.id)
     @user_enrollment = UserEnrollment.new
+    if Current.user
     @enroll_active = UserEnrollment.where(usuario_id: Current.user.id, academium_id: @academium.id, active: true)
     @enroll_inactive = UserEnrollment.where(usuario_id: Current.user.id, academium_id: @academium.id, active: false)
   end
+end
 
   # GET /search
   def search

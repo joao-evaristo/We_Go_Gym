@@ -3,13 +3,24 @@ body{
 }
 #NomeAcad {
     width: 100%;
-    padding-top: 4%;
     text-align: center;
     color: rgb(255, 255, 255);
     font-family: google-bold;
     font-size: 3vw;
 }
 
+#register-button{
+    border: none;
+    width: 16vw;
+    background-color: rgba(255, 219, 45, 1) !important;
+    border-color: rgba(255, 219, 45, 1) !important;
+    border-radius: 20px;
+    font-size: 1vw;
+    font-family: google-bold;
+    color: black;
+    box-shadow: 1px 1px rgba(255, 255, 255, 1);
+
+}
 .gym-button{
     border: none;
     width: 16vw;
@@ -20,6 +31,22 @@ body{
     font-family: google-bold;
     color: black;
     box-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+#subscribe-btn{
+    padding-left: 55%;
+}
+#unlogged-user{
+    color: white;
+    padding-left: 30%;
+    font-size: 30px;
+}
+
+#unlogged-user:hover{
+    color: rgb(243, 243, 148);
+    padding-left: 30%;
+    font-size: 30px;
+    
 }
 
 #btn-gym-content{
