@@ -144,4 +144,24 @@
   <% end %>
   </div>
 
+
+  </div>
+  <% if @enroll_active.count == 0%>
+    <% if @enroll_inactive.count != 0 %>
+      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "update", :id => @enroll_inactive.pluck(:id), :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , :method=>:patch%>
+    <% else %>
+      <%= button_to "Faço parte dessa academia!", {:controller => "user_enrollments", :action => "create", :usuario_id => Current.user.id, :academium_id=> @academium.id, :active => true} , :method=>:post%>
+    <% end %>
+  <% else %>
+    <%= button_to "Desmatricular", {:controller => "user_enrollments", :action => "update", :id => @enroll_active.pluck(:id),:usuario_id => Current.user.id, :academium_id=> @academium.id, :active => false } , :method=>:patch%>
+  <% end %>
+
+  <%= link_to "Voltar para as academias", academia_path %>
+  <% if @usuarios.any? %>
+    <%= @usuarios %>
+  <% end %>
+  <%= render @academium.reviews%>
+  <% unless @academium.reviews.where(user_id: Current.user.id).any? %>
+    <%= link_to "Adicionar comentario", new_academium_review_path(@academium) %>
+  <% end %>
 </div>

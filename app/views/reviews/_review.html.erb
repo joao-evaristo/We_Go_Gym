@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%= stylesheet_link_tag "review_form" %>
 
 <div>
@@ -35,3 +36,14 @@
 </div>
 
 
+=======
+<p><%= Usuario.where(id: review.user_id).pluck(:nome).first %></p>
+<p><%= review.rating %></p>
+<p><%= review.comment %></p>
+<% if Current.user %>
+  <% if review.user_id == Current.user.id %>
+    <%= link_to "Editar", edit_academium_review_path(review.academium, review) %>
+    <%= button_to "Apagar comentario", academium_review_path(review.academium, review), method: :delete, data:{confirm: "Tem certeza?"} %>
+  <% end %>
+<% end %>
+>>>>>>> main

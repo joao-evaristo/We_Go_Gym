@@ -1,7 +1,7 @@
 class AcademiaController < ApplicationController
   before_action :set_academium, only: %i[ show edit update destroy ]
   skip_before_action :verify_authenticity_token
-  before_action :require_user_logged_in!, only: [:new, :edit, :destroy, :enroll]
+  before_action :require_user_logged_in!, only: [:new, :edit, :destroy]
   before_action :is_gym_owner!, only: [:new, :edit, :destroy]
 
   # GET /academia
@@ -14,6 +14,8 @@ class AcademiaController < ApplicationController
     @usuarios = Usuario.where(id: UserEnrollment.where(academium_id: @academium.id).pluck(:usuario_id)).pluck(:nome)
     @gym_owner = UserGymAdmin.find_by(academium_id: @academium.id).usuario_id if UserGymAdmin.find_by(academium_id: @academium.id)
     @user_enrollment = UserEnrollment.new
+    @enroll_active = UserEnrollment.where(usuario_id: Current.user.id, academium_id: @academium.id, active: true)
+    @enroll_inactive = UserEnrollment.where(usuario_id: Current.user.id, academium_id: @academium.id, active: false)
   end
 
   # GET /search
@@ -53,14 +55,6 @@ class AcademiaController < ApplicationController
     else
       render :new, status: :unprocessable_entity
     end
-  end
-
-  def enroll
-    @user_enrollment = UserEnrollment.new
-    @user_enrollment.usuario_id = Current.user.id
-    @user_enrollment.academium_id = @academium.id
-    @user_enrollment.active = true
-    @user_enrollment.save!
   end
 
   # PATCH/PUT /academia/1

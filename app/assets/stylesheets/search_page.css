@@ -144,11 +144,33 @@ body {
     min-height: 100vh;
 }
 
+.button {
+    color:rgba(255, 219, 45, 1);
+}
+
+#reg-gym-button {
+    background-color: rgba(255, 219, 45, 0) !important;
+    font-size: calc(0.5*(1vw + 2vh));
+    border: none;
+    font-family: google-bold;
+    color: rgba(255, 219, 45, 1) !important;
+    text-decoration: underline;
+    padding-left: 10vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    #reg-gym-button {
+        font-size: calc((1vw + 2vh));
+    }
+}
 
 @media only screen and (max-width: 1400px) {
     .d-flex {
         padding-top: 2%;
     }   
+    #reg-gym-button {
+        font-size: calc(0.8*(1vw + 2vh));
+    }
 }
 
 @media only screen and (max-width: 767px) {
