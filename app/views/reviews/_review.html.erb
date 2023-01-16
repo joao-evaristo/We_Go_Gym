@@ -1,3 +1,4 @@
+<p><%= Usuario.where(id: review.user_id).pluck(:nome).first %></p>
 <p><%= review.rating %></p>
 <p><%= review.comment %></p>
 <% if Current.user %>
