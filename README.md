@@ -9,7 +9,7 @@ O projeto tem como objetivo facilitar a busca por academias de acordo com o perf
 Visite [WeGoGym](http://wegogym.herokuapp.com/)
 
 
-##Instruções para rodar o projeto localmente:
+## Instruções para rodar o projeto localmente:
 
 * Dependencias:
 
